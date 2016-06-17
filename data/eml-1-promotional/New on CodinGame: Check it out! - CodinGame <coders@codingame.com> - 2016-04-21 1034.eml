@@ -1,0 +1,318 @@
+X-Apparently-To: penultim_o@yahoo.com; Thu, 21 Apr 2016 07:34:34 +0000
+Return-Path: <0100015437bde603-0655be30-51fc-43f1-9312-9762ef1e91ae-000000@amazonses.com>
+Received-SPF: pass (domain of amazonses.com designates 54.240.11.101 as permitted sender)
+X-YMailISG: 0DQF1C4WLDuAbu3WVZmb6fgjxE8pzx7wiAAEhhcPUip8pUvF
+ U_rQiCQitn.uOdYUQeYWWgqwGUID1Av361NGlUtoeY31Pz7Zl1ro4Mb.TqPz
+ wOGB6iBiUGGVQyplWpm12Bptq.nBJFLR.wylmykLbyTQjvlhbmtpiCXgYH8K
+ 8R1SH2_UoFLkB7byBrdFYLAwyVmZxDXk744k7li_6oluvg3YjhCtB0CIToTt
+ xAhW0OIR7INSqW3K_I6s_F4jlheY7s6PCw8_d1kkCsvQxVG5QQrqFoUQwAFX
+ ekLvTz.rgeSG3XB7TNEhr.gOnmal9cu_Xp87SAOlr4NOXbAFGFzUnl2BKf7s
+ URLGhE1bvc3kRvXiV.6RuDorf0eDusV7EtEwGzM9BC6NU9c8CdxcDg9_7u7_
+ nn4f21oVja96TW0HlEtVHN.0HS4z3R2Z1doLVIQIoWfa5x8YdlFjsR7aCGYZ
+ dqNUbSjD78sfQidtH4D4bkDCalD9spI3j92IpNIzqSh3AguYTSjM8MMgObW0
+ DvWcIcEp.XvukYwCD2WqG3kGj25aziWF1QK_rqA9naGEuHx06oKuuHHj8zGA
+ XA2OZ.U_T_p2__jR9NEDsP4cZqy.LQEHHgD9YtnrvS.EC3QGI9Om.yFMG..Q
+ JJ.jbOC84Y8jSJlzwZzVi34oF.qZriHlCR9_2sjaRYFwK90GUxZzpFUhz_pT
+ IlWcRIASGbm2YQ6Zub5j1AxGgPKwm0kT_JMKiA5Yl6hpdTmY8YK1mLkxwnmm
+ Wo06pgFHnv0cYznanz9Jj5u5OixwlJDEvfURtldHquliV2nyEp6xMVZBc_f6
+ .SCYqdcNFwZ3wwnk6zzkDb8EfNvQfpKzZx7aiZDt19.gnLUNP4yMwprB.pP3
+ rQ4h48pl5Xii7PS59YzDSK8aHgfalMg6Uy7rB2A1TFFJ.BlDyT1BJ2fxTta9
+ iHTCPNTYqP7BMIFyGJVkxNx7rWC9JMwop1skYyxD6hgUAvFSvTNNCEbPJFQH
+ P1vpSsLH5xIuw_cUG1pMvq2VU3sizqCt.LuV04tENOOPEC1ko7EmkgG2S4_z
+ kFq9kQj3IiMqWALXp6eDmeS.9mq29YKLUJZoqSFVV7FwWJhQodr8xtX_1OGJ
+ BbMZHRN9fZyoYTi6CXEbHKrjMsuby5Js9s8eeCOXpyIuv8wcN.7c37rMe7nW
+ gojpc68a974ZU8_6FLiPalnWksaZbOSH7OjNOmlfzqHvXsREUntqX3xvhDdU
+ 2x_Jxf8TcksVoV06hXnGsheEpMWr0LlYdJlNxqHRC7GiZshOvli7iUCRJFHM
+ DRhPuQ34uR6SrB3qJScKpiCzr3m1w1dB2FhBYOB9vZKLEqnPU8g1Hodxp7L2
+ 1bGpDKT_uwLZoxHdbatkuW2WmVpU6FPw0MZR8keDAVUCrrbZLByGCZTdXxdQ
+ U8.LK94fPzPmbQB38G58HlhvzaHMZEr95__ku2ShzY5z0sgpNjHT50SsCBwm
+ ce8eVDRIGyCwSYOLOdCb6b1YnpkczA7u1RzRpvP1DQx6kgF3RYMZ7Mb7ICE9
+ 16ptyZwveeNlV9uL_trzgLp_PXO3XGK48pdLpCALNpKdemhavIv0xDQxyR_0
+ zeesp8mFUJQEM82Osvsb689qqiXyjtAUsbPSg8a1IktSKE954BiPo_lRG_y8
+ rUBqzPdsuGoV2Gawo2kirXLc6H4AA9FxhHGZlXq2ewMflKJJZdYWwMkM2fbK
+ CMdPIYQPsInxhGUFWAFfpnX_jQ1frg1QF8LueBmtTpcyjkLePoqLgQf3N5oI
+ Lv7n
+X-Originating-IP: [54.240.11.101]
+Authentication-Results: mta1164.mail.gq1.yahoo.com  from=codingame.com; domainkeys=neutral (no sig);  from=amazonses.com; dkim=pass (ok)
+Received: from 127.0.0.1  (EHLO a11-101.smtp-out.amazonses.com) (54.240.11.101)
+  by mta1164.mail.gq1.yahoo.com with SMTPS; Thu, 21 Apr 2016 07:34:34 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=vvyipd3e25cam7dptlj6ozg25t7s54b2; d=codingame.com; t=1461224072;
+	h=From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Date;
+	bh=V0ywKrgPUtuYtgKv1HHQIclVbAfxf1It4MK9pHklVCc=;
+	b=fq3WRXdPU3uTj6zNez02i5/NR5imGZnkxIOnAoUyQecalhmCI0ki+fXLIBJSftbU
+	Q8iZVtjSymKXJoxuY35wSSP3XIYHwyuGHHRP+EbPXFyXj+b8dig3LBi64ZsBcQK4TJN
+	6mdSBWE1fReUlH1C8YuC2IsH6XLgw/BObYDrtrDI=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1461224072;
+	h=From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Date:Feedback-ID;
+	bh=V0ywKrgPUtuYtgKv1HHQIclVbAfxf1It4MK9pHklVCc=;
+	b=uIfSXb5u6kM5be6V5f/tNjd/IHeBZDk0rwC4BbxYYuY6BGrd7SSK01mZ44+rmxS7
+	XIcBlw4lOVyu+uspE0OXw3Br3l9ADohrnHVQPiJ5XxZfiIbz/Osgd78faCldCtGXG9C
+	ktqT+ZvzumdctQuNrrlvaZ5hIG8+6biE7+yvoJGs=
+From: CodinGame <coders@codingame.com>
+Reply-To: coders@codingame.com
+To: penultim_o@yahoo.com
+Message-ID: <0100015437bde603-0655be30-51fc-43f1-9312-9762ef1e91ae-000000@email.amazonses.com>
+Subject: New on CodinGame: Check it out!
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_196584_13770240.1461201666553"
+Date: Thu, 21 Apr 2016 07:34:32 +0000
+X-SES-Outgoing: 2016.04.21-54.240.11.101
+Feedback-ID: 1.us-east-1.p7wQsMMJKDUXwGnrHN7YOmvsdgoP3aDJajrvK4B5DHw=:AmazonSES
+Content-Length: 9794
+
+------=_Part_196584_13770240.1461201666553
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html>
+<head>
+=09<meta charset=3D"UTF-8">
+=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"=
+>=20
+=09<style type=3D"text/CSS">
+        body {
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09=09-webkit-text-size-adjust:100%;=20
+=09=09=09-ms-text-size-adjust:100%;
+=09=09
+            background-color: #f2f2f2;=20
+            color: #20252a;=20
+            font-family: Arial, Helvetica, sans-serif;=20
+            font-size: 12px;
+=09=09}
+=09=09
+=09=09table {
+=09=09=09padding:0;
+=09=09=09margin:0;
+=09=09}
+
+=09=09td {
+=09=09=09padding:0;
+=09=09=09margin:0;
+=09=09}
+       =20
+=09=09img {
+=09=09=09margin: 0;
+=09=09=09padding: 0;
+=09=09=09/*display:block;*/
+=09=09=09-ms-interpolation-mode: bicubic;
+=09=09=09border:none;
+=09=09=09outline:none;
+=09=09}
+
+=09=09a, a:link, a:visited {
+=09=09=09text-decoration: none;
+=09=09=09border-style:none;
+=09=09=09border:0;
+=09=09=09padding:0;
+=09=09=09margin:0;
+=09=09}
+=09=09
+        .ExternalClass {width: 100%;}
+        p {margin:0; padding:0; margin-bottom:0;}
+=09=09a:link.linkfollow, a:visited.linkfollow {color: #f95850;}
+=09=09a:link.linkview, a:visited.linkview {color: #20252a;}
+  </style>
+</head>
+<body bgcolor=3D"#f2f2f2" style=3D"margin: 0;padding: 0;-webkit-text-size-a=
+djust: 100%;-ms-text-size-adjust: 100%;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bgco=
+lor=3D"#f2f2f2" align=3D"center" style=3D"font-family: Arial, Helvetica, sa=
+ns-serif;color: #20252a;">
+<tbody>
+<tr align=3D"center"><td align=3D"center" style=3D"" class=3D"">
+
+<!-- Main table: fixed width of 600px; -->
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" style=
+=3D"text-align: center; margin: auto;font-size: 14px;">
+
+<tr align=3D"left"><td style=3D"padding: 0;margin: 0;line-height: 1px;font-=
+size: 1px;padding-top: 10px;padding-bottom: 10px;">
+=09<a href=3D"https://www.codingame.com?utm_term=3Den&amp;utm_source=3DDige=
+st&amp;utm_medium=3Dlogo&amp;utm_content=3Dview&amp;utm_campaign=3DNotifica=
+tions"><img src=3D"https://www.codingame.com/servlet/mfileservlet?id=3D1523=
+796726951&amp;lmid=3D947028393lPso" width=3D"159" height=3D"21" style=3D"ma=
+rgin: 0;padding: 0;display: block;-ms-interpolation-mode: bicubic;border: n=
+one;outline: none;"></a>
+</td></tr>
+<!-- //////// Header -->
+<tr align=3D"left"><td bgcolor=3D"#ffffff" style=3D"padding: 30px;padding-t=
+op:25px;padding-bottom:6px;font-size:25px;">
+=09<strong>New on CodinGame: Check it out!</strong>
+</td></tr>
+<tr align=3D"left"><td bgcolor=3D"#ffffff" style=3D"padding: 30px;padding-b=
+ottom: 28px; padding-top:0px;font-size:16px;line-height: 21px;">
+=09Hey , here's a special digest built for you.<br>
+=09Enjoy your weekly news!&nbsp;:)
+
+</td></tr>
+
+<tr><td height=3D"5" style=3D"padding: 0;margin: 0;line-height: 1px;font-si=
+ze: 1px;">&nbsp;</td></tr>
+
+
+<!-- /////// Hints -->
+<!-- /////// End hints -->
+
+<!-- /////// Followers -->
+<!-- /////// End followings -->
+
+<!-- /////// Friends -->
+<!-- //////// End friends -->
+
+<!-- /////// Submission comments -->
+
+<!-- /////// End comments -->
+
+<!-- /////// New features -->
+<!-- /////// End new feautre -->
+
+<!-- /////// Start New puzzles -->
+<!-- /////// End New puzzles -->
+
+<!-- /////// Start puzzle of the week -->
+<tr><td bgcolor=3D"#ffffff" align=3D"left" style=3D"padding: 30px;padding-t=
+op:28px; padding-bottom: 0px; font-size: 15px;">
+<img src=3D"https://files.codingame.com/codingame/mail/Icon_puzzle.png" wid=
+th=3D"18" height=3D"18" style=3D"vertical-align: middle;"><strong style=3D"=
+vertical-align: middle;">&nbsp;&nbsp;Puzzle of the Week</strong></td></tr>
+<!-- Start Repeat Puzzle of the week -->
+<tr><td bgcolor=3D"#ffffff" align=3D"left" style=3D"background-color: #ffff=
+ff;vertical-align: top;padding: 30px;padding-top: 15px;padding-bottom: 15px=
+;">
+=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"left">
+=09=09<tr><td align=3D"left" width=3D"230" style=3D"padding: 0;margin: 0;li=
+ne-height: 1px;font-size: 1px;vertical-align: top;"><img width=3D"230" heig=
+ht=3D"125" src=3D"https://www.codingame.com/servlet/fileservlet?id=3D419261=
+7785130" style=3D"display: block;"></td>
+=09=09    <td width=3D"10" style=3D"width: 10px; padding: 0;margin: 0;line-=
+height: 1px;font-size: 1px;">&nbsp;</td>
+=09=09    <td align=3D"left" width=3D"300" style=3D"width: 300px;vertical-a=
+lign: top;">
+=09=09    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"=
+left" >
+=09=09=09=09<tr><td valign=3D"top" height=3D"93" style=3D"height: 93px;vert=
+ical-align: top;padding: 0;margin: 0;font-size: 1px;">
+=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" alig=
+n=3D"left">
+=09=09=09=09=09=09<tr><td style=3D"color: #e53238;padding: 0;padding-bottom=
+: 8px;font-size: 15px;">
+=09=09=09=09=09=09=09=09<strong>The barnyard</strong>
+=09=09=09=09=09=09</td></tr>
+=09=09=09=09=09=09<tr><td style=3D"color: #989898;padding: 0;font-size: 14p=
+x;padding-bottom: 10px;text-align: justify;line-height: 18px;">
+=09=09=09=09=09=09=09Check out the Puzzle of the Week, crafted by nicola!
+=09=09=09=09=09=09</td></tr>
+=09=09=09=09=09</table>
+=09=09=09=09</td></tr>
+=09=09        <tr><td height=3D"32" valign=3D"bottom" bgcolor=3D"#ffffff" s=
+tyle=3D"height: 32px;background-color:#ffffff;color:#ffffff;padding: 0;marg=
+in: 0;line-height: 1px;font-size: 1px;">
+=09=09            <div style=3D"display: inline-block;"><!--[if mso]>
+  <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-=
+microsoft-com:office:word" href=3D"https://www.codingame.com/games/communit=
+y?utm_term=3Den&amp;utm_source=3DDigest&amp;utm_medium=3Dpuzzle_week&amp;ut=
+m_content=3Dview&amp;utm_campaign=3DNotifications" style=3D"height:32px;v-t=
+ext-anchor:middle;width:110px;" stroke=3D"f" fillcolor=3D"#e53238">
+    <w:anchorlock/>
+    <center>
+  <![endif]--><a href=3D"https://www.codingame.com/games/community?utm_term=
+=3Den&amp;utm_source=3DDigest&amp;utm_medium=3Dpuzzle_week&amp;utm_content=
+=3Dview&amp;utm_campaign=3DNotifications" style=3D"background-color:#e53238=
+;color:#ffffff;display:inline-block;font-family:Arial, Helvetica, sans-seri=
+f;font-size:11px;line-height:32px;text-align:center;text-decoration:none;wi=
+dth:110px;-webkit-text-size-adjust:none;">TRY IT NOW</a><!--[if mso]>
+    </center>
+  </v:rect>
+<![endif]--></div>
+=09=09        </td></tr>
+=09=09    </table>
+
+=09=09    </td>
+=09=09=09</tr>
+=09=09</table>
+</td></tr>
+<!-- End Repeat Puzzle of the week -->
+<tr><td height=3D"15" bgcolor=3D"#ffffff" align=3D"left" style=3D"backgroun=
+d-color: #ffffff;padding: 0;margin: 0;line-height: 1px;font-size: 1px;">&nb=
+sp;
+</td></tr>
+<tr><td style=3D"padding-top: 5px;line-height: 1px;font-size: 1px;">&nbsp;<=
+/td></tr>
+<!-- /////// End Puzzle of the week -->
+
+<!-- /////// Start New Blog -->
+<!-- /////// End New blog -->
+
+
+
+<tr><td align=3D"left">
+<table style=3D"width: 600px;" width=3D"600" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0">
+<tr>
+<td style=3D"width: 30px;background-color: white;font-size: 1px;padding-top=
+: 28px; padding-bottom: 30px;">&nbsp;</td>
+<td style=3D"width: 194px;background-color: white;padding-top: 28px; paddin=
+g-bottom: 30px;">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" >
+=09<tr><td style=3D"font-size: 14px; font-weight: bold; padding-bottom: 10p=
+x;">
+=09=09=09Follow us
+=09</td></tr>
+=09<tr><td style=3D"font-size: 13px;">
+=09=09<a href=3D"https://twitter.com/codingame"><img src=3D"https://files.c=
+odingame.com/codingame/mail/Icon_twitter.png" style=3D"border: 0;" width=3D=
+"34" height=3D"34"></a>&nbsp;
+=09=09<a href=3D"https://www.facebook.com/CodinGame"><img src=3D"https://fi=
+les.codingame.com/codingame/mail/Icon_facebook.png" style=3D"border: 0;" wi=
+dth=3D"34" height=3D"34"></a>&nbsp;
+=09=09<a href=3D"https://plus.google.com/+Codingame/"><img src=3D"https://f=
+iles.codingame.com/codingame/mail/Icon_google.png" style=3D"border: 0;" wid=
+th=3D"34" height=3D"34"></a>&nbsp;
+=09=09<a href=3D"https://www.youtube.com/channel/UCJ6woCHjGCBXqpf91SsAcoQ">=
+<img src=3D"https://files.codingame.com/codingame/mail/Icon_youtube.png" st=
+yle=3D"border: 0;" width=3D"34" height=3D"34"></a>
+=09</td></tr>
+</table>
+</td>
+
+<td style=3D"width: 25px;background-color: white;font-size: 1px;padding-top=
+: 28px; padding-bottom: 30px;">&nbsp;</td>
+
+<td style=3D"width: 6px; font-size: 1px;padding-top: 28px; padding-bottom: =
+30px;">&nbsp;</td>
+
+<td style=3D"width: 30px;background-color: white;font-size: 1px;padding-top=
+: 28px; padding-bottom: 30px;">&nbsp;</td>
+
+<td style=3D"width: 285px; background-color: white; padding-top: 28px; padd=
+ing-bottom: 30px;">
+<div style=3D"font-size:14px;">A question, a problem? You can always reach =
+us at <a style=3D"color: #20252a;text-decoration: underline;" href=3D"mailt=
+o:coders@codingame.com" target=3D"_blank">coders@codingame.com</a>, we=E2=
+=80=99ll be happy to help you.</div>
+</td>
+<td style=3D"width: 30px;background-color: white;font-size: 1px;padding-top=
+: 28px; padding-bottom: 30px;">&nbsp;</td>
+</tr></table>
+</td></tr>
+
+<tr><td style=3D"text-align: center; padding: 15px;font-size: 11px;">
+Don't want to receive these emails any longer?
+<a href=3D"https://www.codingame.com/unsubscribe/daaa739365f29b80704d2b4e65=
+f98a9c703779/057f6bb6974c7f69505b1ea0d40b6722928383a4/weekly" style=3D"colo=
+r: grey; text-decoration: none">Unsubscribe here</a>
+or <a href=3D"https://www.codingame.com/unsubscribe/daaa739365f29b80704d2b4=
+e65f98a9c703779/057f6bb6974c7f69505b1ea0d40b6722928383a4" style=3D"color: g=
+rey; text-decoration: none">manage notifications</a>.
+</td></tr>
+</table>
+
+</td></tr></tbody></table>
+</body></html>
+------=_Part_196584_13770240.1461201666553--

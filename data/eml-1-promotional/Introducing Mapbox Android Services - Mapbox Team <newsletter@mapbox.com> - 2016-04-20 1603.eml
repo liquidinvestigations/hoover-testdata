@@ -1,0 +1,1228 @@
+X-Apparently-To: penultim_o@yahoo.com; Wed, 20 Apr 2016 13:03:43 +0000
+Return-Path: <bounces+866407-eeb4-penultim_o=yahoo.com@delivery.customeriomail.com>
+Received-SPF: pass (domain of delivery.customeriomail.com designates 167.89.32.158 as permitted sender)
+X-YMailISG: M13ecJ4WLDtrJcQq8piGOfmrh1sMlWfVvj4piNzGW3PS.ZMg
+ M4Aiww_JZ_XOlk1coKes74Jr1EY0JAuBiOW6zxJwtH3bW9LwYCRwykeVT770
+ w87rDDl9lY1UV1DG9ORKCuVmYxgJz30OT37TgdDeFJPxlyxK7KxwjHrP4tRv
+ DdAhk2S0ODdK2twisE1tS6lZUrqtipoX624hmGJue28uOXl0iESBRz3s.Pdd
+ TgnbvHZl_EkWHBO38DOyiB3Q4OM1Pve244EOSeZRa_cWdM9J4KBCy9Ipmwt4
+ a3PXOUuyBqomox8sRxXNnWYbQZ7ZaVfeDjtGDv.uAHmrvT3nLB3JnCmG1H4R
+ aIAummTj6tj2vUj3dBOGehXBjjmpo47Y9.7u5SpBxKbvUfpwnxllkLLxLkP3
+ k27KA74HPtyjQWJ68IUvizhSPRI9ts1aIO22NUSGgjMlyFszroVjbAgML.H6
+ jOMDARCBtJZGmTGm3wqqbN7kbNZ1M4uadDsEcHpYD_fcpgG4VVTTIUW6VZpr
+ nzMNUNYJ2KkuJOTCbUlwaYSYS8xDabTHU1lVUCOF0H_orQvui1VAC3_mr4Zm
+ dRzUxFepuWspLbdJAFa_SiF.UrTFGunImoTFqNlFwwC3t92VpjKjzd6KXG45
+ q7dRga6C6Klyj0K37FqLkvejsXSJ64EF7bgFTuxb5ryIu_m_AEUbjc26mrt0
+ LvlVGRZmOTWlqiOEo0Wk6aSvKTbsxlm8tcELz3g0azThlnXn6GNeYtpEsb2o
+ SmsyLS78_GjAaaUf_kWPVL2lFpTNxXn6yrrnULTYUZIwa2PitfSmCiwGqKDX
+ G4mJdK1COIaK0o7KuIqSOCjneNPwgk0ACvSma9hQanEk95.B17unabFaNlB4
+ 92wGM2hJzIW56cA9RWL9aE7JpdZIv2pIwDQujr7IZeM7fZIaPsaE9q.YKjjM
+ GCqMzXUPUvNFp3FIBtDDdoU_ZkkNyKyqNIYwV9WctbVgF0ZHROAv5zrW66i8
+ _LX06nh43Tz6W1Qmk7WHpedGfPPZwPyflUk1Ld3NTx9LBy7AkghcpdIQafdW
+ Gb8sCC42pJoQji0V8tRl5oklkIcITR7tx5ZNjZF4vEK94l7V.vdaM0QN3oXs
+ ur00HeIMGz7EOPkTiA84PzqyOVCnqbfn1ihNWaHRfBH4fvcFkwuyhfU3xQHr
+ _AjuN558eIemrldYA_F.Ig5QaioNGf_ktX9L6ei2tL.tBGMbzqQJ.DO0TyHO
+ bSArz3WxOJ5T.I7Scoc1t2IRpwjss8g1C_HcIM0QL7N_GRgohLPr.e6vyzrT
+ mPZFD2vGNQL3UPINVTuK.c3rE4PmKxBEAjp6_O9NvRLvkRMHQUon_fQcRz5H
+ 31AP4PJ.XDZ.xyYPrVKXOY6slhbcVKe0PAEA7ex9UicfgD3Ngw.QnMZcmgqH
+ hiIpMdDnyG69zS8lHpZEtCcRIBb6luIhjOCPoGGgFB5pBMhysQmFoJVSV7jI
+ SiRE5PeY7CsW5nyQAQOJDlMZHGdk0Ixn7.ZNLnlZIK3Q2q0tgQtvPyZRYsBN
+ OefBjpeixYtVdp7kNxtWSe6zNxBI2sOYDBnzyY8fG4YhwQtUDIdfMM7JkOlQ
+ qnYALkN1lUHAp.cxKZKvRChL5pWv98eteJ5Id.fzwU.TUfta9qjC5D262dQJ
+ PHHsHx_oi1b6FFnr66k3vO.H6s2LjDSJhuoBbyXzLsNFSpLHIMFZ8NBBqk26
+ .5DSQSqpkYyMRwds4dfcnsBTKlyi6L.Cb_f9lpOnH6gdKlcixCZHZqLIt0IV
+ fNysXLN87bD1AxJa647UHrpbcpcYvJ4bNP3Ujs2IRZesCaWXy1HFHEe4PrZ1
+ keX_btEPlri3LEU_2yShUN2Ws.pTVxZNwEoFspJUWqZThaZGKKuNiq9w5VCq
+ lj8kea3Q.PVELvvD92eyTTZZfmNxM65KtLp9DJdDORO2cD6itn9BvFefpxV7
+X-Originating-IP: [167.89.32.158]
+Authentication-Results: mta1080.mail.gq1.yahoo.com  from=mapbox.com; domainkeys=neutral (no sig);  from=sendgrid.info; dkim=pass (ok)
+Received: from 127.0.0.1  (EHLO o11.delivery.customeriomail.com) (167.89.32.158)
+  by mta1080.mail.gq1.yahoo.com with SMTPS; Wed, 20 Apr 2016 13:03:42 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=mapbox.com; 
+	h=from:to:subject:mime-version:content-type:content-transfer-encoding:list-unsubscribe; 
+	s=smtpapi; bh=406NxJrXtNNC5E5Tg/RT7CL3USc=; b=YZ5f3ceeTHT1CAm/EY
+	soWhe1HAKgwd65+4mqbotES7WkyexWOYi03vLiHFPqWDhTxLz7i5nCfrCK77ZAvd
+	Bu4ybS9jIaM3cwGWJzVpENHtPJWZ4bG28vF5vof+beUcrg6lFInODw90yFHHeqbm
+	Zz9/nCqzebCEXYsyyrE0xrIok=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sendgrid.info; 
+	h=from:to:subject:mime-version:content-type:content-transfer-encoding:list-unsubscribe; 
+	s=smtpapi; bh=406NxJrXtNNC5E5Tg/RT7CL3USc=; b=TX/f7ncZkhIiD80tR2
+	w2exbG2exKpvAoCFlSlG9+Zx+TTFIkqttPoYhfBuMV0fuOzFjsLgyoY+LkrTFUSG
+	J7O2T9elDBIHqRwd9VvFn4V7fs38PVyuxTjX8WAPTODQQ7fLAbc/3w5YTdUDccf5
+	tojxNZeVKM5IEwRlaVmnnxQ9g=
+Received: by filter0643p1mdw1.sendgrid.net with SMTP id filter0643p1mdw1.4721.57177E1D8A
+        2016-04-20 13:03:25.951881197 +0000 UTC
+Received: from delivery.customeriomail.com (ovh71.cio.host [192.95.32.67])
+	by ismtpd0001p1iad1.sendgrid.net (SG) with ESMTP id 4utfxTebRI-EKUPe_Q6ryg
+	for <penultim_o@yahoo.com>; Wed, 20 Apr 2016 13:03:22.480 +0000 (UTC)
+Date: Wed, 20 Apr 2016 13:03:20 +0000
+From: Mapbox Team <newsletter@mapbox.com>
+To: penultim_o@yahoo.com
+Message-ID: <57177e1968e7_3b43fcb922a4f98123538266@ns5001412.ip-192-95-32.net.mail>
+Subject: Introducing Mapbox Android Services
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57177e18c3d61_3b43fcb922a4f98123537755";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+List-Unsubscribe: <mailto:NDkzOToVSQJkAAJzABcEk2IaAU_5XDPkFWMYVxd9UAFtOjMxNDk0NgA=@unsubscribe.customer.io>,
+ <http://track.customer.io/unsubscribe/NDkzOToVSQJkAAJzABcEk2IaAU_5XDPkFWMYVxd9UAFtOjMxNDk0NgA=>
+X-SG-EID: dlh7H5a9R5KVnxIa+stoYOwRetR4XwfvM9pVp/cVNO1qPvIrIoQ2l76FAirP4b3jhsaHHzCZatJCat
+ MPSGWvj4nfSp9bGhB3SIBlVzwZu4zxcutuOrLJcCH32lm0T5U26OMIhGTXsMce8IEiS+cKBNcBgWpf
+ XyJmNpWMFdXxZ+fZoeAIHSnqP5dHpeekNb4eh9T3XdkyvqZNWNqgJzkZuA==
+X-SG-ID: YDTqBOjidbCUo/ar1oAtZrkinU9vnipyWyFM/dL7MuaTfPOZBF1EsI9VOQBl9IbBIoRJA1hoLb3I/a
+ hHyZOOzzJrzRs3+2p8Up2DW0RZYpNoIvae0Tob/oMsH485p/ta
+Content-Length: 36743
+
+
+----==_mimepart_57177e18c3d61_3b43fcb922a4f98123537755
+Date: Wed, 20 Apr 2016 13:03:20 +0000
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: <57177e18c52cd_3b43fcb922a4f981235378bb@ns5001412.ip-192-95-32.net.mail>
+
+Hey there,
+----------
+
+We just released v1.0 ofMapbox Android Services (MAS) ( https://www.mapbox.=
+com/blog/mapbox-android-services/?utm_source=3Dmas&utm_medium=3Demail&utm_c=
+ontent=3Dmas&utm_campaign=3Dapril_mobiledev ), a new Java library to help c=
+onsume Mapbox APIs like geocoding
+and directions on Android.
+
+Mapbox Android Services includes RxJava support, access to
+the Static API, and an autocomplete widget. You can easily
+integrate it into your Android project using Gradle. ( https://www.mapbox.c=
+om/blog/mapbox-android-services/?utm_source=3Dmas&utm_medium=3Demail&utm_co=
+ntent=3Dmas&utm_campaign=3Dapril_mobiledev )
+
+( https://www.mapbox.com/blog/mapbox-android-services/?utm_source=3Dmas&utm=
+_medium=3Demail&utm_content=3Dmas&utm_campaign=3Dapril_mobiledev )
+
+Happy building!
+
+Love,
+Your friends at Mapbox
+
+( http://www.twitter.com/mapbox )
+( https://www.facebook.com/Mapbox )
+( https://www.pinterest.com/mapbox/ )
+( https://www.linkedin.com/company/mapbox )
+( https://www.instagram.com/mapbox/ )
+
+Unsubscribe ( http://track.customer.io/unsubscribe/NDkzOToVSQJkAAJzABcEk2Ia=
+AU_5XDPkFWMYVxd9UAFtOjMxNDk0NgA=3D )
+|
+View this email online ( http://track.customer.io/deliveries/NDkzOToVSQJkAA=
+JzABcEk2IaAU_5XDPkFWMYVxd9UAFtOjMxNDk0NgA=3D )
+
+=C2=A9 2016 Mapbox | 1714 14th St NW, Rear Entrance,
+Washington, DC 20009
+
+----==_mimepart_57177e18c3d61_3b43fcb922a4f98123537755
+Date: Wed, 20 Apr 2016 13:03:21 +0000
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: <57177e1962cc_3b43fcb922a4f981235381c1@ns5001412.ip-192-95-32.net.mail>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" style=3D"font-family: Arial,sa=
+ns-serif; margin: 0; padding: 0;">
+<head>
+<!-- If you delete this meta tag, Half Life 3 will never be released. -->
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">
+<link href=3D"https://fonts.googleapis.com/css?family=3DOpen+Sans:400,300it=
+alic,400italic,600,600italic,700,700italic" rel=3D"stylesheet" type=3D"text=
+/css">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Mapbox Email</title>
+
+<style>
+
+/* -------------------------------------
+      GLOBAL
+------------------------------------- */
+* {
+  margin:0;
+  padding:0;
+}
+* { font-family: Arial,sans-serif; }
+
+img {
+  max-width: 100%;
+}
+
+.a5q {display: none !important;}
+.a6S {display: none !important;}
+
+a img.no-border {
+    text-dectoration: none;
+    border: none;
+}
+a.no-border {
+    text-decoration: none;
+}
+
+img.round { border-radius: 4px;}
+
+.collapse {
+  margin:0;
+  padding:0;
+}
+body {
+  -webkit-font-smoothing:antialiased;
+  -webkit-text-size-adjust:none;
+  width: 100%!important;
+  height: 100%;
+  font-size:18px;
+  line-height:20px;
+  background-color: #F8F8F8;
+}
+
+hr {
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+
+.a6S {
+    display: none !important;
+}
+
+
+
+/* Code Blocks & Pre */
+.code,
+code,
+em code,
+code em,
+code strong,
+strong code,
+pre,
+em pre,
+pre em,
+pre strong,
+strong pre {
+  font-family:Menlo, Bitstream Vera Sans Mono, Monaco, Consolas, monospace;
+  white-space: pre-wrap;
+}
+
+strong code,
+code strong,
+code.strong,
+strong.code,
+.strong.code,
+.code .strong,
+code .strong,
+pre strong,
+strong pre,
+pre.strong,
+.strong pre,
+pre .strong {
+  font-family:Menlo, Bitstream Vera Sans Mono, Monaco, Consolas, monospace;
+  font-weight:bold;
+}
+
+code em,
+em code,
+pre em,
+em pre {
+  font-family:Menlo, Bitstream Vera Sans Mono, Monaco, Consolas, monospace;
+  font-style:italic;
+}
+
+code,
+pre {
+  background:rgba(0,0,0,0.025);
+  font-size:12px;
+  line-height:20px;
+  padding:3px;
+  border-radius: 3px;
+  }
+pre {
+  display:block;
+  padding:10px;
+  word-break:break-all;
+  word-wrap:break-word;
+  white-space:pre;
+  white-space:pre-wrap;
+  -moz-tab-size:4;
+  tab-size:4;
+  }
+  pre code {
+    background:transparent;
+    padding:0;
+    }
+
+.pre-scrollable {
+  max-height:300px;
+  overflow-y:scroll;
+  }
+
+/* sub/superscripts */
+sup,
+sub {
+  height:0;
+  line-height:1;
+  vertical-align:baseline;
+  _vertical-align:bottom;
+  position:relative;
+  font-size:75%;
+  }
+sup {
+  bottom:1ex;
+  }
+sub {
+  top:.5ex;
+  }
+
+/* -------------------------------------
+    ELEMENTS
+------------------------------------- */
+a { color: #347eb9;}
+
+.btn {
+    background: #40bde7;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border-bottom: 3px solid #2399c1;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img.center {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+p.callout {
+  padding:15px;
+  background-color:#DEDFE1;
+  margin-bottom: 25px;
+  color: #8C8D8F;
+  text-align: center;
+}
+
+p.caption {
+  color: #9aadb7;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+p.caption a {
+  font-size: 13px;
+}
+
+p.footer {
+  color: #979797;
+  font-size: 12px;
+  text-align: left;
+}
+
+    p.footer span {
+      color: #d7d7d7;
+    }
+
+
+a.footer {
+  font-size: 15px;
+  text-align: left;
+  display: block;
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+img.footer {
+  float:left;
+}
+p.no-float a {
+    display: block;
+    float: clear;
+    text-align: center;
+    color: #b0acb2;
+}
+
+p.footer.address {
+    text-align: center;
+    font-size: 10px;
+}
+
+span.appleAddress {
+    font-size: 10px !important;
+}
+
+hr.footer {
+  border: 0;
+  color: #D1D1D1;
+  background-color: #D1D1D1;
+  height: 3px;
+  margin-bottom: 10px;
+}
+
+.button {
+    background: #347eb9;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    /* border-bottom: 3px solid #2399c1; */
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.button.fill-pink {background: #e95591;}
+
+
+a.button img.arrow {
+  width:12px;min-height:12px;border:0;line-height:100%;outline:none;text-de=
+coration:none;display:inline;margin-left:5px;
+}
+
+a.button {
+    color: #fff;
+}
+
+table.social {
+/*  padding:15px; */
+  background-color: #ebebeb;
+
+}
+.social .soc-btn {
+  padding: 3px 7px;
+  font-size:12px;
+  margin-bottom:10px;
+  text-decoration:none;
+  color: #FFF;font-weight:bold;
+  display:block;
+  text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn {
+  display:block;
+  width:100%;
+}
+
+.code-example {
+  background-color: #f8f8f8;
+  border: 1px solid #c8c8c8;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding: 20px;
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 30px;
+}
+
+.code-example div {
+  padding-left: 40px;
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+}
+.code-example  a, .code-example  div {
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+
+/* -------------------------------------
+    HEADER
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:9px;}
+.header.container table td a img { margin-left: 20px; }
+
+
+/* -------------------------------------
+    BODY
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* -------------------------------------
+    FOOTER
+------------------------------------- */
+table.footer-wrap { width: 100%;  clear:both!important; margin-top: 20px;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,2=
+15); padding-top:15px;}
+.footer-wrap .container td.content p {
+  font-size:10px;
+  font-weight: bold;
+
+}
+.center p.footer {
+  text-align: center;
+}
+
+a.footer {
+    width: 130px;
+    line-height: 24px;
+}
+p.footer a {
+  color:#d7d7d7;
+}
+
+/* -------------------------------------
+    TYPOGRAPHY
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "H=
+elvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 1.4; margin-top: 30px;
+margin-bottom: 10px; color:#3f526d;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%=
+; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:600; font-size: 30px; margin-bottom: 15px;}
+h2 { font-weight:600; font-size: 26px; margin-bottom: 12px;}
+h3 { font-weight:500; font-size: 20px; margin-bottom: 12px;}
+h4 { font-weight:500; font-size: 18px; margin-bottom: 10px; }
+h5 { font-weight:400; font-size: 16px; margin-bottom: 8px; }
+h6 { font-weight:600; font-size: 14px; text-transform: uppercase; letter-sp=
+acing: 2px}
+
+.collapse { margin:0!important;}
+
+body .dark {color: white;}
+
+p, a, ul, ol {
+   font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light",=
+ "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #96a6b0;
+  font-size:15px;
+  line-height:1.6;
+}
+p.lead { font-size:22px; }
+p.last { margin-bottom:0px;}
+    p.center {text-align: center;}
+
+
+    ul li {
+  margin-left:24px;
+  margin-bottom: 14px;
+}
+
+ol li {
+  margin-left:32px;
+  list-style-position: outside;
+  margin-bottom: 14px;
+}
+
+a {color: #347eb9; text-decoration: none;}
+a:hover {
+  color: #347eb9;
+}
+
+a.button:hover { color: rgba(249, 255, 244, 0.785);}
+blockquote {
+  margin: 30px 0;
+  border: 4px solid #F6F6F6;
+  padding: 10px;
+}
+
+blockquote p{
+  color: #3c4e5a;
+  font-weight: 200;
+  line-height: 26px;
+  font-size: 18px;
+  margin: 0;
+}
+
+cite {
+  display: block;
+}
+
+.small { font-size: 12px; }
+.grey { color: #929ca3;}
+
+/* Keylines
+------------------------------------------------------- */
+.keyline-all    { border:1px dotted rgba(0,0,0,0.20); }
+.keyline-top    { border-top:1px dotted rgba(0,0,0,0.20); }
+.keyline-right  { border-right:1px dotted rgba(0,0,0,0.20); }
+.keyline-bottom { border-bottom:1px dotted rgba(0,0,0,0.20); }
+.keyline-left   { border-left:1px dotted rgba(0,0,0,0.20); }
+
+.dark .keyline-all    { border:1px dotted rgba(255,255,255,0.25); }
+.dark .keyline-top    { border-top:1px dotted rgba(255,255,255,0.25); }
+.dark .keyline-right  { border-right:1px dotted rgba(255,255,255,0.25); }
+.dark .keyline-bottom { border-bottom:1px dotted rgba(255,255,255,0.25); }
+.dark .keyline-left   { border-left:1px dotted rgba(255,255,255,0.25); }
+
+.spacer {
+  margin-top: 40px;
+   margin-bottom: 40px;
+   clear:both;
+}
+
+.spacer-small {
+  margin-top: 20px;
+   margin-bottom: 20px;
+   clear:both;
+}
+
+.spacer-bottom {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.spacer-top {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+    /* Margins
+------------------------------------------------------- */
+
+.space-left0  { margin-left:    5px;}
+.space-left1  { margin-left:   10px;}
+.space-left2  { margin-left:   20px;}
+.space-left3  { margin-left:   30px;}
+.space-left4  { margin-left:   40px;}
+.space-left8  { margin-left:   80px;}
+.space-left12 { margin-left:  120px;}
+.space-left16 { margin-left:  160px;}
+.space-left20 { margin-left:  200px;}
+.space-left24 { margin-left:  240px;}
+
+.space-right0  { margin-right:   5px;}
+.space-right1  { margin-right:  10px;}
+.space-right2  { margin-right:  20px;}
+.space-right3  { margin-right:  30px;}
+.space-right4  { margin-right:  40px;}
+.space-right8  { margin-right:  80px;}
+.space-right12 { margin-right: 120px;}
+.space-right16 { margin-right: 160px;}
+.space-right20 { margin-right: 200px;}
+.space-right24 { margin-right: 240px;}
+
+.space-bottom0                { margin-bottom:  5px;}
+.space-bottom1                { margin-bottom: 10px;}
+.space-bottom, /* deprecated, use space-bottom2 */
+.space-bottom2                { margin-bottom: 20px;}
+.space-bottom4                { margin-bottom: 40px;}
+.space-bottom8                { margin-bottom: 80px;}
+
+.space-top0                   { margin-top:  5px;}
+.space-top1                   { margin-top: 10px;}
+.space-top2                   { margin-top: 20px;}
+.space-top4                   { margin-top: 40px;}
+.space-top8                   { margin-top: 80px;}
+
+/* Padding
+------------------------------------------------------- */
+.pad0  { padding:5px; }
+.pad0y { padding-top:5px; padding-bottom:5px; }
+.pad0x { padding-right:5px; padding-left:5px; }
+
+.pad1    { padding:10px; }
+.pad2    { padding:20px; }
+.pad4    { padding:40px; }
+
+.pad1x { padding-left: 10px; padding-right: 10px;}
+.pad2x { padding-left: 20px; padding-right: 20px;}
+.pad4x { padding-left: 40px; padding-right: 40px;}
+
+.pad1y { padding-top: 10px; padding-bottom: 10px;}
+.pad2y { padding-top: 20px; padding-bottom: 20px;}
+.pad4y { padding-top: 40px; padding-bottom: 40px;}
+
+.pad8 {  padding: 80px; }
+.pad8y { padding-top: 80px; padding-bottom: 80px;}
+.pad8x { padding-left: 80px; padding-right: 80px;}
+
+
+/* Additional Utility Classes
+------------------------------------------------------- */
+.fr                           { float:right; }
+.fl                           { float:left; }
+.unfloat                      { float:none; }
+.dot                          { border-radius:50%; }
+.quiet                        { color:#7f7f7f; color: rgba(0,0,0,.5); }
+.dark .quiet                  { color: #7f7f7f; color: rgba(255,255,255,.5)=
+;}
+.center                       { text-align:center; }
+.contain                      { position:relative; }
+.clip                         { overflow:hidden; }
+.hidden.hidden                { display:none; }
+.text-left                    { text-align:left; }
+.text-right                   { text-align:right; }
+.space > *                    { margin-right:5px; }
+.hide-tablet, .hide-mobile    { display:block; }
+.show-tablet, .show-mobile    { display:none; }
+.show-mobile                  { display:none; }
+.show-mobile.inline           { display:none; }
+img.inline, .inline           { display:inline-block; }
+.break-word                   { word-wrap:break-word; }
+.align-middle                 { vertical-align: middle;}
+.align-top                    { vertical-align: top;}
+.block                        { display:block; }
+
+.dark { color: white !important;}
+
+/* ---------------------------------------------------
+    RESPONSIVENESS
+    Nuke it from orbit. It's the only way to be sure.
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically s=
+tretch to that width, but will also shrink down on a phone or something */
+.container {
+  display:block!important;
+  max-width:600px!important;
+  margin:0 auto!important; /* makes it centered */
+  clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .c=
+ontainer */
+.content {
+  max-width:600px;
+  margin:0 auto;
+  display:block;
+}
+
+.inner-content {
+  padding-left: 40px;
+    padding-right: 40px;
+    max-width: 465px;
+}
+
+.dark-section {
+  background-color: #223b53;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white !important;
+}
+img.bleed.top {
+  border-radius: 5px 5px 0px 0px;
+  max-width:545px;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+  width: 300px;
+  float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap {
+  padding:0!important;
+  margin:0 auto;
+  max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+  width: 280px;
+  min-width: 279px;
+  float:left;
+}
+
+.margin0  { margin-left:04.1666%; }
+.margin1  { margin-left:08.3333%; }
+.margin2  { margin-left:16.6666%; }
+.margin3  { margin-left:25.0000%; }
+.margin4  { margin-left:33.3333%; }
+.margin5  { margin-left:41.6666%; }
+.margin6  { margin-left:50.0000%; }
+.margin7  { margin-left:58.3333%; }
+.margin8  { margin-left:66.6666%; }
+.margin9  { margin-left:75.0000%; }
+.margin10 { margin-left:83.3333%; }
+.margin11 { margin-left:91.6666%; }
+.margin12 { margin-left:100.0000%; }
+
+/* reverse margins on right-floated elements */
+.margin0r  { margin-right:04.1666%; }
+.margin1r  { margin-right:08.3333%; }
+.margin2r  { margin-right:16.6666%; }
+.margin3r  { margin-right:25.0000%; }
+.margin4r  { margin-right:33.3333%; }
+.margin5r  { margin-right:41.6666%; }
+.margin6r  { margin-right:50.0000%; }
+.margin7r  { margin-right:58.3333%; }
+.margin8r  { margin-right:66.6666%; }
+.margin9r  { margin-right:75.0000%; }
+.margin10r { margin-right:83.3333%; }
+.margin11r { margin-right:91.6666%; }
+.margin12r { margin-right:100.0000%; }
+/* Be sure to place a .clear element after each set of columns, just to be =
+safe */
+.clear { display: block; clear: both; }
+
+    .col0    { float:left; width:04.1666%; max-width:50px; }
+.col1    { float:left; width:08.3333%; max-width:100px; }
+.col2    { float:left; width:16.6666%; max-width:200px; }
+.col3    { float:left; width:25.0000%; max-width:300px; }
+.col4    { float:left; width:33.3333%; max-width:400px; }
+.col5    { float:left; width:41.6666%; max-width:500px; }
+.col6    { float:left; width:50.0000%; max-width:600px; }
+.col7    { float:left; width:58.3333%; max-width:700px; }
+.col8    { float:left; width:66.6666%; max-width:800px; }
+.col9    { float:left; width:75.0000%; max-width:900px; }
+.col10   { float:left; width:83.3333%; max-width:1000px; }
+.col11   { float:left; width:91.6666%; max-width:1100px; }
+.col12   { width:100%; display:block; }
+
+a img {
+  border: none !important;
+    text-decoration: none;
+}
+  @media only screen and (max-width:640px) {
+  .col1,
+  .col2,
+  .col3,
+  .col4,
+  .col5,
+  .col6,
+  .col7,
+  .col8,
+  .col9,
+  .col10,
+  .col11,
+  .col12 { width:100%; max-width:100%; margin-bottom: 20px; }
+
+  .col1 img,
+  .col2 img,
+  .col3 img,
+  .col4 img,
+  .col5 img,
+  .col6 img,
+  .col7 img,
+  .col8 img,
+  .col9 img,
+  .col10 img,
+  .col11 img,
+  .col12 img { width:80%; max-width:80%; margin-bottom: 20px; margin-left: =
+10%; margin-right: 10%; }
+
+}
+.clearfix { display:block; clear:both; padding-top:10px; padding-bottom:10p=
+x;}
+.clearfix:after {
+  content:'';
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden;
+  }
+
+
+p.loud { color:#3f526d; font-size: 16px;}
+
+
+.enterprise-form {
+    background-color: #f5f5f5;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.enterprise-form table {
+  font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", =
+"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #96a6b0;
+  font-size:15px;
+  line-height:1.6;
+}
+
+.enterprise-form table thead tr th {
+    font-weight: bold;
+    color: #294869;
+    text-align: left;
+}
+
+.enterprise-form table thead tr td:first-of-type {
+    color: #294869;
+    text-align: left;
+}
+/* -------------------------------------------
+    PHONE
+    For clients that support media queries.
+    Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+p, a {
+  font-size: 18px;
+}
+
+  a[class=3D"btn"] { display:block!important; margin-bottom:10px!important;=
+ background-image:none!important; margin-right:0!important;}
+
+  div[class=3D"column"] { width: auto!important; float:none!important;}
+
+  table.social div[class=3D"column"] {
+    width:auto!important;
+  }
+    .button {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+ }
+</style>
+
+</head>
+
+<body bgcolor=3D"#F8F8F8" style=3D"font-family: Arial,sans-serif; -webkit-f=
+ont-smoothing: antialiased; -webkit-text-size-adjust: none; width: 100% !im=
+portant; height: 100%; font-size: 18px; line-height: 20px; background: #F8F=
+8F8; margin: 0; padding: 0;">
+
+<!-- HEADER -->
+<table class=3D"head-wrap" style=3D"font-family: Arial,sans-serif; width: 1=
+00%; margin: 0; padding: 0;">
+  <tr style=3D"font-family: Arial,sans-serif; margin: 0; padding: 0;">
+    <td style=3D"font-family: Arial,sans-serif; margin: 0; padding: 0;"></t=
+d>
+    <td class=3D"header container" style=3D"font-family: Arial,sans-serif; =
+display: block !important; max-width: 600px !important; clear: both !import=
+ant; margin: 0 auto; padding: 0;">
+
+        <div class=3D"content" style=3D"font-family: Arial,sans-serif; max-=
+width: 600px; display: block; margin: 30px auto 0; padding: 0;">
+        <table style=3D"font-family: Arial,sans-serif; width: 100%; margin:=
+ 0; padding: 0;">
+          <tr style=3D"font-family: Arial,sans-serif; margin: 0; padding: 0=
+;">
+            <td style=3D"font-family: Arial,sans-serif; margin: 0; padding:=
+ 0;"><a href=3D"http://email.mapbox.com/e/c/eyJlbWFpbF9pZCI6Ik5Ea3pPVG9WU1F=
+Ka0FBSnpBQmNFazJJYUFVXzVYRFBrRldNWVZ4ZDlVQUZ0T2pNeE5EazBOZ0E9IiwicG9zaXRpb2=
+4iOjAsImhyZWYiOiJodHRwOi8vd3d3Lm1hcGJveC5jb20iLCJsaW5rX2lkIjozMjA5Mjd9/3267=
+8f21f0897ac6401ccfe4941a473c7387b446fc159bd672a0e2e83aa88c5d" class=3D"no-b=
+order " style=3D"display: block; font-family: 'Open Sans', 'HelveticaNeue-L=
+ight', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida =
+Grande', sans-serif; text-decoration: none; color: #347eb9; font-weight: no=
+rmal; font-size: 15px; line-height: 1.6; margin: 0 0 10px 10px; padding: 0;=
+">
+            <img src=3D"https://s3.amazonaws.com/mapbox/customerio/logo100x=
+50.png" class=3D"no-border" height=3D"30px" style=3D"font-family: Arial,san=
+s-serif; max-width: 100%; text-dectoration: none; text-decoration: none; ma=
+rgin: 0 0 0 20px; padding: 0; border: none;"></a></td>
+          </tr>
+        </table>
+        </div>
+
+    </td>
+    <td style=3D"font-family: Arial,sans-serif; margin: 0; padding: 0;"></t=
+d>
+  </tr>
+</table>
+<!-- /HEADER -->
+
+
+<!-- BODY -->
+<table class=3D"body-wrap" style=3D"font-family: Arial,sans-serif; width: 1=
+00%; margin: 0; padding: 0;">
+  <tr style=3D"font-family: Arial,sans-serif; margin: 0; padding: 0;">
+    <td style=3D"font-family: Arial,sans-serif; margin: 0; padding: 0;"></t=
+d>
+    <td class=3D"container" style=3D"font-family: Arial,sans-serif; display=
+: block !important; max-width: 600px !important; clear: both !important; ma=
+rgin: 0 auto; padding: 0;">
+
+      <div class=3D"content" style=3D"max-width: 545px; border-radius: 5px;=
+ font-family: Arial,sans-serif; display: block; background: #FFFFFF; margin=
+: 0 auto; padding: 0 0 20px;">
+      <table style=3D"font-family: Arial,sans-serif; width: 100%; margin: 0=
+; padding: 0;">
+        <tr style=3D"font-family: Arial,sans-serif; margin: 0; padding: 0;">
+          <td style=3D"font-family: Arial,sans-serif; margin: 0; padding: 0=
+;">
+           <div class=3D"inner-content" style=3D"font-family: Arial,sans-se=
+rif; max-width: 465px; margin: 0; padding: 0 40px;">
+    <h3 style=3D"font-family: 'Open Sans', 'HelveticaNeue-Light', 'Helvetic=
+a Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-se=
+rif; line-height: 1.4; color: #3f526d; font-weight: 500; font-size: 20px; m=
+argin: 30px 0 12px; padding: 0;">Hey there,</h3>
+<p style=3D"font-family: 'Open Sans', 'HelveticaNeue-Light', 'Helvetica Neu=
+e Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; =
+font-weight: normal; color: #96a6b0; font-size: 15px; line-height: 1.6; mar=
+gin: 0 0 10px; padding: 0;">We just released v1.0 of<a href=3D"http://email=
+.mapbox.com/e/c/eyJlbWFpbF9pZCI6Ik5Ea3pPVG9WU1FKa0FBSnpBQmNFazJJYUFVXzVYRFB=
+rRldNWVZ4ZDlVQUZ0T2pNeE5EazBOZ0E9IiwicG9zaXRpb24iOjEsImhyZWYiOiJodHRwczovL3=
+d3dy5tYXBib3guY29tL2Jsb2cvbWFwYm94LWFuZHJvaWQtc2VydmljZXMvP3V0bV9zb3VyY2U9b=
+WFzJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NvbnRlbnQ9bWFzJnV0bV9jYW1wYWlnbj1hcHJpbF9t=
+b2JpbGVkZXYiLCJsaW5rX2lkIjoxMzAyNTQ3Nn0/d8aeb1c589d49294832bfdd25f01d44a945=
+0c29904cfd139a9c82fbd83535abc" style=3D"font-family: 'Open Sans', 'Helvetic=
+aNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, '=
+Lucida Grande', sans-serif; color: #347eb9; font-weight: normal; font-size:=
+ 15px; line-height: 1.6; text-decoration: none; margin: 0 0 10px; padding: =
+0;"> Mapbox
+Android Services (MAS)</a>, a new Java library to help consume Mapbox APIs =
+like geocoding and directions on Android.</p>
+=20=20=20=20
+<p style=3D"font-family: 'Open Sans', 'HelveticaNeue-Light', 'Helvetica Neu=
+e Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; =
+font-weight: normal; color: #96a6b0; font-size: 15px; line-height: 1.6; mar=
+gin: 0 0 10px; padding: 0;">Mapbox Android Services includes RxJava support=
+, access to the Static API, and an autocomplete widget. You can easily inte=
+grate it into your <a href=3D"http://email.mapbox.com/e/c/eyJlbWFpbF9pZCI6I=
+k5Ea3pPVG9WU1FKa0FBSnpBQmNFazJJYUFVXzVYRFBrRldNWVZ4ZDlVQUZ0T2pNeE5EazBOZ0E9=
+IiwicG9zaXRpb24iOjIsImhyZWYiOiJodHRwczovL3d3dy5tYXBib3guY29tL2Jsb2cvbWFwYm9=
+4LWFuZHJvaWQtc2VydmljZXMvP3V0bV9zb3VyY2U9bWFzJnV0bV9tZWRpdW09ZW1haWwmdXRtX2=
+NvbnRlbnQ9bWFzJnV0bV9jYW1wYWlnbj1hcHJpbF9tb2JpbGVkZXYiLCJsaW5rX2lkIjoxMzAyN=
+TQ3Nn0/df9856115c70409296e24524e2836fc74966d25b21041c047b9c052487b3378e" st=
+yle=3D"font-family: 'Open Sans', 'HelveticaNeue-Light', 'Helvetica Neue Lig=
+ht', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color=
+: #347eb9;
+font-weight: normal; font-size: 15px; line-height: 1.6; text-decoration: no=
+ne; margin: 0 0 10px; padding: 0;">Android project using Gradle.</a></p>
+
+ <div class=3D"clearfix space-top2" style=3D"font-family: Arial,sans-serif;=
+ display: block; clear: both; margin: 20px 0 0; padding: 10px 0;">=20=20=20=
+=20
+ <a href=3D"http://email.mapbox.com/e/c/eyJlbWFpbF9pZCI6Ik5Ea3pPVG9WU1FKa0F=
+BSnpBQmNFazJJYUFVXzVYRFBrRldNWVZ4ZDlVQUZ0T2pNeE5EazBOZ0E9IiwicG9zaXRpb24iOj=
+MsImhyZWYiOiJodHRwczovL3d3dy5tYXBib3guY29tL2Jsb2cvbWFwYm94LWFuZHJvaWQtc2Vyd=
+mljZXMvP3V0bV9zb3VyY2U9bWFzJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NvbnRlbnQ9bWFzJnV0=
+bV9jYW1wYWlnbj1hcHJpbF9tb2JpbGVkZXYiLCJsaW5rX2lkIjoxMzAyNTQ3Nn0/1e9f577340a=
+d59a220dc3d70dccd753ce7d0dfd03e46c89a383e9adc401ab19e" style=3D"font-family=
+: 'Open Sans', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Ne=
+ue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: #347eb9; font-we=
+ight: normal; font-size: 15px; line-height: 1.6; text-decoration: none; mar=
+gin: 0 0 10px; padding: 0;"><img src=3D"http://i.imgur.com/19LP46n.gif" alt=
+=3D"YES" class=3D"bleed" style=3D"font-family: Arial,sans-serif; max-width:=
+ 100%; text-decoration: none; margin: 0; padding: 0; border: none;"></a>
+=20=20
+=20=20=20=20
+    <div class=3D"clearfix space-top2" style=3D"font-family: Arial,sans-ser=
+if; display: block; clear: both; margin: 20px 0 0; padding: 10px 0;">
+    <p style=3D"font-family: 'Open Sans', 'HelveticaNeue-Light', 'Helvetica=
+ Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-ser=
+if; font-weight: normal; color: #96a6b0; font-size: 15px; line-height: 1.6;=
+ margin: 0 0 10px; padding: 0;">Happy building!</p>
+
+     <div class=3D"clearfix space-top2" style=3D"font-family: Arial,sans-se=
+rif; display: block; clear: both; margin: 20px 0 0; padding: 10px 0;">
+      <div class=3D"col3" style=3D"font-family: Arial,sans-serif; float: le=
+ft; width: 25.0000%; max-width: 300px; margin: 0; padding: 0;"><img width=
+=3D"80px" alt=3D"" src=3D"https://c2.staticflickr.com/2/1635/25208953723_f4=
+f014f12f_m.jpg" style=3D"font-family: Arial,sans-serif; max-width: 100%; ma=
+rgin: 0; padding: 0;"></div>
+      <p class=3D"loud col6 space-top1 pad2x" style=3D"font-family: 'Open S=
+ans', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helv=
+etica, Arial, 'Lucida Grande', sans-serif; font-weight: normal; color: #3f5=
+26d; font-size: 16px; line-height: 1.6; float: left; width: 50.0000%; max-w=
+idth: 600px; margin: 10px 0; padding: 0 20px;">Love,<br style=3D"font-famil=
+y: Arial,sans-serif; margin: 0; padding: 0;">Your friends at Mapbox</p>
+     </div>
+=20=20=20=20
+
+          </div>
+</div>
+</div>
+</td>
+=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20
+        </tr>
+      </table>
+      </div>
+<!-- /content -->
+
+    </td>
+    <td style=3D"font-family: Arial,sans-serif; margin: 0; padding: 0;"></t=
+d>
+  </tr>
+</table>
+<!-- /BODY -->
+
+<!-- FOOTER -->
+<table class=3D"footer-wrap" style=3D"font-family: Arial,sans-serif; width:=
+ 100%; clear: both !important; margin: 20px 0 0; padding: 0;">
+  <tr style=3D"font-family: Arial,sans-serif; margin: 0; padding: 0;">
+    <td style=3D"font-family: Arial,sans-serif; margin: 0; padding: 0;"></t=
+d>
+    <td class=3D"container" style=3D"font-family: Arial,sans-serif; display=
+: block !important; max-width: 600px !important; clear: both !important; ma=
+rgin: 0 auto; padding: 0;">
+
+        <!-- content -->
+        <div class=3D"content" style=3D"font-family: Arial,sans-serif; max-=
+width: 600px; display: block; margin: 0 auto; padding: 0;">
+        <table style=3D"font-family: Arial,sans-serif; width: 100%; margin:=
+ 0; padding: 0;">
+
+        <tr style=3D"font-family: Arial,sans-serif; margin: 0; padding: 0;">
+            <div class=3D"center space-bottom2" style=3D"font-family: Arial=
+,sans-serif; text-align: center; margin: 0 0 20px; padding: 0;" align=3D"ce=
+nter">
+                <a alt=3D"Follow us on Twitter" href=3D"http://email.mapbox=
+.com/e/c/eyJlbWFpbF9pZCI6Ik5Ea3pPVG9WU1FKa0FBSnpBQmNFazJJYUFVXzVYRFBrRldNWV=
+Z4ZDlVQUZ0T2pNeE5EazBOZ0E9IiwicG9zaXRpb24iOjQsImhyZWYiOiJodHRwOi8vd3d3LnR3a=
+XR0ZXIuY29tL21hcGJveCIsImxpbmtfaWQiOjExMTU1NDIyfQ/2f54e002a2df11b1186507a05=
+716febb837d6a104227630f40279312163d2689" style=3D"font-family: 'Open Sans',=
+ 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica=
+, Arial, 'Lucida Grande', sans-serif; color: #347eb9; font-weight: normal; =
+font-size: 15px; line-height: 1.6; text-decoration: none; margin: 0 0 10px;=
+ padding: 0;"><img src=3D"https://cldup.com/ykhu42NEMi-3000x3000.png" width=
+=3D"40px;" height=3D"40px" style=3D"font-family: Arial,sans-serif; max-widt=
+h: 100%; text-decoration: none; margin: 0; padding: 0; border: none;"></a>
+                <a alt=3D"Follow us on Facebook" href=3D"http://email.mapbo=
+x.com/e/c/eyJlbWFpbF9pZCI6Ik5Ea3pPVG9WU1FKa0FBSnpBQmNFazJJYUFVXzVYRFBrRldNW=
+VZ4ZDlVQUZ0T2pNeE5EazBOZ0E9IiwicG9zaXRpb24iOjUsImhyZWYiOiJodHRwczovL3d3dy5m=
+YWNlYm9vay5jb20vTWFwYm94IiwibGlua19pZCI6MTExNTU0MjN9/dbf508bdbb2d0b3e3cdbf9=
+9bf0b4823936b6f505e6870a7afd08acfa5400f9d1" style=3D"font-family: 'Open San=
+s', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvet=
+ica, Arial, 'Lucida Grande', sans-serif; color: #347eb9; font-weight: norma=
+l; font-size: 15px; line-height: 1.6; text-decoration: none; margin: 0 0 10=
+px; padding: 0;"><img src=3D"https://cldup.com/wmVPsJ2Ybf-3000x3000.png" wi=
+dth=3D"40px;" height=3D"40px" style=3D"font-family: Arial,sans-serif; max-w=
+idth: 100%; text-decoration: none; margin: 0; padding: 0; border: none;"></=
+a>
+                <a alt=3D"Follow us on Pinterest" href=3D"http://email.mapb=
+ox.com/e/c/eyJlbWFpbF9pZCI6Ik5Ea3pPVG9WU1FKa0FBSnpBQmNFazJJYUFVXzVYRFBrRldN=
+WVZ4ZDlVQUZ0T2pNeE5EazBOZ0E9IiwicG9zaXRpb24iOjYsImhyZWYiOiJodHRwczovL3d3dy5=
+waW50ZXJlc3QuY29tL21hcGJveC8iLCJsaW5rX2lkIjoxMTE1NTQyNH0/013cea2bb76beb68a2=
+283c2c81085821d21c7a8afd1094f1d938faccafc08f37" style=3D"font-family: 'Open=
+ Sans', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', He=
+lvetica, Arial, 'Lucida Grande', sans-serif; color: #347eb9; font-weight: n=
+ormal; font-size: 15px; line-height: 1.6; text-decoration: none; margin: 0 =
+0 10px; padding: 0;"><img src=3D"https://cldup.com/Cj8mFZhgjU.thumb.png" wi=
+dth=3D"40px;" height=3D"40px" style=3D"font-family: Arial,sans-serif; max-w=
+idth: 100%; text-decoration: none; margin: 0; padding: 0; border: none;"></=
+a>
+                <a alt=3D"Follow us on Linkedin" href=3D"http://email.mapbo=
+x.com/e/c/eyJlbWFpbF9pZCI6Ik5Ea3pPVG9WU1FKa0FBSnpBQmNFazJJYUFVXzVYRFBrRldNW=
+VZ4ZDlVQUZ0T2pNeE5EazBOZ0E9IiwicG9zaXRpb24iOjcsImhyZWYiOiJodHRwczovL3d3dy5s=
+aW5rZWRpbi5jb20vY29tcGFueS9tYXBib3giLCJsaW5rX2lkIjoxMTE1NTQyNX0/56a013a9f1c=
+0797d86d8c416168bc8baf9d3639f8e4f8c639df0da0aa791a111" style=3D"font-family=
+: 'Open Sans', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Ne=
+ue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: #347eb9; font-we=
+ight: normal; font-size: 15px; line-height: 1.6; text-decoration: none; mar=
+gin: 0 0 10px; padding: 0;"><img src=3D"https://cldup.com/k7Y6wrdzyr-3000x3=
+000.png" width=3D"40px;" height=3D"40px" style=3D"font-family: Arial,sans-s=
+erif; max-width: 100%; text-decoration: none; margin: 0; padding: 0; border=
+: none;"></a>
+                <a alt=3D"Follow us on Instagram" href=3D"http://email.mapb=
+ox.com/e/c/eyJlbWFpbF9pZCI6Ik5Ea3pPVG9WU1FKa0FBSnpBQmNFazJJYUFVXzVYRFBrRldN=
+WVZ4ZDlVQUZ0T2pNeE5EazBOZ0E9IiwicG9zaXRpb24iOjgsImhyZWYiOiJodHRwczovL3d3dy5=
+pbnN0YWdyYW0uY29tL21hcGJveC8iLCJsaW5rX2lkIjoxMTE1NTQyNn0/df6561923370e057a9=
+edd98415fc9e17b67d2d1f7f7ea20355b6f7a0a962a7e6" style=3D"font-family: 'Open=
+ Sans', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', He=
+lvetica, Arial, 'Lucida Grande', sans-serif; color: #347eb9; font-weight: n=
+ormal; font-size: 15px; line-height: 1.6; text-decoration: none; margin: 0 =
+0 10px; padding: 0;"><img src=3D"https://cldup.com/KvYjqdmcmk.thumb.png" wi=
+dth=3D"40px;" height=3D"40px" style=3D"font-family: Arial,sans-serif; max-w=
+idth: 100%; text-decoration: none; margin: 0; padding: 0; border: none;"></=
+a>
+            </div>
+        </tr>
+
+      </table>
+
+
+        </div>
+<!-- /content -->
+
+        <div class=3D"center" style=3D"font-family: Arial,sans-serif; text-=
+align: center; margin: 0; padding: 0;" align=3D"center">
+           <p class=3D"footer" style=3D"font-family: 'Open Sans', 'Helvetic=
+aNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, '=
+Lucida Grande', sans-serif; color: #979797; font-size: 12px; text-align: ce=
+nter; font-weight: normal; line-height: 1.6; margin: 0 0 10px; padding: 0;"=
+ align=3D"center">
+           <a href=3D"http://email.mapbox.com/unsubscribe/NDkzOToVSQJkAAJzA=
+BcEk2IaAU_5XDPkFWMYVxd9UAFtOjMxNDk0NgA=3D" style=3D"font-family: 'Open Sans=
+', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helveti=
+ca, Arial, 'Lucida Grande', sans-serif; color: #d7d7d7; font-weight: normal=
+; font-size: 15px; line-height: 1.6; text-decoration: none; margin: 0 0 10p=
+x; padding: 0;"><unsubscribe style=3D"font-family: Arial,sans-serif; margin=
+: 0; padding: 0;">Unsubscribe</unsubscribe></a>
+               <span class=3D"pad1x" style=3D"font-family: Arial,sans-serif=
+; color: #d7d7d7; margin: 0; padding: 0 10px;">|</span>
+            <a href=3D"http://email.mapbox.com/deliveries/NDkzOToVSQJkAAJzA=
+BcEk2IaAU_5XDPkFWMYVxd9UAFtOjMxNDk0NgA=3D" class=3D"untracked" style=3D"fon=
+t-family: 'Open Sans', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helv=
+etica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: #d7d7d7;=
+ font-weight: normal; font-size: 15px; line-height: 1.6; text-decoration: n=
+one; margin: 0 0 10px; padding: 0;">View this email online</a>
+
+            </p>
+        </div>
+
+
+        <p class=3D"address footer center" style=3D"font-family: 'Open Sans=
+', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helveti=
+ca, Arial, 'Lucida Grande', sans-serif; color: #979797; font-size: 10px; te=
+xt-align: center; font-weight: normal; line-height: 1.6; margin: 0 0 10px; =
+padding: 0;" align=3D"center">=C2=A9 2016 Mapbox | <span class=3D"appleAddr=
+ess" style=3D"font-family: Arial,sans-serif; color: #d7d7d7; font-size: 10p=
+x !important; margin: 0; padding: 0;">1714 14th St NW, Rear Entrance, Washi=
+ngton, DC 20009</span></p>
+
+    </td>
+  </tr>
+</table>
+<!-- /FOOTER -->
+
+<img src=3D"http://email.mapbox.com/e/o/eyJlbWFpbF9pZCI6Ik5Ea3pPVG9WU1FKa0F=
+BSnpBQmNFazJJYUFVXzVYRFBrRldNWVZ4ZDlVQUZ0T2pNeE5EazBOZ0E9In0=3D">
+</body>
+
+
+
+
+</html>
+
+----==_mimepart_57177e18c3d61_3b43fcb922a4f98123537755--

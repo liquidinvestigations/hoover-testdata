@@ -1,0 +1,229 @@
+X-Apparently-To: penultim_o@yahoo.com; Fri, 22 Apr 2016 14:31:31 +0000
+Return-Path: <010001543e6200e3-8942c4b9-f76b-4396-84e5-b561d1611f2c-000000@amazonses.com>
+Received-SPF: pass (domain of amazonses.com designates 54.240.11.19 as permitted sender)
+X-YMailISG: ZvpqN84WLDsvqqlgV3nLBCS0k1PvRPTmOIB9UKhUww5Bu5Bk
+ ZQPWRO3ChF8GisLvMky5SkuTM85hsxkgU7vU72mwsyUzD4buvuB4UpcjCWJZ
+ MFG5mkB6QGlgal9LXfPmdonwnKFcAhpekIzSgSw9wcIW04dLF6ghbMVc6lYp
+ LXAKq978HOCAHNx9_8Ncr0Gvu.0A_fNSS.mF1SkvOeWXDeX9nXOV4wlUDhB1
+ hmPe34kJcgJWoDWYlsoOStixYssVm.VP2k33Gkp0RHZju6nP0ztMIfBicgWV
+ gmRsZheXhDVLRO9wSOQvb33quNO_SCrupLH_FCSOxeY9U3AKC244dFchyL1m
+ 4aVB9TY.Wi.CFiL0vHew.32HgdXmJYFbHZ5ucNomOEgD06z52j8qlwPtPzns
+ COmuVojsn6nXJzq4wpoaCbKWOPlOcTVjJHICLdxfn0QuxMsObaFGtCZJhvUN
+ dV5S38KojsX8qdvQS2IHEBYU1iJfANLj6A60BcAkuZiRMV8iQoehmxX1GHZ9
+ VxmduGOKqtA5dbtLLQ9XUdiQ4l0eVlT3yWXwRWKmQ2LpwmBTsGgcYW1kqYv1
+ s7MCNk82ZaMOdqHJ1NYVa_7VrC2N8L.OBSCgld8I1Fv4B5jNujBkaSN1N8Un
+ o50VvypVgR8.pFjD6iLLPc7I009hUOHDK6JIda50KZ_Za8J7H04z.FU58nZL
+ JYdq_92LSwjCbIybLWR1H36Yn8WTvayBzFR3QRiIPYu5gwID09GSE5JTr5eK
+ wp2cG3qkvMkLWSXMhMi3YTK8voE6ir4XJ07aNzgvifXDzplS2_WBXCSgzvzD
+ MbnM1xHmjpogTnds2PCPsJNA4mkT_xf36gWfSuIZjFUTMBPM3uqRul2RKoO4
+ h5FDJyp2B0fY5EB0B.0ro.n7ReKW.Dw4HR5l4Xj.xPTLPOvlR3liFVzPKjDc
+ cwPsqGZ4rG7Riundv4McmvZIZt0KZvRcogK9YF_2HnD1GaBoC7KhFCvprjQY
+ nW694OQ6eN_OgKSR03TOiUOQmm5vHnND.Bxm3FVZRhBpk.yArpFRlnjsbULK
+ UxTgA7ub4r2jlqQRv2U5Hnnw9bqhBfT9xg.SUKqoZxH0QdIGtodO0H1bzbmI
+ nihwLoMCZDQfi1PE2bjqyF0yAryFydsGjTPVQzLf4PoW_wfJ.ezgAa2IQpFl
+ Wofx72M_INrEbHeJfE5KK0Nk8PLMIL5DxLCAzd4zO85BvUJewyWxMAw8qW00
+ t1Olrl12OlB6S28ZFKuJGwfgGbZb.t8OrbTNejx4p6eySVlAB1oRZQ6RXVk9
+ wNwDbev2AmJ9AGo69dIUUq2zsuqpdpctk7EOU_GyHljoVtf1EEhg00eSEkTr
+ UFH78KyGZuTHUcwimdjdN97xehtLeKLl6nOaD07n1EqMHhbVP_5wTI_RmTWr
+ K3H_xr0b64mQUnvsXOL1OP7v4GEQ3leXX9opJdd.jhqNSe14LE.PvJOqV_0x
+ EZGKPP1thj13K9WrKD8ij59RO.IVT5.olfyNpnMYYgy_puPvg8J7B9qezuYn
+ fA63ReHLMXJC3PkFRjcYSCU2BQhIKbuNjs0D8Qj2PNxnqON.0FPbvqExY1W5
+ Hi79sMEEwzj.cV_qPKsAp9TmnjKbfCyAzOMR594PPlqlH6j2rhpvGOXwKN16
+ i4cfEXHlxgKErVb.kRhm9TgL0kiAs4tz5dpDDwWGfnhO3dSFW9ruVx.vf5J1
+ XnAsNgLbyeJjkyVe4OUKMiLIm_Agpc0nW4AkgCJenyrZLuZ86Nj8A27JdAFl
+ Je3sxwuiMKjUlAzPBqBcLMI8QuShi1VPD1K.zhmAmFrBbTebESI-
+X-Originating-IP: [54.240.11.19]
+Authentication-Results: mta1598.mail.bf1.yahoo.com  from=codingame.com; domainkeys=neutral (no sig);  from=amazonses.com; dkim=pass (ok)
+Received: from 127.0.0.1  (EHLO a11-19.smtp-out.amazonses.com) (54.240.11.19)
+  by mta1598.mail.bf1.yahoo.com with SMTPS; Fri, 22 Apr 2016 14:31:31 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=vvyipd3e25cam7dptlj6ozg25t7s54b2; d=codingame.com; t=1461335490;
+	h=From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Date;
+	bh=ntVcE0lWTzY2iMuPFgaLWpNRpC5kZ/3JOsaTtltCqXE=;
+	b=eF7rci0USsE4J2bZSDfk33iQK35LqZizdJ8E7bxmzvJWRZ3wWyNoXYEIXjYWzhNY
+	BLFpHNTEZSfp5HScmOlwP7mz7qC8zAuUSnkT1JSyKJJY6qgoYWgWo6ZzZd4iBcbY+TG
+	/OJPnd1tZd86Cekil5P7GT9AlUIXkLziBuiXsgtk=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1461335490;
+	h=From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Date:Feedback-ID;
+	bh=ntVcE0lWTzY2iMuPFgaLWpNRpC5kZ/3JOsaTtltCqXE=;
+	b=fBM6d4MyVOR7qGHSlZtV6hVqbfG2tWCfCTm4MwYAAkDjfz+OqOPz2pB73t1DX5vZ
+	cesj+H1vFhwUEVJG8/zKrnHfQYXbA9rpLuSpOMc7RJaOFIR31FzJuOoewG0rb0W/lNI
+	mjkeopYXRxqOv12mPITSgRHDYYdQS6ZbFWHkQIIs=
+From: CodinGame Team <contact@codingame.com>
+Reply-To: contact@codingame.com
+To: penultim_o@yahoo.com
+Message-ID: <010001543e6200e3-8942c4b9-f76b-4396-84e5-b561d1611f2c-000000@email.amazonses.com>
+Subject: Machine Learning comes to CodinGame!
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_532756_974681526.1461249936623"
+Date: Fri, 22 Apr 2016 14:31:30 +0000
+X-SES-Outgoing: 2016.04.22-54.240.11.19
+Feedback-ID: 1.us-east-1.p7wQsMMJKDUXwGnrHN7YOmvsdgoP3aDJajrvK4B5DHw=:AmazonSES
+Content-Length: 6704
+
+------=_Part_532756_974681526.1461249936623
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html>
+<head>
+  <meta charset=3D"UTF-8">
+  <style type=3D"text/CSS">
+        body, #body_style {
+            background-color: #f2f2f2;=20
+            color: #20252a;=20
+            font-family: Arial, Helvetica, sans-serif;=20
+            font-size: 12px;
+=09=09}=20
+        =20
+        .ExternalClass {width: 100%;}
+        /*.yshortcuts {color: #f95850;}*/
+        p {margin:0; padding:0; margin-bottom:0;}
+        /*a, a:link, a:visited {color: #f95850;} */
+  </style>
+</head>
+<body style=3D"background-color: #f2f2f2; text-align: center; font-family: =
+Arial, Helvetica, sans-serif; color: #20252a;">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"text-align=
+: center; width: 100%; background-color: #f2f2f2;font-family: Arial, Helvet=
+ica, sans-serif;color: #20252a;">
+<tr><td>
+
+<table style=3D"text-align: left; width: 600px; margin: auto;font-size: 14p=
+x;" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+
+<tr><td style=3D"padding-top: 10px;padding-bottom: 10px;">
+=09<a href=3D"https://www.codingame.com"><img style=3D"border: 0;" src=3D"h=
+ttps://www.codingame.com/servlet/mfileservlet?id=3D1523796726951&amp;lmid=
+=3D10002378Lu7NLG"></a>
+</td></tr>
+
+<tr><td bgcolor=3D"#ffffff" style=3D"background-color: #ffffff;padding: 30p=
+x;">
+=09<div style=3D"font-size:35px;font-weight:700;line-height:40px;background=
+-color:#ffffff;">Machine Learning comes to CodinGame!</div>
+</td></tr>
+
+<tr><td style=3D"padding-top: 5px;line-height: 1px;font-size: 1px;">&nbsp;<=
+/td></tr>
+
+<tr><td bgcolor=3D"#ffffff" style=3D"background-color: #ffffff;font-size: 0=
+px;line-height: 0px;vertical-align: top;"><a href=3D"https://www.codingame.=
+com/games/machine-learning?utm_source=3DCodinGame&amp;utm_medium=3DEmail&am=
+p;utm_campaign=3Dtensorflow"><img src=3D"https://www.codingame.com/servlet/=
+fileservlet?id=3D4210871868331&amp;format=3Dcropped" width=3D"600" style=3D=
+"width: 600px; border: 0; outline: 0"></a></td></tr>
+
+<tr><td style=3D"padding-top: 5px;line-height: 1px;font-size: 1px;">&nbsp;<=
+/td></tr>
+
+<tr><td bgcolor=3D"#ffffff" style=3D"background-color: #ffffff;padding: 30p=
+x;font-size: 14px;">
+    <p>Hi ,<br />
+<br />
+We are thrilled to let you know that our very first Machine Learning Tutori=
+al based on&nbsp;TensorFlow is alive!<br />
+<br />
+Through this project based on image recognition, our aim is to help you dis=
+cover and try your hands at ML. So if you would like to contribute, share a=
+ny feedback or other tutorial ideas we are all ears!</p>
+
+</td></tr>
+
+<tr><td style=3D"background-color: white; text-align: center;padding-bottom=
+: 30px;">
+=09<div style=3D"display: inline-block;"><!--[if mso]>
+  <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-=
+microsoft-com:office:word" href=3D"https://www.codingame.com/games/machine-=
+learning?utm_source=3DCodinGame&amp;utm_medium=3DEmail&amp;utm_campaign=3Dt=
+ensorflow" style=3D"height:42px;v-text-anchor:middle;width:200px;" stroke=
+=3D"f" fillcolor=3D"#ffd200">
+    <w:anchorlock/>
+    <center>
+  <![endif]--><a href=3D"https://www.codingame.com/games/machine-learning?u=
+tm_source=3DCodinGame&amp;utm_medium=3DEmail&amp;utm_campaign=3Dtensorflow"=
+ style=3D"background-color:#ffd200;color:#20252a;display:inline-block;font-=
+family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;line-he=
+ight:42px;text-align:center;text-decoration:none;width:200px;-webkit-text-s=
+ize-adjust:none;">Discover TensorFlow</a><!--[if mso]>
+    </center>
+  </v:rect>
+<![endif]--></div>
+</td></tr>
+
+<tr><td style=3D"background-color: white; font-weight: 700;padding: 30px;pa=
+dding-top: 0px;">
+=09Keep Coding!<br>
+=09The CodinGame team
+</td></tr>
+
+<tr><td style=3D"padding-top: 5px;line-height: 1px;font-size: 1px;">&nbsp;<=
+/td></tr>
+
+<tr><td>
+<table style=3D"width: 600px;" width=3D"600" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0">
+<tr>
+<td style=3D"width: 30px;background-color: white;font-size: 1px;padding-top=
+: 30px; padding-bottom: 30px;">&nbsp;</td>
+<td style=3D"width: 194px;background-color: white;padding-top: 30px; paddin=
+g-bottom: 30px;">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" >
+=09<tr><td style=3D"font-size: 14px; font-weight: bold; padding-bottom: 10p=
+x;">
+=09=09=09Follow us
+=09</td></tr>
+=09<tr><td style=3D"font-size: 13px;">
+=09=09<a href=3D"https://twitter.com/codingame"><img src=3D"https://files.c=
+odingame.com/codingame/mail/button_social_twitter.png" style=3D"border: 0;"=
+ width=3D"40" height=3D"40"></a>&nbsp;
+=09=09<a href=3D"https://www.facebook.com/CodinGame"><img src=3D"https://fi=
+les.codingame.com/codingame/mail/button_social_facebook.png" style=3D"borde=
+r: 0;" width=3D"40" height=3D"40"></a>&nbsp;
+=09=09<a href=3D"https://plus.google.com/+Codingame/"><img src=3D"https://f=
+iles.codingame.com/codingame/mail/button_social_google.png" style=3D"border=
+: 0;" width=3D"40" height=3D"40"></a>&nbsp;
+=09=09<a href=3D"https://www.youtube.com/channel/UCJ6woCHjGCBXqpf91SsAcoQ">=
+<img src=3D"https://files.codingame.com/codingame/mail/button_social_youtub=
+e.png" style=3D"border: 0;" width=3D"40" height=3D"40"></a>
+=09</td></tr>
+</table>
+</td>
+
+<td style=3D"width: 25px;background-color: white;font-size: 1px;padding-top=
+: 30px; padding-bottom: 30px;">&nbsp;</td>
+
+<td style=3D"width: 6px; font-size: 1px;padding-top: 30px; padding-bottom: =
+30px;">&nbsp;</td>
+
+<td style=3D"width: 30px;background-color: white;font-size: 1px;padding-top=
+: 30px; padding-bottom: 30px;">&nbsp;</td>
+
+<td style=3D"width: 285px; background-color: white; padding-top: 30px; padd=
+ing-bottom: 30px;">
+<div style=3D"font-size:14px;">A question, a problem? You can always reach =
+us at <a href=3D"mailto:coders@codingame.com" target=3D"_blank">coders@codi=
+ngame.com</a>, we=E2=80=99ll be happy to help you.</div>
+</td>
+<td style=3D"width: 30px;background-color: white;font-size: 1px;padding-top=
+: 30px; padding-bottom: 30px;">&nbsp;</td>
+</tr></table>
+</td></tr>
+
+<tr><td style=3D"text-align: center; padding: 15px;font-size: 11px;">
+Don't want to receive these emails any longer?
+<a href=3D"https://www.codingame.com/unsubscribe/daaa739365f29b80704d2b4e65=
+f98a9c703779/057f6bb6974c7f69505b1ea0d40b6722928383a4/instant/other" style=
+=3D"color: grey; text-decoration: none">Unsubscribe here</a>
+or <a href=3D"https://www.codingame.com/unsubscribe/daaa739365f29b80704d2b4=
+e65f98a9c703779/057f6bb6974c7f69505b1ea0d40b6722928383a4" style=3D"color: g=
+rey; text-decoration: none">manage notifications</a>.
+</td></tr>
+</table>
+
+</td></tr></table>
+</body></html>
+------=_Part_532756_974681526.1461249936623--
