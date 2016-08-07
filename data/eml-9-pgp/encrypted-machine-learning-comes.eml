@@ -1,0 +1,76 @@
+X-Apparently-To: penultim_o@yahoo.com; Fri, 22 Apr 2016 14:31:31 +0000
+Return-Path: <010001543e6200e3-8942c4b9-f76b-4396-84e5-b561d1611f2c-000000@amazonses.com>
+Received-SPF: pass (domain of amazonses.com designates 54.240.11.19 as permitted sender)
+X-YMailISG: ZvpqN84WLDsvqqlgV3nLBCS0k1PvRPTmOIB9UKhUww5Bu5Bk
+ ZQPWRO3ChF8GisLvMky5SkuTM85hsxkgU7vU72mwsyUzD4buvuB4UpcjCWJZ
+ MFG5mkB6QGlgal9LXfPmdonwnKFcAhpekIzSgSw9wcIW04dLF6ghbMVc6lYp
+ LXAKq978HOCAHNx9_8Ncr0Gvu.0A_fNSS.mF1SkvOeWXDeX9nXOV4wlUDhB1
+ hmPe34kJcgJWoDWYlsoOStixYssVm.VP2k33Gkp0RHZju6nP0ztMIfBicgWV
+ gmRsZheXhDVLRO9wSOQvb33quNO_SCrupLH_FCSOxeY9U3AKC244dFchyL1m
+ 4aVB9TY.Wi.CFiL0vHew.32HgdXmJYFbHZ5ucNomOEgD06z52j8qlwPtPzns
+ COmuVojsn6nXJzq4wpoaCbKWOPlOcTVjJHICLdxfn0QuxMsObaFGtCZJhvUN
+ dV5S38KojsX8qdvQSasdasdasdasdasdasdasdasdasdasdasd5wTI_RmTWr
+ K3H_xr0b64mQUnvsXOL1OP7v4GEQ3leXX9opJdd.jhqNSe14LE.PvJOqV_0x
+ EZGKPP1thj13K9WrKD8ij59RO.IVT5.olfyNpnMYYgy_puPvg8J7B9qezuYn
+ fA63ReHLMXJC3PkFRjcYSCU2BQhIKbuNjs0D8Qj2PNxnqON.0FPbvqExY1W5
+ Hi79sMEEwzj.cV_qPKsAp9TmnjKbfCyAzOMR594PPlqlH6j2rhpvGOXwKN16
+ i4cfEXHlxgKErVb.kRhm9TgL0kiAs4tz5dpDDwWGfnhO3dSFW9ruVx.vf5J1
+ XnAsNgLbyeJjkyVe4OUKMiLIm_Agpc0nW4AkgCJenyrZLuZ86Nj8A27JdAFl
+ Je3sxwuiMKjUlAzPBqBcLMI8QuShi1VPD1K.zhmAmFrBbTebESI-
+X-Originating-IP: [54.240.11.19]
+Authentication-Results: mta1598.mail.bf1.yahoo.com  from=codingame.com; domainkeys=neutral (no sig);  from=amazonses.com; dkim=pass (ok)
+Received: from 127.0.0.1  (EHLO a11-19.smtp-out.amazonses.com) (54.240.11.19)
+  by mta1598.mail.bf1.yahoo.com with SMTPS; Fri, 22 Apr 2016 14:31:31 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=vvyipd3e25cam7dptlj6ozg25t7s54b2; d=codingame.com; t=1461335490;
+	h=From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Date;
+	bh=ntVcE0lWTzx2iMuPFgaLWpNRpC5kZ/3JOsaTtltCqXE=;
+	b=eF7rci0USsE4J2bZSDfk33iQK35LqZizdJ8E7bxmzvJWRZ3wWyNoXYEIXjYWzxNY
+	BLFpHNTEZSfp5HScmOlwP7mz7qC8zAuUSnkT1JSyKJJY6qgoxWgWo6ZzZd4iBcbY+TG
+	/OJPnd1tZd86Cekil5P7GT9AxUIXkLziBuiXsgtk=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1461335490;
+	h=From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Date:Feedback-ID;
+	bh=ntVcE0lWTzY2iMuPFgaLWpNRpC5kZ/3JOsaTtltCqXE=;
+	b=fBM6d4MyVOR7qGHSlZtV6hVqbfG2tWCfCTm4MwYAAkDjfz+OqOPz2pB73t1DX5vZ
+	cesj+H1vFhwUEVJG8/zKrnHfQYXbA9rpLuSpOMc7RJaOFIR31FzJuOoewG0rb0W/lNI
+	mjkeopYXRxqOv12mPITSgRHDYYdQS6ZbFWHkQIIs=
+From: CodinGame Team <contact@codingame.com>
+Reply-To: contact@codingame.com
+To: penultim_o@yahoo.com
+Message-ID: <010001543e6200e3-8942c4b9-f76b-4396-84e5-b561d1611f2c-000000@email.amazonses.com>
+Subject: -- ENCRYPTED -- Machine Learning comes to CodinGame!
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_532756_974681526.1461249936623"
+Date: Fri, 22 Apr 2016 14:31:30 +0000
+X-SES-Outgoing: 2016.04.22-54.240.11.19
+Feedback-ID: 1.us-east-1.p7wQsMMJKDUXwGnrHN7YOmvsdgoP3aDJajrvK4B5DHw=:AmazonSES
+Content-Length: 6704
+
+------=_Part_532756_974681526.1461249936623
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+hIwD7jV2+2vRmAQBBACNwciOyPnlLtkNoDVge7P4cXgGSa9i726Nr90eueNgnn19
+NVr78NqJWSKHWlVXXbCkDkdyCQ9SZuP0c9yEtc2r67i12WWycue7MCx5LLqUxNaw
+zzPHGKPFpLk17E/2sp63XAJfWvWB5j5Yj73HDyUUIDgy9wUJZSCt6wDQbIFCXtLp
+ATGMCRs6lGGZgN93AJKBog+/hp1R30lix9jdT82DfIOmRHkk2cS0OE7vp+mWYl9T
+4XywTwK7pf7a8R2P8mWA9WKz2P65Rmi9BupT7jwrNlHnjh8u0r5yC34lMpG6REXe
+28Ifi7j5+9eRhbMFrH7dLIzCAK39ldnVYFoTnH/1lstk7lSDWq+rL13UZH1y0xiT
+zrUFSAHxBswL4mndPh5uLrlAjoX69UAJdzli07NYoqOieDGfCDnJ9rGw6JC9KWfk
+a6GFRhEBGJsukPOpZmSrPPPVVjgMpOZmeGsa+LuC8Y3JUqDULyv0S3NGwj5UbrAL
+glTNL1TbtG4PdfTnOXA1Kqxbl+QAtVaTDqdhSwDIR3nIrvEOrd0Tpuusok5v2bDx
+kgXyq1nNDTZLdS1eQLr4tMMbzLzqkguBffvqZgnwJQRCrwdVSgTP018Hm06fX3e+
+A1i2FgC8GjguDn/mIw5IAsSi7ZbCI3HFWatfEiY/qWc7qk+MIKMK4fxMhaNyNA9D
+JE1LpiraXKNbBRAaBdUXdZjGD9i9EiO0PhmIK5sSBag3iF+p4SiErDvy9ciYvAvC
+zgeoZWNpg0kPX0DOm5i2nPRSydVX8H7vDUbfiDryFQjuddijvQq6MQDPVkBi/uox
+GADLmKHTI8ycc9Wp7BV+5mCPpHgLhoQe6Y8ia9B2Gyg5xmp/dMIabWSUx3Imn0C1
+IEqUWPE6avE5CRIkofxMuJmaMZYDrWnLKso/fJmsHTvtyM+UOQQT0CxF
+=9Ba1
+-----END PGP MESSAGE-----
+
+------=_Part_532756_974681526.1461249936623--
