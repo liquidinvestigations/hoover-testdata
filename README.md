@@ -1,4 +1,4 @@
-Test data for [Hoover-Snoop](https://github.com/hoover/snoop)
+Test data for [Hoover-Snoop](https://github.com/liquidinvestigations/hoover-snoop2)
 
 * Emails in various formats (eml, emlx, msg, pst)
 * Text and HTML files
