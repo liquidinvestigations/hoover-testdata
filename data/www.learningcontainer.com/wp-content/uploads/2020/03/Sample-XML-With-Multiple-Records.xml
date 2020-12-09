@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl'?>
+<CATALOG>
+	<PLANT>
+	<COMMON>rose</COMMON>
+	<BOTANICAL>canadensis</BOTANICAL>
+	<ZONE>4</ZONE>
+	<LIGHT>Shady</LIGHT>
+	<PRICE>202</PRICE>
+	<AVAILABILITY>446</AVAILABILITY>
+	</PLANT>
+	<PLANT>
+	<COMMON>mango</COMMON>
+	<BOTANICAL>sunny</BOTANICAL>
+	<ZONE>3</ZONE>
+	<LIGHT>shady</LIGHT>
+	<PRICE>301</PRICE>
+	<AVAILABILITY>569</AVAILABILITY>
+	</PLANT>
+	<PLANT>
+	<COMMON>Marigold</COMMON>
+	<BOTANICAL>palustris</BOTANICAL>
+	<ZONE>4</ZONE>
+	<LIGHT>Sunny</LIGHT>
+	<PRICE>500</PRICE>
+	<AVAILABILITY>799</AVAILABILITY>
+	</PLANT>
+	<PLANT>
+	<COMMON>carrot</COMMON>
+	<BOTANICAL>Caltha</BOTANICAL>
+	<ZONE>4</ZONE>
+	<LIGHT>sunny</LIGHT>
+	<PRICE>205</PRICE>
+	<AVAILABILITY>679</AVAILABILITY>
+	</PLANT>
+	<FOOD>
+	<NAME>daal fry</NAME>
+	<PRICE>300</PRICE>
+	<DESCRIPTION>
+	Famous daal tadka from surat
+	</DESCRIPTION>
+	<CALORIES>60</CALORIES>
+	</FOOD>
+	<FOOD>
+	<NAME>Dhosa</NAME>
+	<PRICE>350</PRICE>
+	<DESCRIPTION>
+	The famous south indian dish
+	</DESCRIPTION>
+	<CALORIES>80</CALORIES>
+	</FOOD>
+	<FOOD>
+    <NAME>Khichdi</NAME>
+	<PRICE>150</PRICE>
+	<DESCRIPTION>
+	The famous gujrati dish
+	</DESCRIPTION>
+	<CALORIES>40</CALORIES>
+	</FOOD>
+	<BOOK>
+      <AUTHOR>Santosh Bihari</AUTHOR>
+      <TITLE>PHP Core</TITLE>
+      <GENER>programming</GENER>
+      <PRICE>44.95</PRICE>
+      <DATE>2000-10-01</DATE>
+   </BOOK>
+   <BOOK>
+      <AUTHOR>Shyam N Chawla</AUTHOR>
+      <TITLE>.NET Begin</TITLE>
+      <GENER>Computer</GENER>
+      <PRICE>250</PRICE>
+      <DATE>2002-17-05</DATE>
+   </BOOK>
+   <BOOK>
+      <AUTHOR>Anci C</AUTHOR>
+      <TITLE>Dr. Ruby</TITLE>
+      <GENER>Computer</GENER>
+      <PRICE>350</PRICE>
+      <DATE>2001-04-11</DATE>
+   </BOOK>
+</CATALOG>

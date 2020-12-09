@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /bfd_download/
+Allow: /wp-admin/admin-ajax.php
