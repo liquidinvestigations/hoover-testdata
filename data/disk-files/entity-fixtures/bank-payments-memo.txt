@@ -1,0 +1,26 @@
+INTERNAL MEMORANDUM -- TREASURY OPERATIONS
+
+Settlement instructions for the quarter are unchanged. Funds move from the
+operating account, IBAN AL47212110090000000235698741, to the escrow account held at the
+correspondent bank under BIC AGRIFRPP882. The secondary escrow line, IBAN
+AL47 2121 1009 0000 0002 3569 8741, stays dormant until the audit closes.
+
+Domestic transfers use routing number 121000358; the payroll bureau still
+quotes routing number 121042882 on its remittance files and both are correct.
+
+The corporate card programme was re-issued this month. The test card the
+processor gave us for the certification run is 4012888888881881, and the second
+certification card is 4012-8888-8888-1881. Neither is a live account.
+
+Fees for the period were USD 4200 for custody and EUR 950 for the transfer
+network. The audit engagement is quoted at USD 85000 and the litigation
+reserve stands at USD 2400000. Petty cash reconciles to USD 84 exactly.
+
+The same figures as the ledger prints them, with the symbol rather than the
+code: $94,000 settled last quarter, a $48.2 million facility remains undrawn,
+and the sterling leg is £2,400,000.
+
+Queries to treasury-ops@example.org or warmerda@remotesensing.org.
+
+European counterparty IBAN AD1200012030200359100100 is quoted for reference only; the
+receiving institution is identified by BIC ABNA BE 2A.

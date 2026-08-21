@@ -1,0 +1,13 @@
+DIGITAL ASSET LEDGER -- TEST NET RECONCILIATION
+
+The receiving address used throughout the drill is 16Yeky6GMjeNkAiNcBY7ZhrLoMSgg1BoyZ.
+Change was swept to 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy.
+
+The contract wallet on the account chain is 0x0000000000000000000000000000000000000000, and the fee payer
+is 0xc6d9d2cd449a754c494264e1809c50e34d64562b.
+
+Nominal value moved during the drill was USD 0.50, then USD 7, then
+USD 950, then USD 250000000 on the final settlement leg. The last figure is
+notional and was never funded.
+
+The drill ran on 2022-10-05. The procedure it replaced was written 1998-02-09.

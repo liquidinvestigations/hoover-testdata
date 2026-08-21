@@ -1,0 +1,27 @@
+From: Accounts Payable <ap@example.org>
+To: Supplier Ledger <ledger@example.net>
+Date: Fri, 09 Sep 2005 13:51:39 +0000
+Message-ID: <CABO60nOZqEG_BFm2TxDZQ9bzXJpC72Udvei=F2VMyHeqR1wJ8Q@mail.gmail.com>
+Subject: Remittance advice, ten lines
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Payment is on its way to IBAN AL47212110090000000235698741 at BIC AGRIFRPP882.
+
+The advice covers ten lines, deliberately one per order of magnitude so a
+magnitude facet has a bucket for each:
+
+  line 1   USD 0.40
+  line 2   USD 7
+  line 3   USD 84
+  line 4   USD 950
+  line 5   USD 4200
+  line 6   USD 25000
+  line 7   USD 310000
+  line 8   USD 2400000
+  line 9   USD 45000000
+  line 10  USD 250000000
+
+The euro leg is smaller: EUR 12 and EUR 4100.
+
+Value date 2023-03-14. The framework agreement is dated 1966-10-01.

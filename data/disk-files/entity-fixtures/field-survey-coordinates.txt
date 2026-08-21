@@ -1,0 +1,12 @@
+FIELD SURVEY -- STATION LOG
+
+Station A sits at 20.3700625,2.7821875 (WGS84), recorded by handheld receiver.
+Station B sits at 20.3701125,2.782234375 (WGS84).
+
+The theodolite log gives two more stations in sexagesimal form:
+41°24'12.2"N 2°10'26.5"E and 51°28'40.1"N 0°00'05.3"W.
+
+The depot is at plus code 8FWC2345+G6 and the fuel cache at 8FWC2345+G6G.
+
+Occupation dates were 1955-08-14 for the first pass and 2019-04-22 for the
+re-survey. The intervening years hold no observation under this station id.

@@ -1,0 +1,20 @@
+ARCHIVE ACCESSION NOTE
+
+The series is not continuous, and the accession record names every year the
+box actually contains. Written out so a date filter has something to bite on
+either side of the Unix epoch:
+
+  1851-05-01 -- the earliest item, a printed circular.
+  1889-03-31 -- correspondence, two folders.
+  1912-04-15 -- a single telegram.
+  1936-11-20 -- the ledger opens.
+  1945-08-15 -- the ledger closes.
+  1961-01-20 -- an inventory sheet.
+  1969-07-20 -- a press cutting.
+  1977-06-07 -- a photograph, captioned.
+  1989-11-09 -- a second press cutting.
+  2001-09-11 -- a memorandum.
+  2014-02-28 -- the digitisation worksheet.
+  2029-12-31 -- the review date the policy sets for this series.
+
+Nothing in the box is dated between 1912 and 1936, or between 1945 and 1961.

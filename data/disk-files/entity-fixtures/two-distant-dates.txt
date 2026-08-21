@@ -1,0 +1,11 @@
+SINGLE-ITEM CATALOGUE CARD
+
+This card mentions exactly two dates and nothing between them.
+
+The instrument was manufactured in 1936-11-20 and was decommissioned on
+2020-06-15. It was in continuous storage for the whole of the intervening
+period and produced no record of any kind.
+
+A filter asking whether this document mentions a date in 2005 must not match
+it. A filter asking whether the document's own span covers 2005 would, and
+that is a different question from the one the mentions answer.

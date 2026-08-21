@@ -1,0 +1,27 @@
+From: Security Operations <secops@example.org>
+To: Infrastructure <infra@example.org>
+Date: Fri, 09 Sep 2005 13:51:39 -0700
+Message-ID: <CABO60nOZqEG_BFm2TxDZQ9bzXJpC72Udvei=F2VMyHeqR1wJ8Q@mail.gmail.com>
+Subject: Weekly advisory round-up and one live finding
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Three advisories apply to the estate this week:
+
+  * CVE-2020-8123 -- the edge proxy, patched.
+  * CVE-2021-23398 -- the document converter, patch pending.
+  * CVE-2021-28680 -- the mail relay, not applicable to our build.
+
+The scan came from 208.24.120.42 and was relayed through 216.138.209.205. The
+originating range is announced by AS15169, and a second probe from 216.138.195.156
+came out of AS64512, which is a private range and should never appear on the
+public side.
+
+The device on the affected port reports MAC 00:1A:2B:3C:4D:5E; the spare unit is
+AA:BB:CC:DD:EE:FF. The handset issued to the on-call engineer has IMEI 49-015420-323751-8.
+
+Thread continues from <87d10n7r9f.fsf@einherjar.cs.pub.ro>.
+
+On-call: +97122345678. Escalation to +93234567890.
+
+The remediation budget for the quarter is USD 45000.

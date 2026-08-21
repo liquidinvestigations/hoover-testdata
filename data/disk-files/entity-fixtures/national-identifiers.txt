@@ -1,0 +1,14 @@
+HR FILE NOTE -- CROSS-BORDER SECONDMENT PAPERWORK
+
+Every number below is a published specification example. No employee record
+is described here.
+
+Italy: the codice fiscale on the specimen form is RCCMNL83S18D969H.
+Spain: the specimen NIF is Z8078221M and the specimen NIE is X9613851N.
+Mexico: the CURP shown in the training pack is BOXW310820HNERXN09.
+India: the PAN quoted in the tax annex is PAN ABCPD1234Z.
+Poland: the PESEL used in the worked example is PESEL 44051401458.
+Sweden: the personnummer in the same example is personnummer 189004119807.
+
+The pack was last revised on 1968-04-02 and reissued on 2015-07-21.
+Questions to shapelib@lists.maptools.org or +376712345.

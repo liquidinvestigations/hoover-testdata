@@ -1,0 +1,10 @@
+POSITION NOTE -- CUSTODY RECONCILIATION
+
+The equity line is held under US0378331005, which the custodian reports
+against CUSIP DUS0421C5. The London leg carries SEDOL B15KXQ8.
+
+Market value at the close was USD 310000 against a book cost of
+USD 250000. The unrealised gain of USD 60000 is unhedged.
+
+Three settlement dates matter for this line: 1987-10-19, 2008-09-15 and
+2020-03-16. Nothing settled between them under this identifier.
