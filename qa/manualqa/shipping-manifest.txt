@@ -1,0 +1,13 @@
+CARGO MANIFEST -- COASTAL SERVICE
+
+Carrying vessel: IMO 9319466, calling under MMSI 367533950.
+Relief vessel on the return leg is IMO 8814275, MMSI 538090443.
+
+One forty-foot box, CSQU3054383, is loaded at the forward hatch.
+
+Freight is invoiced at EUR 25000 per rotation with a bunker surcharge of
+EUR 4100. Demurrage accrues at EUR 950 per day after the free period.
+
+The charter party is dated 1974-06-30 and the current addendum 2011-09-08.
+
+Agency contact: +24762889 or shapelib-admin@lists.maptools.org.

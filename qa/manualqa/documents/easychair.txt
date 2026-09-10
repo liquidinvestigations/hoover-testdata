@@ -1,0 +1,4 @@
+=== THIS IS A SAMPLE .txt FILE ===
+
+The styles and parameters of this guide are designed for compliance with the requirements for publication in the EasyChair EPiC Series (Voronkov, 2004). EasyChair is a conference management system that is flexible, easy to use, and has many features to make it suitable for various conference models. It is currently probably the most commonly used conference management system (Voronkov, 2004), serving thousands of conferences every year.
+

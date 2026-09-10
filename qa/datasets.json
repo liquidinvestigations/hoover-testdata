@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "datasets": [
+    {
+      "name": "testdata_testfiles",
+      "collection": "testdata",
+      "dataset": "testfiles",
+      "root": "data/disk-files/pdf-doc-txt",
+      "purpose": "Search-word documents for the stack verification gate.",
+      "shape": "6 files; at least one filename contains easychair"
+    },
+    {
+      "name": "testdata_emails",
+      "collection": "testdata",
+      "dataset": "emails",
+      "root": "data/eml-2-attachment",
+      "purpose": "Email-shaped fixtures with attachments and address headers.",
+      "shape": "5 files"
+    },
+    {
+      "name": "testdata_zips",
+      "collection": "testdata",
+      "dataset": "zips",
+      "root": "data/zip-in-multiple-locations",
+      "purpose": "Two copies of the same archive under different paths.",
+      "shape": "2 files"
+    },
+    {
+      "name": "testdata_shapes",
+      "collection": "testdata",
+      "dataset": "shapes",
+      "root": "data/many-children",
+      "purpose": "Deep tree and wide sibling folder for storage browsing.",
+      "shape": "669 files; a 42-level chain and a folder with 334 sibling directories"
+    },
+    {
+      "name": "testdata_filenames",
+      "collection": "testdata",
+      "dataset": "filenames",
+      "root": "qa/filenames",
+      "purpose": "One document whose only search match is its filename.",
+      "shape": "1 file named zzq-unique-filename-token.txt; body is digits only"
+    },
+    {
+      "name": "testdata_excelsc",
+      "collection": "testdata",
+      "dataset": "excelsc",
+      "root": "data/www.learningcontainer.com/excels",
+      "purpose": "Table screenshot cases.",
+      "shape": "9 files"
+    },
+    {
+      "name": "testdata_manualqa",
+      "collection": "testdata",
+      "dataset": "manualqa",
+      "root": "qa/manualqa",
+      "purpose": "Manual QA documents, archives, and substitutes.",
+      "shape": "27 files"
+    },
+    {
+      "name": "testdata_leaf",
+      "collection": "testdata",
+      "dataset": "leaf",
+      "root": "qa/leaf",
+      "purpose": "Leaf tree case.",
+      "shape": "1 file"
+    },
+    {
+      "name": "testdata_wide",
+      "collection": "testdata",
+      "dataset": "wide",
+      "root": "qa/wide",
+      "purpose": "Truncated-table case.",
+      "shape": "1 file; 350 columns"
+    },
+    {
+      "name": "testdata_manualpdf",
+      "collection": "testdata",
+      "dataset": "manualpdf",
+      "root": "qa/manualpdf",
+      "purpose": "Original-only PDF fixture ingested with the global PDF provider set to none.",
+      "shape": "1 file"
+    },
+    {
+      "name": "testdata_diskfiles",
+      "collection": "testdata",
+      "dataset": "diskfiles",
+      "root": "qa/diskfiles",
+      "purpose": "Rescan control capture. A dataset that exists and has detail rows.",
+      "shape": "6 files; not the full data/disk-files tree"
+    }
+  ]
+}
