@@ -1,0 +1,19 @@
+MIME-Version: 1.0
+Date: Fri, 26 Sep 2025 10:19:39 -0700
+Message-ID: <56fa92a4-2d4c-4a34-b7e2-11282004b7c5@example.com>
+Subject: Message 3
+From: Sender <sender@example.com>
+To: Recipient <recipient@example.com>
+Content-Type: multipart/alternative; boundary="000000000000970bd6063fb77de0"
+
+--000000000000970bd6063fb77de0
+Content-Type: text/plain; charset="UTF-8"
+
+Body of message 3.
+
+--000000000000970bd6063fb77de0
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">Body of message 3.</div>
+
+--000000000000970bd6063fb77de0--

@@ -1,0 +1,4133 @@
+{
+  "schema": 1,
+  "sources": {
+    "amd-gaia": {
+      "repository": "amd/gaia",
+      "revision": "c5df3128f7f5eab4dd97723274d4dbb4b1c1347b",
+      "license": "MIT",
+      "notices": [
+        "mail-public/notices/amd-gaia/LICENSE.md"
+      ]
+    },
+    "apache-tika": {
+      "repository": "apache/tika",
+      "revision": "5cba7bc3bf772011d603e96b7db657dd434a132a",
+      "license": "Apache-2.0; testMBOX_lengthy_x-headers.mbox also states CC-BY-3.0-US",
+      "notices": [
+        "mail-public/notices/apache-tika/LICENSE.txt",
+        "mail-public/notices/apache-tika/NOTICE.txt"
+      ]
+    },
+    "aspose-email": {
+      "repository": "aspose-email/Aspose.Email-for-.NET",
+      "revision": "c4f369a6770490ab11bef2630b57731191354a2e",
+      "license": "MIT",
+      "notices": [
+        "mail-public/notices/aspose-email/LICENSE"
+      ]
+    },
+    "java-libpst": {
+      "repository": "rjohnsondev/java-libpst",
+      "revision": "f158a64acf2a0e46ac3bd699bc7a5a8da6c40d26",
+      "license": "Apache-2.0 or LGPL-3.0; this copy uses Apache-2.0",
+      "notices": [
+        "mail-public/notices/java-libpst/LICENSE.APACHE-2.0.txt",
+        "mail-public/notices/java-libpst/LICENSE.LGPL.txt"
+      ]
+    },
+    "libyal-testdata": {
+      "repository": "libyal/testdata",
+      "revision": "f018eb7c91c8356123b021ecd28ae894dd500210",
+      "license": "CC-BY-4.0",
+      "notices": [
+        "mail-public/notices/libyal-testdata/LICENSE"
+      ]
+    },
+    "mailparser": {
+      "repository": "nodemailer/mailparser",
+      "revision": "85db897091e295505b649a74fcc67a3a25c44f90",
+      "license": "MIT",
+      "notices": [
+        "mail-public/notices/mailparser/LICENSE"
+      ]
+    },
+    "mbox-viewer": {
+      "repository": "chrsptn/mbox-viewer",
+      "revision": "9ecb0a915d34e0412ebbe5592530879f8137c1c3",
+      "license": "MIT",
+      "notices": [
+        "mail-public/notices/mbox-viewer/LICENSE"
+      ]
+    },
+    "microsoft-outlook-pst-rs": {
+      "repository": "microsoft/outlook-pst-rs",
+      "revision": "cfb721daee538acc50d2bad6faac5ce724f6037d",
+      "license": "MIT",
+      "notices": [
+        "mail-public/notices/microsoft-outlook-pst-rs/LICENSE"
+      ]
+    },
+    "microsoft-pst-sdk": {
+      "repository": "enrondata/microsoft-pst-sdk",
+      "revision": "70701d755f52412f0f21ed216968e314433a324e",
+      "license": "Apache-2.0",
+      "notices": [
+        "mail-public/notices/microsoft-pst-sdk/LICENSE"
+      ]
+    },
+    "mimekit": {
+      "repository": "jstedfast/MimeKit",
+      "revision": "0dec05e233a8f018189741d2b682c7b84e5eb4a1",
+      "license": "MIT",
+      "notices": [
+        "mail-public/notices/mimekit/LICENSE"
+      ]
+    },
+    "pst-extractor": {
+      "repository": "epfromer/pst-extractor",
+      "revision": "7d08ef9bc7112c23275fa948306c76bba6e24fba",
+      "license": "MIT declared in package.json; no separate license file in the inspected tree",
+      "notices": [
+        "mail-public/notices/pst-extractor/ATTRIBUTION.md"
+      ]
+    },
+    "thunderbird": {
+      "repository": "thunderbird/thunderbird-desktop",
+      "revision": "68126e877ca41ead07cf684a3eab2aea1c577291",
+      "license": "MPL-2.0",
+      "notices": [
+        "mail-public/notices/thunderbird/LICENSE.txt"
+      ]
+    }
+  },
+  "files": [
+    {
+      "source": "thunderbird",
+      "path": "mail/components/extensions/test/xpcshell/messages/attachmentOnly.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/components/extensions/test/xpcshell/messages/attachmentOnly.eml",
+      "bytes": 5692,
+      "sha256": "670d6a6bc390c5f5ab1e483123836fb94e33f99af527d9b4aab2b09cf2299089"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/components/extensions/test/xpcshell/messages/inlineBinaryAttachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/components/extensions/test/xpcshell/messages/inlineBinaryAttachment.eml",
+      "bytes": 11580,
+      "sha256": "26c1ffdc685a9401bd15c73745036497157597a787037f17b9d3d7ee0106a769"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/attachment/data/apple_mail_related_attachments.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/attachment/data/apple_mail_related_attachments.eml",
+      "bytes": 1585,
+      "sha256": "96df36dd196da18f638b906bf36b27d5337eb5e52be2f29d50fc91de85772ab2"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/attachment/data/bug1358565.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/attachment/data/bug1358565.eml",
+      "bytes": 2640,
+      "sha256": "fc9091d95990b6f0c7b4e9d3d9fc0eb3260f67b96df4eae31f776a07ca05b4ab"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/attachment/data/eml_wrong_mime_type.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/attachment/data/eml_wrong_mime_type.eml",
+      "bytes": 690,
+      "sha256": "9eb26a60bc6b0e8fd279465d522f38e45998fad6cf7eb2adc6ca1b924ed33e86"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/attachment/data/multipart-alternative-with-attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/attachment/data/multipart-alternative-with-attachment.eml",
+      "bytes": 556,
+      "sha256": "80cca193b0ef5ae353c40e2887dfff8482eb8f91380318899b82ad4a599caef4"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/attachment/data/multiple_attachments.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/attachment/data/multiple_attachments.eml",
+      "bytes": 1339,
+      "sha256": "cd4337b36305a93cd53063958c15973caa364365436d08f7edb11a5a3066042a"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/attachment/data/multiple_unreferenced_related_parts.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/attachment/data/multiple_unreferenced_related_parts.eml",
+      "bytes": 979,
+      "sha256": "40507b6b37b72b927500d31ac88cbe56138e03592c5eedec1f5187ac0135aad2"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/attachment/data/rfc822_base64_attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/attachment/data/rfc822_base64_attachment.eml",
+      "bytes": 605,
+      "sha256": "b89918a98deaf733da1940669b8f1c5e2263ff16c916a3baf157bd74099719c4"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/attachment/data/unreferenced_related_inline_image.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/attachment/data/unreferenced_related_inline_image.eml",
+      "bytes": 927,
+      "sha256": "f17249da2996b1cd4d9e61d982a912a3fefd7927a98b5b6f3451a6a3d15eb6cf"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/attachment-in-multipart-alternative.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/attachment-in-multipart-alternative.eml",
+      "bytes": 607,
+      "sha256": "3f797be0e7293f180b4925e4484f1e7eaeee0e30bc466a7d42eee3cd3399deae"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/attachment-only-multipart-mixed.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/attachment-only-multipart-mixed.eml",
+      "bytes": 454,
+      "sha256": "64e2595e6472e1138eed89196859ff6365d03fd232f66191864d2037eb8e5217"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/base64-bug1586890.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/base64-bug1586890.eml",
+      "bytes": 845,
+      "sha256": "a5947852596d09b1ebc9dbdb0cb6d824cd76b67881cbcd3476394160cbbb53db"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/base64-encoded-msg.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/base64-encoded-msg.eml",
+      "bytes": 324,
+      "sha256": "892a8a289c678c15885a9a440a9bbabad0db75b947326756588ff1c4975fbc80"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/base64-quoting.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/base64-quoting.eml",
+      "bytes": 436,
+      "sha256": "35f9a7444534b52ffe1b898fda52ab71fb7216af7050f552d44107dbd17ed6e1"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/base64-with-whitespace.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/base64-with-whitespace.eml",
+      "bytes": 818,
+      "sha256": "cdc5f32c8cceff5a34d02ae4135ab7245e47018e06e696c067946a4d0e128be1"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/body-utf16.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/body-utf16.eml",
+      "bytes": 367,
+      "sha256": "fc7b81ad6e37302ee13bfbd8f2ac5a5d2ba52435165bd7e9904bd3d256454137"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/charset-cp932.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/charset-cp932.eml",
+      "bytes": 354,
+      "sha256": "f7548ea1db6533dd58365c520255b76313264a07d06a794059bed80b68c5d094"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/content-utf8-alt-rel.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/content-utf8-alt-rel.eml",
+      "bytes": 1192,
+      "sha256": "6db2d9ef40f35be5968b3d8e895935ccc7dc80d9748efa578e07df68b1ab12d3"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/content-utf8-alt-rel2.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/content-utf8-alt-rel2.eml",
+      "bytes": 1194,
+      "sha256": "5dc2f2b542bf006358f5192ec216d2e8b472bbbaeac274b045365cac82f0c434"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/content-utf8-rel-alt.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/content-utf8-rel-alt.eml",
+      "bytes": 1078,
+      "sha256": "844d507273f98ceaa3be8810dcaf30711dd80b463d3e4fdf32b71d8778fc3e19"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/content-utf8-rel-only.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/content-utf8-rel-only.eml",
+      "bytes": 964,
+      "sha256": "d2bda7dc7880582c3c7d57076d7345ed56d298d9459b59d843adea0acd0b9be0"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/defective-charset.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/defective-charset.eml",
+      "bytes": 1640,
+      "sha256": "f7f0431bb065d32a255d0a6a4f96ae22a6c3909fb223603ef18015f281ad6ad2"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/html-pre.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/html-pre.eml",
+      "bytes": 421,
+      "sha256": "790ae1216bc346c927a515496c1305c201964814490c6db872b181ca8f771084"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/html-quoting.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/html-quoting.eml",
+      "bytes": 545,
+      "sha256": "d751cd83b4be8665c7feadd5874bd89ca59aefafc76d7b7f58871fb41432f080"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/long-html-line.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/long-html-line.eml",
+      "bytes": 1286,
+      "sha256": "c0eb2d547222214c0e35782bf27b891524bdeaaa8176fb58402a1e5301155957"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/multipart-charset.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/multipart-charset.eml",
+      "bytes": 612,
+      "sha256": "4a1d558336cb99efc95e0d5e4733ec7aad84b9328c0cfb205aa6822278cf86f1"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mail/test/browser/composition/data/testmsg-html.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/testmsg-html.eml",
+      "bytes": 361,
+      "sha256": "f3f4e1b46702fd8f6df177f41c6b2ddf86321abd640b1e0aa76e7dc4135f2a96"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/01-plaintext.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/01-plaintext.eml",
+      "bytes": 424,
+      "sha256": "7971096fa45668318cab3cadfe79f14f81b915204651f880233fae70170f5daa"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/02-plaintext+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/02-plaintext+attachment.eml",
+      "bytes": 1146,
+      "sha256": "845463a8f1d1e6dfa33ea43cd0cd1542f7970f1ffdf304a81513ac5d27085c82"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/03-HTML.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/03-HTML.eml",
+      "bytes": 446,
+      "sha256": "ba9f9d3e6845c0c4eaf3230c8ea73064db8b5c981e58f0ca876853fa1eb7f14a"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/04-HTML+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/04-HTML+attachment.eml",
+      "bytes": 1168,
+      "sha256": "03af8e9ea3267ad3bbabdcc6ca55edef1e0fcfcdf33b828d92765f0ded563c72"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/05-HTML+embedded-image.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/05-HTML+embedded-image.eml",
+      "bytes": 1552,
+      "sha256": "208de8229d6c80a066c95f073cea900cfb4aee670610027ae09dbd247fbfb513"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/06-plaintext+HMTL.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/06-plaintext+HMTL.eml",
+      "bytes": 814,
+      "sha256": "4315d18bbfdbd4949b285708e0f170672cdfe08bacd4a198ea3a4cd3a2dcb2b8"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/07-plaintext+(HTML+embedded-image).eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/07-plaintext+(HTML+embedded-image).eml",
+      "bytes": 1894,
+      "sha256": "e5d173d317d02e211c071387c7bd7686b2c066c239a529e719b5ee5501ee4912"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/08-plaintext+HTML+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/08-plaintext+HTML+attachment.eml",
+      "bytes": 1493,
+      "sha256": "ae6a2d5c1d38724dad83d1a4a3f31aa13781161ec0002ff4314ebb7a86996688"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/09-(HTML+embedded-image)+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/09-(HTML+embedded-image)+attachment.eml",
+      "bytes": 2121,
+      "sha256": "c713917600196164d7643089206a6f93a9e4908869ef74a1cf1347e9425b957a"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/10-plaintext+(HTML+embedded-image)+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/10-plaintext+(HTML+embedded-image)+attachment.eml",
+      "bytes": 2462,
+      "sha256": "a915b67cf14c00e8992b8aff5cf699341a8fad6b8dfc04209862caf7170fbda7"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/11-plaintext-greek.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/11-plaintext-greek.eml",
+      "bytes": 429,
+      "sha256": "a7caa1a7d62351b94b94c949d19cb761f93b83bcbc252d10ac8e623e433e3a5e"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/11-plaintext.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/11-plaintext.eml",
+      "bytes": 413,
+      "sha256": "8e93b9d71abd99ab9f6105f294453bb35029ec0bf590f10521bd668f3cbbf5ef"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/12-plaintext+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/12-plaintext+attachment.eml",
+      "bytes": 1154,
+      "sha256": "40088a721843231b5f4c7586dcd07914313f2ca682ee1512338acf373f4bdf76"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/13-HTML.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/13-HTML.eml",
+      "bytes": 427,
+      "sha256": "3aa6f973f3c28de489e9d19b5dc9efd3f40eddfc943b668fbff3f9f21646c447"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/14-HTML+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/14-HTML+attachment.eml",
+      "bytes": 1149,
+      "sha256": "61fa4201c832cacc49e24a02406c243c74eaf92d9db69bab859de0eb823ea0c7"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/15-HTML+embedded-image.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/15-HTML+embedded-image.eml",
+      "bytes": 1435,
+      "sha256": "f54c78f019dd3e3b873c4b5234cf0f3c44ce9cc0b080d23bf94c73cfe603472a"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/16-plaintext+HMTL.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/16-plaintext+HMTL.eml",
+      "bytes": 792,
+      "sha256": "cdf8efd7fc20f6bf524ad7967200218a3a37a7b1fbc0847f8c51fa9064b34eac"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/17-plaintext+(HTML+embedded-image).eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/17-plaintext+(HTML+embedded-image).eml",
+      "bytes": 1874,
+      "sha256": "598deb5e5149cbc6ab05788b6e215f237a0356c64be2df2019657c426fcc40fe"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/18-plaintext+HTML+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/18-plaintext+HTML+attachment.eml",
+      "bytes": 1462,
+      "sha256": "1919f79cf2de21d47b7b04d5839a4f7363e6d5b3c3fb94f846b84a6a2397d60e"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/19-(HTML+embedded-image)+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/19-(HTML+embedded-image)+attachment.eml",
+      "bytes": 2004,
+      "sha256": "7a20abd3d833087ce3dcc3f3f51ef5bfc646d81060af775ab81d7c010c244fb2"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/20-plaintext+(HTML+embedded-image)+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/20-plaintext+(HTML+embedded-image)+attachment.eml",
+      "bytes": 2349,
+      "sha256": "d2ad63265fbfa563303e5b477ba759f41007ab7c1e4858b3191a79013f3696d4"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/21-plaintext.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/21-plaintext.eml",
+      "bytes": 480,
+      "sha256": "a7f4cb4deae53ad90108395c9a3ee55b6cb60a333e792d62da96ebd5e8f8896c"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/22-plaintext+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/22-plaintext+attachment.eml",
+      "bytes": 1181,
+      "sha256": "83500a2654d571de2c2a8af42b4af9d38f9b01cf950005dd1f3f8fbac99686c1"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/23-HTML.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/23-HTML.eml",
+      "bytes": 572,
+      "sha256": "dbc52e6f2fb35883bd6d338953bf9b85e4c7e280cdf188166a2319e8db43e25d"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/24-HTML+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/24-HTML+attachment.eml",
+      "bytes": 1217,
+      "sha256": "e3fdfc43774dae5bd3ddff586e68f36a8e3759ddbc6f920536b7aa03e3ee8b61"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/25-HTML+embedded-image.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/25-HTML+embedded-image.eml",
+      "bytes": 1457,
+      "sha256": "fc757eab4aec6005389b5c2978469bb2cffaf7efe0a8a209db737c5d4c436089"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/26-plaintext+HMTL.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/26-plaintext+HMTL.eml",
+      "bytes": 827,
+      "sha256": "8d6af2aa0e757c60d81efcd26f67d224eb3a2a2626627cc742ed6f3189a6024d"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/27-plaintext+(HTML+embedded-image).eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/27-plaintext+(HTML+embedded-image).eml",
+      "bytes": 1809,
+      "sha256": "babcae31c04c64b5c40e69bc1233a9ac961095a6c687147eeecdfacbacbe695f"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/28-plaintext+HTML+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/28-plaintext+HTML+attachment.eml",
+      "bytes": 1506,
+      "sha256": "0d6856cb0beef66ea176763b904fb96522e39c57654c281182dc193f760ac909"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/29-(HTML+embedded-image)+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/29-(HTML+embedded-image)+attachment.eml",
+      "bytes": 2026,
+      "sha256": "808202c7bfe82ae4b21686b4e80a4055ad3284d4d4da59492ada026348658d93"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/30-plaintext+(HTML+embedded-image)+attachment.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/30-plaintext+(HTML+embedded-image)+attachment.eml",
+      "bytes": 2381,
+      "sha256": "091ca60680e4af30a8d7460f0b60a342958770e0a81a1793aaf2beb2edec7117"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/HTML-with-split-tag1.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/HTML-with-split-tag1.eml",
+      "bytes": 646,
+      "sha256": "5dd13f2a552dfcb0bbe066868c878c4deebd79f1415ca25cbe1c42421b1dba3d"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/HTML-with-split-tag2.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/HTML-with-split-tag2.eml",
+      "bytes": 956,
+      "sha256": "3a4105502c70930511ec6d45fd33e7fac1639b782948c1b8f2a603d79e282a53"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/bad-charset.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/bad-charset.eml",
+      "bytes": 984,
+      "sha256": "3b1ae3a91f394f84aebfbe7b663b0937b699284dd95c9f8407e751b32f5f7d4d"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/badly-folded-headers.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/badly-folded-headers.eml",
+      "bytes": 286,
+      "sha256": "6eba9be0c570e02830f0b65f15625e6eccdf3b39adc7dea09c4d63a55017362d"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/bare-text-type.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/bare-text-type.eml",
+      "bytes": 226,
+      "sha256": "37dc5fcaadf2d8ebc821bc6544ad9e93806c447f19d2e098a280beff84b1ea0d"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/base64-utf16.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/base64-utf16.eml",
+      "bytes": 358,
+      "sha256": "dfa244e2e6f772c625a7a4b12f31b66bbe019c83838d75767a33696dfce06b00"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/base64-with-whitespace.eml",
+      "file": "data/mail-public/sources/thunderbird/mail/test/browser/composition/data/base64-with-whitespace.eml",
+      "bytes": 818,
+      "sha256": "cdc5f32c8cceff5a34d02ae4135ab7245e47018e06e696c067946a4d0e128be1"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/html-entities-and-styles.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/html-entities-and-styles.eml",
+      "bytes": 551,
+      "sha256": "a326f4eff4d8ed2d203954a0ac365cd39a98f055717d9e8f8ec100250e0b57d9"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/iso-2022-jp-not-qp.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/iso-2022-jp-not-qp.eml",
+      "bytes": 479,
+      "sha256": "354fd136323c45d66643a41c8d961dcaa478e934f8787eec6da9b722250e14ea"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/iso-2022-jp-qp.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/iso-2022-jp-qp.eml",
+      "bytes": 504,
+      "sha256": "1c2af0ce98e81e25407dda985718feb4cc0476a0a559a84b42c1f3ceb65e9bbe"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/multipart-message-1.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/multipart-message-1.eml",
+      "bytes": 1387,
+      "sha256": "affed47ede50099fcb62415af18b43959a9a7b8d4617cda6051f83da54c05e85"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/multipart-message-2.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/multipart-message-2.eml",
+      "bytes": 1434,
+      "sha256": "41c2ecb46cc8b75bd851a9df2844389c3a71e1a3a68135e05a036244e0b0a845"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/multipart-message-3.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/multipart-message-3.eml",
+      "bytes": 1854,
+      "sha256": "4df9cbb1a63b62347bb765bad60b5d323ed545327845fb7b3088b39f49e8bb83"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/multipart-message-4.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/multipart-message-4.eml",
+      "bytes": 1945,
+      "sha256": "04463ef2dbd64379c51fa987e12248bd575bb60c88ea0d63afb9a313319cf4ee"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/no-content-type.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/no-content-type.eml",
+      "bytes": 216,
+      "sha256": "cac3155f658db9d6213f177406aeb2c2befda51fa09ff36f2350e95ac132f1c8"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/not-really-base64.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/not-really-base64.eml",
+      "bytes": 313,
+      "sha256": "9434e9c4526eaf4f58e9fd3ca1a7f93d169322ed211c5220f04dade2e831f68c"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/qp-trailing-equals-html.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/qp-trailing-equals-html.eml",
+      "bytes": 412,
+      "sha256": "e69810f1e501668e66341beff4a96dbf9679ebbb52f67d52d1ce8bdbbd3b6dac"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/qp-trailing-equals-plain.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/qp-trailing-equals-plain.eml",
+      "bytes": 438,
+      "sha256": "57fd12e8232ad44d579b68fb9ec539137eec12df5f78ecca67ae5a78e45f158d"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/smime/alice.dsig.SHA256.multipart.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/smime/alice.dsig.SHA256.multipart.eml",
+      "bytes": 3206,
+      "sha256": "6097ceaabfcf46f581b43c472a5c8cb5e74e5a918790f069bff871d8e005d47a"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/smime/alice.env.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/smime/alice.env.eml",
+      "bytes": 1254,
+      "sha256": "1570dedc058ccbd30599b56630f7e8ecd6eec6e8dacbc8d176cd068b41b74b60"
+    },
+    {
+      "source": "thunderbird",
+      "path": "mailnews/test/data/smime/alice.sig.SHA256.opaque.eml",
+      "file": "data/mail-public/sources/thunderbird/mailnews/test/data/smime/alice.sig.SHA256.opaque.eml",
+      "bytes": 2839,
+      "sha256": "36df45e408dd3603be01fac07b405e3f389205c3f1031a3398f231cd68b6bfb2"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-integration-tests/src/test/resources/test-documents/test-incremental-updates.eml",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-integration-tests/src/test/resources/test-documents/test-incremental-updates.eml",
+      "bytes": 88416,
+      "sha256": "b001bed21537dd03204769502710f9b1c1bf79efddc1da3b8ee604ea36e680c6"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-integration-tests/src/test/resources/test-documents/testLotusEml.eml",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-integration-tests/src/test/resources/test-documents/testLotusEml.eml",
+      "bytes": 1848,
+      "sha256": "5190e77d06567279dc2427c001974ae642e12be700b30961f2da330cbbef0884"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-integration-tests/src/test/resources/test-documents/testThunderbirdEml.eml",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-integration-tests/src/test/resources/test-documents/testThunderbirdEml.eml",
+      "bytes": 1025,
+      "sha256": "4a8c263fefb76311314f961d3733b9f8859a717626e089f47e6d682bbd12bac5"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/complex.mbox",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/complex.mbox",
+      "bytes": 14022,
+      "sha256": "c07ad5e7af40a6dcc2b8f96c65cd55455748cc19f24ed7e2fd32ac6340f3b2cf"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/headers.mbox",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/headers.mbox",
+      "bytes": 184,
+      "sha256": "c8e7dd461633b0a842f0026ff2faeedfacd794d28e7a91ec93f66313e18682b6"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/multiline.mbox",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/multiline.mbox",
+      "bytes": 118,
+      "sha256": "b1455cf013162f0d14749841ecc22ba294a1ef5bd18398cf1ef72f1b3f69f1c4"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/multiline2.mbox",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/multiline2.mbox",
+      "bytes": 169,
+      "sha256": "855a265da22b7ff5d2398843c04562688a98d201584b6dc0035c46f787672521"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/quoted.mbox",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/quoted.mbox",
+      "bytes": 87,
+      "sha256": "5f7c76df2aa18c745e5fbe85b7a664a05140fc82bdaea51bfbb8693c289b78d2"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/simple.mbox",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/simple.mbox",
+      "bytes": 150,
+      "sha256": "0519c18318bab368368d09c433052efea476af9bf2f704ba199843a68220aa56"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/single_mail.mbox",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/single_mail.mbox",
+      "bytes": 1191,
+      "sha256": "651b4e66624e0d558c9335f9433dc1515e6fa81c2aea1bba7549345601fd3b7e"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testEmailWithPNGAtt.eml",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testEmailWithPNGAtt.eml",
+      "bytes": 24272,
+      "sha256": "158ddebe483893550ddcaf7ccee1a31085cb998b5df932710b62cb31fb0f2876"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testGroupWiseEml.eml",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testGroupWiseEml.eml",
+      "bytes": 2411,
+      "sha256": "9e313395e35efe1e0d0eab9410b2820bbc354965144d017c42e91740815f2233"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testMBOX_complex.mbox",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testMBOX_complex.mbox",
+      "bytes": 8223,
+      "sha256": "e5e46325c81c074b70338f217e8ce4e8ecb20c5a75a26d0069374b211ec85b7e"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testMBOX_lengthy_x-headers.mbox",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testMBOX_lengthy_x-headers.mbox",
+      "bytes": 601,
+      "sha256": "ef57bc3756f8d17ba8c87f15118516edcf869f17fe1a31a4249cb1dce52490f2",
+      "additional_attribution": "EnronData.org; CC-BY-3.0-US, as stated in the message header"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testRFC822_dkim.eml",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testRFC822_dkim.eml",
+      "bytes": 866,
+      "sha256": "728f516e5dcdb6813f80ba9b8650b39c343e766aca58cb34eba81947f82f74a8"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testRFC822_multipart_attachments.eml",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testRFC822_multipart_attachments.eml",
+      "bytes": 1904,
+      "sha256": "86e5feb18e16178359d6aaa704bd74ceebe7a41f302df5b656f5e6fe0ea34cc5"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testRFC822_x-.eml",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-mail-module/src/test/resources/test-documents/testRFC822_x-.eml",
+      "bytes": 1813,
+      "sha256": "715624c9513532ec40619edccba598b7724610844f3551123e37d3bb0c547f7d"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/test-outlook.msg",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/test-outlook.msg",
+      "bytes": 19968,
+      "sha256": "ba546a434638c46fc6f1edd802c9084b95752afef2fa0aee8301388ab1f8131e"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/test-outlook2003.msg",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/test-outlook2003.msg",
+      "bytes": 83968,
+      "sha256": "ba3c378c3612a1a72a030f3c198ddede9304ffe466f871585956cb87b553d0b3"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testEML_embedded_xhtml_and_img.eml",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testEML_embedded_xhtml_and_img.eml",
+      "bytes": 7946,
+      "sha256": "f1bfae592591b28d973cbd07606117fe3e3a45a61c85f11a7c488dff836ca5d0"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG.msg",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG.msg",
+      "bytes": 20480,
+      "sha256": "972901d1a0049ed54dc993ba57f6612db4c370acea818601b2133423885070cf"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_Appointment.msg",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_Appointment.msg",
+      "bytes": 30208,
+      "sha256": "e0a8fb568bc837c4f835a9e85e70280beb1b604b6223a3fa547b22c4860f3eb9"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_Contact.msg",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_Contact.msg",
+      "bytes": 29184,
+      "sha256": "ce4f7a28959ec6bbe95bdd3459ea7d805d1fec3ae8ab5673b79b6d29ff72dad0"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_Post.msg",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_Post.msg",
+      "bytes": 21504,
+      "sha256": "2129a9a2b9d984319c7996bece611b7a9a59b5bc4a69e233685f6170d2737512"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_StickyNote.msg",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_StickyNote.msg",
+      "bytes": 10240,
+      "sha256": "eda4bdadbb24f1b46fce385653c2519c79b944e5724180208541639dcd813525"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_Task.msg",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_Task.msg",
+      "bytes": 19968,
+      "sha256": "3cd593624de75119a0b7d30ad40c62aa19e3b5444c59fece0155dd43a414e31c"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_att_doc.msg",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_att_doc.msg",
+      "bytes": 52224,
+      "sha256": "4f5ab34d4e6bbb04945319dc0decdcfce785779bda618c89ca2eb0fe82e9caf0"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_att_msg.msg",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_att_msg.msg",
+      "bytes": 71680,
+      "sha256": "439a1fb117edd4c84b780fcf44bf1d5167166694130ced5743a70132a83c6970"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_chinese.msg",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_chinese.msg",
+      "bytes": 48129,
+      "sha256": "b84c12748155dc57b41de02c6d43aa47e82b879020df070290633e9fd5ce7fdd"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_forwarded.msg",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testMSG_forwarded.msg",
+      "bytes": 25600,
+      "sha256": "9f1d5e911e5fa182054e3034f836cd15adc64e1034fefb7026b80ee19280b599"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testPST.pst",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testPST.pst",
+      "bytes": 2302976,
+      "sha256": "f2a6b1d2cad00f574e3d1c1211c4b1c854d6526caea77213adc3da92b7813ae3"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testPST_variousBodyTypes.pst",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testPST_variousBodyTypes.pst",
+      "bytes": 271360,
+      "sha256": "24c5e6bbb8bf26a817c977283e40e7b69d2661fec0845abbe177f97efcb05fb0"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testRTF-ms932.rtf",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testRTF-ms932.rtf",
+      "bytes": 5204,
+      "sha256": "9706f43dd9dbf017813e61fe302baee5875568e59613d506538b5fdacfcb6e96"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testRTF.rtf",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testRTF.rtf",
+      "bytes": 3410,
+      "sha256": "c0f8456daa73640c7c9aeda5c7c2c70284ece2bc1df3ff902f8dc07f0f6ab465"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testRTFVarious.rtf",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testRTFVarious.rtf",
+      "bytes": 65517,
+      "sha256": "cf00c56fe7099d14b820a0d751324e415f2c09af580f2c96f08614a2aec42c1e"
+    },
+    {
+      "source": "apache-tika",
+      "path": "tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testWINMAIL.dat",
+      "file": "data/mail-public/sources/apache-tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testWINMAIL.dat",
+      "bytes": 66276,
+      "sha256": "628a17f328eeda3712175f0e6199aca69658889cd5a9f7723c078e7920799c9f"
+    },
+    {
+      "source": "amd-gaia",
+      "path": "tests/fixtures/email/_graph_ids_inbox.mbox",
+      "file": "data/mail-public/sources/amd-gaia/tests/fixtures/email/_graph_ids_inbox.mbox",
+      "bytes": 4181,
+      "sha256": "fafd2c03baed63ac1a4966cd6c14a37eabbb846d8471610558bb2c996e90be3b"
+    },
+    {
+      "source": "amd-gaia",
+      "path": "tests/fixtures/email/_stub_inbox.mbox",
+      "file": "data/mail-public/sources/amd-gaia/tests/fixtures/email/_stub_inbox.mbox",
+      "bytes": 5063,
+      "sha256": "d2a44645a178e7d99c79ec6ae1339de8d911b5fe7a2fb77c84b9d1d80bae31a8"
+    },
+    {
+      "source": "amd-gaia",
+      "path": "tests/fixtures/gaia/email/eval_inbox.mbox",
+      "file": "data/mail-public/sources/amd-gaia/tests/fixtures/gaia/email/eval_inbox.mbox",
+      "bytes": 25096,
+      "sha256": "1426ddac71b9d62a5660e95629dbc8ff69f34710e8f2a11a0501725afb1e3f04"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/AddingBulkMessagesWithImprovedPerformance.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/AddingBulkMessagesWithImprovedPerformance.pst",
+      "bytes": 271360,
+      "sha256": "190d4ae8b85c2db113d8ced6527734c8fd806e469eb884e07ce236b637c3724f"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/Chunks/Test_part0.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/Chunks/Test_part0.pst",
+      "bytes": 5096448,
+      "sha256": "a8b44df51cbebfad5f687a4cb3401e69e91ae6a496113527f8565f7ad09b4e6a"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/Chunks/Test_part1.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/Chunks/Test_part1.pst",
+      "bytes": 2302976,
+      "sha256": "23af69496a47ba087d36be3bf2825ea1f0765109bb95756e2d352c06762f95d7"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/MergePST/PersonalStorage3.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/MergePST/PersonalStorage3.pst",
+      "bytes": 271360,
+      "sha256": "35c06864548901bf9de2d9bbcae127d8747aa87f17631325ea1e79d792586434"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/MergePST/SampleContacts.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/MergePST/SampleContacts.pst",
+      "bytes": 271360,
+      "sha256": "5c8c83167374fbe73037e8b0e1074752299d0b74b1d3b7c4ffe7f0171b604eed"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/Outlook.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/Outlook.pst",
+      "bytes": 3318784,
+      "sha256": "1ef470d59e27ad415123fd95f774ea6e7b2f7722da23bb80ae9bc9e6a9fa1b41"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/Outlook_1.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/Outlook_1.pst",
+      "bytes": 1287168,
+      "sha256": "b11f87c5658a18adfbab2fe3de6ae359c6f65fc8bd6b3e45ac93d2da41ec13c3"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/PersonalStorage.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/PersonalStorage.pst",
+      "bytes": 271360,
+      "sha256": "d7d165d0aa12ff2fcdf2eb2d9fad81a033a09b70e0f14b86bd2a51cd1805145c"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/PersonalStorage1.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/PersonalStorage1.pst",
+      "bytes": 271360,
+      "sha256": "4a08557c5d139bd2bbf28956961db5f8be8088132f7a2e14a139d77fcffa5b61"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/PersonalStorage2.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/PersonalStorage2.pst",
+      "bytes": 271360,
+      "sha256": "f4ceb6f2bee0f6e89a7707851c3712f8fc114e369f84025e36552ddcda253a73"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/PersonalStorage3.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/MergePST/PersonalStorage3.pst",
+      "bytes": 271360,
+      "sha256": "35c06864548901bf9de2d9bbcae127d8747aa87f17631325ea1e79d792586434"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/PersonalStorageFile.ost",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/PersonalStorageFile.ost",
+      "bytes": 271360,
+      "sha256": "4e3ac7dc5f318aba74b9369a38dce45a4234cf7b19e30c2bd9ef2926047f9f54"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/PersonalStorageFile.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/PersonalStorageFile.pst",
+      "bytes": 271360,
+      "sha256": "ca2f8211608f3059064f00f5296e12912906a764e66996b728545feb54d68f38"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/PersonalStorageFile1.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/PersonalStorageFile1.pst",
+      "bytes": 271360,
+      "sha256": "0494812ba6c9f9a02837bb4519be1bbca6651d89b6f2cb80590e30024aa6a45b"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/PersonalStorageFile2.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/PersonalStorageFile2.pst",
+      "bytes": 271360,
+      "sha256": "7940e0cfeccf024d5e8d4b94d1a1fbcd878072775e231751350c9aaa50bc4dd6"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/PersonalStorage_New.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/PersonalStorage_New.pst",
+      "bytes": 271360,
+      "sha256": "bd3873d6c0908136a644304705e39999ea5e8aff2cda8ede11d42d2d59f06cea"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/SampleContacts.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/MergePST/SampleContacts.pst",
+      "bytes": 271360,
+      "sha256": "5c8c83167374fbe73037e8b0e1074752299d0b74b1d3b7c4ffe7f0171b604eed"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/SampleContacts1.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/SampleContacts1.pst",
+      "bytes": 271360,
+      "sha256": "1b18689d4d3c05149e5758476cb39037a62cc2303278fb2d081c4200a547bd16"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/SampleOstFile.ost",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/SampleOstFile.ost",
+      "bytes": 4080640,
+      "sha256": "5ff8bc133935a03fad8241f271a604e1cc41e36640d6538d6bcc9bd39e6d9866"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/Sources/PersonalStorage1.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/Sources/PersonalStorage1.pst",
+      "bytes": 271360,
+      "sha256": "d89d4a9d966338172b040ad1ed0e2745d1f3342fffd7c6b19686b2ea6d045f2b"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/Sources/PersonalStorage2.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/PersonalStorage2.pst",
+      "bytes": 271360,
+      "sha256": "f4ceb6f2bee0f6e89a7707851c3712f8fc114e369f84025e36552ddcda253a73"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/Sources/PersonalStorage3.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/MergePST/PersonalStorage3.pst",
+      "bytes": 271360,
+      "sha256": "35c06864548901bf9de2d9bbcae127d8747aa87f17631325ea1e79d792586434"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/Sub.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/Sub.pst",
+      "bytes": 9159680,
+      "sha256": "b902697b16d69c825079e9f4fa6f427f4dc1f9f73c2acf07bfed98a5b799ebae"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/destination.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/destination.pst",
+      "bytes": 271360,
+      "sha256": "f899a1204cf80f679e3f91ad7cf88b79ce7d686da0aa1627e8493b64dcef0789"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/passwordprotectedPST.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/passwordprotectedPST.pst",
+      "bytes": 525312,
+      "sha256": "c38cac8d409d95978d673fca3dd7eb1a29704545ba218aeeed539da5bc04c86f"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/pathToPst/Personal folders_part0.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/pathToPst/Personal folders_part0.pst",
+      "bytes": 271360,
+      "sha256": "f841f4ce28e658d45f3422554e4f58edf737ead530c8b8cd02d0801e9ffd932f"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/pathToPst/Personal folders_part1.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/pathToPst/Personal folders_part1.pst",
+      "bytes": 271360,
+      "sha256": "2632ad386099c35b20e613623fa162fff9d92ac77e1e778c40bfc3512ec7d34c"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/source.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/source.pst",
+      "bytes": 1287168,
+      "sha256": "3f2449796185b141b15b7d15b0f33aecbe7bb10703bdae95ba7aa83dba3b34b9"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MAPI/test.ost",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MAPI/test.ost",
+      "bytes": 271360,
+      "sha256": "ca2f8211608f3059064f00f5296e12912906a764e66996b728545feb54d68f38"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/MBOX/ExampleMbox.mbox",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/MBOX/ExampleMbox.mbox",
+      "bytes": 276938,
+      "sha256": "b3b707a0635591747a46cd1898ba0d22d6863988b3e7e5bfc4fa91e1ff95a870"
+    },
+    {
+      "source": "aspose-email",
+      "path": "Examples/Data/SMTP/Outlook.pst",
+      "file": "data/mail-public/sources/aspose-email/Examples/Data/SMTP/Outlook.pst",
+      "bytes": 16270336,
+      "sha256": "2720f1f581d39b37950dd1f1afcfbdee56e87b15ffff712b23f0638913941ff8"
+    },
+    {
+      "source": "mbox-viewer",
+      "path": "example/July_night_sky_(35972569256).jpg",
+      "file": "data/mail-public/sources/mbox-viewer/example/July_night_sky_(35972569256).jpg",
+      "bytes": 18936,
+      "sha256": "59d452ccdc66916316b006ddd92396a38f3a328d838266a5a7b1e5a481e5782a",
+      "role": "attachment input",
+      "additional_attribution": "Uroš Novina, July night sky, CC-BY-2.0; upstream resized the image. https://commons.wikimedia.org/wiki/File:July_night_sky_(35972569256).jpg"
+    },
+    {
+      "source": "mbox-viewer",
+      "path": "example/dummy.pdf",
+      "file": "data/mail-public/sources/mbox-viewer/example/dummy.pdf",
+      "bytes": 13264,
+      "sha256": "3df79d34abbca99308e79cb94461c1893582604d68329a41fd4bec1885e6adb4",
+      "role": "attachment input",
+      "additional_attribution": "W3C dummy.pdf, W3C Document License; https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+    },
+    {
+      "source": "mbox-viewer",
+      "path": "example/sample.mbox",
+      "file": "data/mail-public/sources/mbox-viewer/example/sample.mbox",
+      "bytes": 892592,
+      "sha256": "0fead5bcbe49a51de434b65d9099a1f5b39370b1026666d919f2137878e3edf8",
+      "additional_attribution": "Uroš Novina, July night sky, CC-BY-2.0; upstream resized the image. https://commons.wikimedia.org/wiki/File:July_night_sky_(35972569256).jpg W3C dummy.pdf, W3C Document License; https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+    },
+    {
+      "source": "microsoft-pst-sdk",
+      "path": "sourceCode/fairport/trunk/test/sample1.pst",
+      "file": "data/mail-public/sources/microsoft-pst-sdk/sourceCode/fairport/trunk/test/sample1.pst",
+      "bytes": 271360,
+      "sha256": "9e77f0f7937768506f85eb33b7c114e23ddf3bc7fd5d85226fce56586a8e3618"
+    },
+    {
+      "source": "microsoft-pst-sdk",
+      "path": "sourceCode/fairport/trunk/test/sample2.pst",
+      "file": "data/mail-public/sources/microsoft-pst-sdk/sourceCode/fairport/trunk/test/sample2.pst",
+      "bytes": 271360,
+      "sha256": "587a1ae2785eb218d7d42a98d43ded546aa72670908269d7b3ab25a711a91871"
+    },
+    {
+      "source": "microsoft-pst-sdk",
+      "path": "sourceCode/fairport/trunk/test/submessage.pst",
+      "file": "data/mail-public/sources/microsoft-pst-sdk/sourceCode/fairport/trunk/test/submessage.pst",
+      "bytes": 271360,
+      "sha256": "b619c5c7746e119fbdc6056d0acd70dc3d900a6fba2875570283aec7c3ef73e1"
+    },
+    {
+      "source": "microsoft-pst-sdk",
+      "path": "sourceCode/fairport/trunk/test/test_ansi.pst",
+      "file": "data/mail-public/sources/microsoft-pst-sdk/sourceCode/fairport/trunk/test/test_ansi.pst",
+      "bytes": 271360,
+      "sha256": "f1ff591b7441f8fcf78cc6c65a78c5d168763338f2fcdf3df5745e742bd66d04"
+    },
+    {
+      "source": "microsoft-pst-sdk",
+      "path": "sourceCode/fairport/trunk/test/test_unicode.pst",
+      "file": "data/mail-public/sources/microsoft-pst-sdk/sourceCode/fairport/trunk/test/test_unicode.pst",
+      "bytes": 271360,
+      "sha256": "3f2b8ebf011ca754b9c2017d264423e173ef1407f460bd4cefde4a6ccc041f8b"
+    },
+    {
+      "source": "pst-extractor",
+      "path": "example/testdata/pstextractortestpdf@outlook.com.ost",
+      "file": "data/mail-public/sources/pst-extractor/example/testdata/pstextractortestpdf@outlook.com.ost",
+      "bytes": 16818176,
+      "sha256": "c914f1f9eea55da0eb3884d063acf18a109fcb34cdd7dda623770f117ff63918"
+    },
+    {
+      "source": "pst-extractor",
+      "path": "src/__tests__/testdata/OBA_2760.doc",
+      "file": "data/mail-public/sources/pst-extractor/src/__tests__/testdata/OBA_2760.doc",
+      "bytes": 53760,
+      "sha256": "1fc99f9b8479bcbe0504334980bccd172982b951887eec41f0e48127d5d009d8",
+      "role": "attachment input"
+    },
+    {
+      "source": "pst-extractor",
+      "path": "src/__tests__/testdata/RedRockA.xls",
+      "file": "data/mail-public/sources/pst-extractor/src/__tests__/testdata/RedRockA.xls",
+      "bytes": 30720,
+      "sha256": "d2479945000f55ced30c80d1db2abd3fec7f8c7e82f7d76b49b77450ce314abf",
+      "role": "attachment input"
+    },
+    {
+      "source": "pst-extractor",
+      "path": "src/__tests__/testdata/enron.pst",
+      "file": "data/mail-public/sources/pst-extractor/src/__tests__/testdata/enron.pst",
+      "bytes": 13984768,
+      "sha256": "6152489de3472be6f1f840935d34b6dbf5f62b025dd015929ea9cf66eb5a5b46"
+    },
+    {
+      "source": "pst-extractor",
+      "path": "src/__tests__/testdata/mtnman tree.txt",
+      "file": "data/mail-public/sources/pst-extractor/src/__tests__/testdata/mtnman tree.txt",
+      "bytes": 3340,
+      "sha256": "2029d3a8a296db8e8344f0cc3c462f96d595568ea08ee3eadc23b785efaa22d4",
+      "role": "attachment input"
+    },
+    {
+      "source": "pst-extractor",
+      "path": "src/__tests__/testdata/pstextractortest@outlook.com.ost",
+      "file": "data/mail-public/sources/pst-extractor/src/__tests__/testdata/pstextractortest@outlook.com.ost",
+      "bytes": 16818176,
+      "sha256": "daacd8d441428634e103b7c1e37fe1e5909256cc917551667049b5e84dfcf5f0"
+    },
+    {
+      "source": "mimekit",
+      "path": "UnitTests/TestData/mbox/issue1189.mbox.txt",
+      "file": "data/mail-public/sources/mimekit/UnitTests/TestData/mbox/issue1189.mbox.txt",
+      "bytes": 7563,
+      "sha256": "7d96e372552fc6994033cbaf5119c985d80eb14d3c97fa3234563a62da055d01"
+    },
+    {
+      "source": "mimekit",
+      "path": "UnitTests/TestData/mbox/simple.mbox.txt",
+      "file": "data/mail-public/sources/mimekit/UnitTests/TestData/mbox/simple.mbox.txt",
+      "bytes": 1535,
+      "sha256": "523130ca6d9360424c68b3fe0e0f37a1809312dd0ae0d5632ddbcad8f8907aba"
+    },
+    {
+      "source": "mimekit",
+      "path": "UnitTests/TestData/mbox/unmunged.mbox.txt",
+      "file": "data/mail-public/sources/mimekit/UnitTests/TestData/mbox/unmunged.mbox.txt",
+      "bytes": 504,
+      "sha256": "5290f24742663757ad11a220609a5be39b48c0e774fdb076fd11b429de296a71"
+    },
+    {
+      "source": "libyal-testdata",
+      "path": "pst/outlook.pst",
+      "file": "data/mail-public/sources/libyal-testdata/pst/outlook.pst",
+      "bytes": 271360,
+      "sha256": "df01707f76d0e24ab913cf1ffeffa6eaf9c1d590e02102c7ed26bb3ac51d4e24"
+    },
+    {
+      "source": "microsoft-outlook-pst-rs",
+      "path": "crates/pst/examples/Empty.pst",
+      "file": "data/mail-public/sources/microsoft-outlook-pst-rs/crates/pst/examples/Empty.pst",
+      "bytes": 271360,
+      "sha256": "c16ae985d12011ad510ccb3b10f19d61b0c3b3311fa4696fb56b87812bd8d5c5"
+    },
+    {
+      "source": "mailparser",
+      "path": "test/fixtures/base64encodedroot.eml",
+      "file": "data/mail-public/sources/mailparser/test/fixtures/base64encodedroot.eml",
+      "bytes": 743,
+      "sha256": "52987a228d524f07a08e9e47cf488c97d589c44a2e0427af3a39be21ef74535d"
+    },
+    {
+      "source": "mailparser",
+      "path": "test/fixtures/decoderended.eml",
+      "file": "data/mail-public/sources/mailparser/test/fixtures/decoderended.eml",
+      "bytes": 926,
+      "sha256": "b200520934f9523b85b1854083006ede653ebc7aa123d3ce9807f8015fef560b"
+    },
+    {
+      "source": "mailparser",
+      "path": "test/fixtures/delivery-status.eml",
+      "file": "data/mail-public/sources/mailparser/test/fixtures/delivery-status.eml",
+      "bytes": 2539,
+      "sha256": "d36a8b754852a27c77c36ef9e529b3a8458449b13964f8a8a3a4d6c9fcef9264"
+    },
+    {
+      "source": "mailparser",
+      "path": "test/fixtures/htmllargecallstack.eml",
+      "file": "data/mail-public/sources/mailparser/test/fixtures/htmllargecallstack.eml",
+      "bytes": 570387,
+      "sha256": "4b9d8a1a88cfcd6f2ffa4a50cf2e1cdff350ddba4f93368a885a1fae018cd403"
+    },
+    {
+      "source": "mailparser",
+      "path": "test/fixtures/large_text.eml",
+      "file": "data/mail-public/sources/mailparser/test/fixtures/large_text.eml",
+      "bytes": 1167518,
+      "sha256": "73bd592b726f24362851d39b0bda3689cb44bd052e0a2b70bd8f1005596fc139"
+    },
+    {
+      "source": "mailparser",
+      "path": "test/fixtures/mixed.eml",
+      "file": "data/mail-public/sources/mailparser/test/fixtures/mixed.eml",
+      "bytes": 867,
+      "sha256": "3ede490b79dc9de4e52ac67cbbfdc43269125561a18623898bbd9cc104fd8bf6"
+    },
+    {
+      "source": "mailparser",
+      "path": "test/fixtures/nested.eml",
+      "file": "data/mail-public/sources/mailparser/test/fixtures/nested.eml",
+      "bytes": 1360,
+      "sha256": "3ad248547f01b2ac833b9a2ca053b713fd91be1dc4e265e81d1e525002928bf6"
+    },
+    {
+      "source": "mailparser",
+      "path": "test/fixtures/nodemailer.eml",
+      "file": "data/mail-public/sources/mailparser/test/fixtures/nodemailer.eml",
+      "bytes": 44920,
+      "sha256": "00ab285ae63d76703c8baa0e034e1575462982c686acbd8b20ef502890c0062a"
+    },
+    {
+      "source": "mailparser",
+      "path": "test/fixtures/outofmemory.eml",
+      "file": "data/mail-public/sources/mailparser/test/fixtures/outofmemory.eml",
+      "bytes": 1139720,
+      "sha256": "743be83a31b9c45a82945d4ca15cbbd7e6bbbb58159ae046356cc8282f50ccad"
+    },
+    {
+      "source": "mailparser",
+      "path": "test/fixtures/spam.eml",
+      "file": "data/mail-public/sources/mailparser/test/fixtures/spam.eml",
+      "bytes": 5573,
+      "sha256": "60e1446fb978bec322e04c015391ee0135616c3b51778e5089a677e9234dd2e8"
+    },
+    {
+      "source": "java-libpst",
+      "path": "src/test/resources/dist-list.pst",
+      "file": "data/mail-public/sources/java-libpst/src/test/resources/dist-list.pst",
+      "bytes": 271360,
+      "sha256": "c86841da106036b5abe5a2141dc7644cbb2bf8b504873515eb35a2efeb8c28ac"
+    },
+    {
+      "source": "java-libpst",
+      "path": "src/test/resources/example-2013.ost",
+      "file": "data/mail-public/sources/java-libpst/src/test/resources/example-2013.ost",
+      "bytes": 16818176,
+      "sha256": "b18ff390d0c22273029ee580ab6025976af69a4f84e276d1b1c01a988650853d"
+    },
+    {
+      "source": "java-libpst",
+      "path": "src/test/resources/passworded.pst",
+      "file": "data/mail-public/sources/java-libpst/src/test/resources/passworded.pst",
+      "bytes": 271360,
+      "sha256": "e1085e210bc823fcfbdd1220da08b51423f3c39301c563a99dde71895f2af217"
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0000.eml",
+      "file": "data/mail-public/derived-eml/content-length/0000.eml",
+      "bytes": 1880,
+      "sha256": "e07417c661b1dc25ff8a396e0f23300a0f94308e39e3ddf289db38218f738eff",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 0,
+        "begin_offset": 8,
+        "end_offset": 1888,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0001.eml",
+      "file": "data/mail-public/derived-eml/content-length/0001.eml",
+      "bytes": 6225,
+      "sha256": "87d30e887c6d57f65347fbaa04c9e499b33904b2597eb79dc37539ff709dd384",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 1,
+        "begin_offset": 1897,
+        "end_offset": 8122,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0002.eml",
+      "file": "data/mail-public/derived-eml/content-length/0002.eml",
+      "bytes": 6263,
+      "sha256": "7cecea1f86532216b647f08414cf631573b4441a5f4b2101e5a2ed02c37c507e",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 2,
+        "begin_offset": 8131,
+        "end_offset": 14394,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0003.eml",
+      "file": "data/mail-public/derived-eml/content-length/0003.eml",
+      "bytes": 8058,
+      "sha256": "600119e6a45356a31d232b7af33c1979e3613bc45c0ae01a94e01ce0fcc128d9",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 3,
+        "begin_offset": 14427,
+        "end_offset": 22485,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0004.eml",
+      "file": "data/mail-public/derived-eml/content-length/0004.eml",
+      "bytes": 748519,
+      "sha256": "8f957c99b2df521c218087c0abac6e6fd0bf3573083cb8354d6c1f68fa74a059",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 4,
+        "begin_offset": 22518,
+        "end_offset": 771037,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0006.eml",
+      "file": "data/mail-public/derived-eml/content-length/0006.eml",
+      "bytes": 3490,
+      "sha256": "408fc5f1dfd284db8ea6f7f4e471dac8cc99d830ea7c3f9102982d8c677855bb",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 6,
+        "begin_offset": 818971,
+        "end_offset": 822461,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0007.eml",
+      "file": "data/mail-public/derived-eml/content-length/0007.eml",
+      "bytes": 2937,
+      "sha256": "a86b010bf12412609e10c57b70bf33d7cba499602c0a352c8695aecc6dfa2ea9",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 7,
+        "begin_offset": 822494,
+        "end_offset": 825431,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0008.eml",
+      "file": "data/mail-public/derived-eml/content-length/0008.eml",
+      "bytes": 4551,
+      "sha256": "e1bb5df1b88799975f8d55bb1695eef2297a698343103d6b736cd7c943a0539a",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 8,
+        "begin_offset": 825464,
+        "end_offset": 830015,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0009.eml",
+      "file": "data/mail-public/derived-eml/content-length/0009.eml",
+      "bytes": 6991,
+      "sha256": "433db474d8bdd463f4fa0853b291259c69d70f999e73f9df2fc5e9b55845e192",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 9,
+        "begin_offset": 830048,
+        "end_offset": 837039,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0010.eml",
+      "file": "data/mail-public/derived-eml/content-length/0010.eml",
+      "bytes": 16649,
+      "sha256": "0b733e22b2c638f1937ed87996503987becdd81d8dc72e5442aac0fc87503a64",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 10,
+        "begin_offset": 837072,
+        "end_offset": 853721,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0011.eml",
+      "file": "data/mail-public/derived-eml/content-length/0011.eml",
+      "bytes": 2822,
+      "sha256": "41ef5ff7cedf7eb6a14142a6be2ab1743dc21236bfba0e11178f809dcf7b2e0b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 11,
+        "begin_offset": 853754,
+        "end_offset": 856576,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0012.eml",
+      "file": "data/mail-public/derived-eml/content-length/0012.eml",
+      "bytes": 5745,
+      "sha256": "2c93784fccf1ccf15d21799b7d359a47ba80e308af4ad4213f6a34188dff35b6",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 12,
+        "begin_offset": 856609,
+        "end_offset": 862354,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0013.eml",
+      "file": "data/mail-public/derived-eml/content-length/0013.eml",
+      "bytes": 4705,
+      "sha256": "81de04a52c79a6814c2f62428c555ebb4c9deceec5fa56abefd522e704939725",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 13,
+        "begin_offset": 862387,
+        "end_offset": 867092,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0014.eml",
+      "file": "data/mail-public/derived-eml/content-length/0014.eml",
+      "bytes": 1738,
+      "sha256": "37a7223a369d1d4d0a3e0abe54ae6b4e8bfcad4b98cd3a33e69eaf0da71007f7",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 14,
+        "begin_offset": 867125,
+        "end_offset": 868863,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0015.eml",
+      "file": "data/mail-public/derived-eml/content-length/0015.eml",
+      "bytes": 3595,
+      "sha256": "b50fbeaa49ed7cb0ea96fc7b9f1ff81dad2da5fcbb1309b4db643d07809d4861",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 15,
+        "begin_offset": 868896,
+        "end_offset": 872491,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0016.eml",
+      "file": "data/mail-public/derived-eml/content-length/0016.eml",
+      "bytes": 3898,
+      "sha256": "d0ce141016d4eafa14c5333a7978b31435059ed82dc204523f5356dc6a5e2ad7",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 16,
+        "begin_offset": 872524,
+        "end_offset": 876422,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0017.eml",
+      "file": "data/mail-public/derived-eml/content-length/0017.eml",
+      "bytes": 6676,
+      "sha256": "b1ab00def615bc5ec2ac7f7814e01956a39a6ffea31b70eb78dbebc28dc980f1",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 17,
+        "begin_offset": 876455,
+        "end_offset": 883131,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0018.eml",
+      "file": "data/mail-public/derived-eml/content-length/0018.eml",
+      "bytes": 11298,
+      "sha256": "2554cfd55527edec0aa18d795d13fa6a88490c995903638e4b59ef7bbf02e771",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 18,
+        "begin_offset": 883164,
+        "end_offset": 894462,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0019.eml",
+      "file": "data/mail-public/derived-eml/content-length/0019.eml",
+      "bytes": 4189,
+      "sha256": "459c8da8e57e18b99dbb7531947aca90fc036f704775d55a13714d75d2c03218",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 19,
+        "begin_offset": 894495,
+        "end_offset": 898684,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0020.eml",
+      "file": "data/mail-public/derived-eml/content-length/0020.eml",
+      "bytes": 1071,
+      "sha256": "6fdfacd74d2483d5ad0a7a73276bf9eb13389fd3f35a0c8530c67bf1501c14d9",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 20,
+        "begin_offset": 898717,
+        "end_offset": 899788,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0021.eml",
+      "file": "data/mail-public/derived-eml/content-length/0021.eml",
+      "bytes": 4097,
+      "sha256": "52baebbd8fe8d5d4b43c4ff54d1db4836edef63a0e508ce27f14a82cc812f635",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 21,
+        "begin_offset": 899821,
+        "end_offset": 903918,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0022.eml",
+      "file": "data/mail-public/derived-eml/content-length/0022.eml",
+      "bytes": 3280,
+      "sha256": "6e36c65ff474f08667b12e8ca52212b1345844457bd3016e88678f5ad370b6c8",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 22,
+        "begin_offset": 903951,
+        "end_offset": 907231,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0023.eml",
+      "file": "data/mail-public/derived-eml/content-length/0023.eml",
+      "bytes": 4035,
+      "sha256": "1c49f83eb5c93b30c113353bf7a1bcd408b24aeb01c25f51e1a19b5678a67aec",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 23,
+        "begin_offset": 907264,
+        "end_offset": 911299,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0024.eml",
+      "file": "data/mail-public/derived-eml/content-length/0024.eml",
+      "bytes": 3917,
+      "sha256": "f40e94df53a15a49333b408110587951846aaff2f63689fe96b3858b17f85a98",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 24,
+        "begin_offset": 911332,
+        "end_offset": 915249,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0025.eml",
+      "file": "data/mail-public/derived-eml/content-length/0025.eml",
+      "bytes": 5603,
+      "sha256": "1b18da4922007e3adfc8eb849ea76bfe90129c4c60059a4c272a65c5ce2fa8fa",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 25,
+        "begin_offset": 915282,
+        "end_offset": 920885,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0026.eml",
+      "file": "data/mail-public/derived-eml/content-length/0026.eml",
+      "bytes": 5153,
+      "sha256": "bdfc53c345e36a409c6ea40d907fcdd7d28f98b7a0c4fbdd4c5c72aca0349d7f",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 26,
+        "begin_offset": 920918,
+        "end_offset": 926071,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0027.eml",
+      "file": "data/mail-public/derived-eml/content-length/0027.eml",
+      "bytes": 2391,
+      "sha256": "ce71d8281464826c8f307381e58eb89be58cd3c9c9a237ee6fa9e409cf3cb455",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 27,
+        "begin_offset": 926104,
+        "end_offset": 928495,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0028.eml",
+      "file": "data/mail-public/derived-eml/content-length/0028.eml",
+      "bytes": 6744,
+      "sha256": "e7fa78962b2258c052f8381025f32284d46558bc57b3c3b7966ac31fc4c43489",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 28,
+        "begin_offset": 928528,
+        "end_offset": 935272,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/issue1189/0000.eml",
+      "file": "data/mail-public/derived-eml/issue1189/0000.eml",
+      "bytes": 529,
+      "sha256": "03101a5fe85ca3c5f7cca79b8dc75e9403fb1d1e004733cb250fa8cbe223841e",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/issue1189.mbox.txt",
+        "sha256": "7d96e372552fc6994033cbaf5119c985d80eb14d3c97fa3234563a62da055d01",
+        "message_index": 0,
+        "begin_offset": 29,
+        "end_offset": 558,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/issue1189/0001.eml",
+      "file": "data/mail-public/derived-eml/issue1189/0001.eml",
+      "bytes": 5857,
+      "sha256": "ba248307684191e52a0877c31870bb7e281f31fc3461ab0e9d6142a2e8ed49ce",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/issue1189.mbox.txt",
+        "sha256": "7d96e372552fc6994033cbaf5119c985d80eb14d3c97fa3234563a62da055d01",
+        "message_index": 1,
+        "begin_offset": 588,
+        "end_offset": 6445,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/issue1189/0002.eml",
+      "file": "data/mail-public/derived-eml/issue1189/0002.eml",
+      "bytes": 529,
+      "sha256": "5125fe9e9521b8e33b143520582c4ca19682c9d6aa7662625877f96760efe30b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/issue1189.mbox.txt",
+        "sha256": "7d96e372552fc6994033cbaf5119c985d80eb14d3c97fa3234563a62da055d01",
+        "message_index": 2,
+        "begin_offset": 6475,
+        "end_offset": 7004,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/issue1189/0003.eml",
+      "file": "data/mail-public/derived-eml/issue1189/0003.eml",
+      "bytes": 529,
+      "sha256": "aea40d7dcbf0c76c4f5c89a9dae1d2a1dc6c0688ab6c457315fd31c6025a735c",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/issue1189.mbox.txt",
+        "sha256": "7d96e372552fc6994033cbaf5119c985d80eb14d3c97fa3234563a62da055d01",
+        "message_index": 3,
+        "begin_offset": 7034,
+        "end_offset": 7563,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0000.eml",
+      "file": "data/mail-public/derived-eml/jwz/0000.eml",
+      "bytes": 177067,
+      "sha256": "0166e764d1bc5403307473593d3d40cd3dfaa48f3f6141056c6ebbbd15281fab",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 0,
+        "begin_offset": 8,
+        "end_offset": 177075,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0001.eml",
+      "file": "data/mail-public/derived-eml/jwz/0001.eml",
+      "bytes": 135819,
+      "sha256": "ec20415ff2954d8c2dcdd2a6c84a645714825facec7a9b438b7ee7c48fb43aa6",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 1,
+        "begin_offset": 177084,
+        "end_offset": 312903,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0002.eml",
+      "file": "data/mail-public/derived-eml/jwz/0002.eml",
+      "bytes": 580,
+      "sha256": "2d5efbb89082a8f8f55d26932d6dfa545f9d2a8306f8049ffa5707ba397fb979",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 2,
+        "begin_offset": 312912,
+        "end_offset": 313492,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0003.eml",
+      "file": "data/mail-public/derived-eml/jwz/0003.eml",
+      "bytes": 6310,
+      "sha256": "0afc8328e6bd963c04e55489b5d901b9387277c2ed1865652cfcc04bd40468ff",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 3,
+        "begin_offset": 313501,
+        "end_offset": 319811,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0004.eml",
+      "file": "data/mail-public/derived-eml/jwz/0004.eml",
+      "bytes": 24021,
+      "sha256": "d50be138e39483a6039dfe3040b45cb14bbe70b96f389e8b788d994e45d8bcc0",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 4,
+        "begin_offset": 319820,
+        "end_offset": 343841,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0005.eml",
+      "file": "data/mail-public/derived-eml/jwz/0005.eml",
+      "bytes": 1764874,
+      "sha256": "d5eaac50e37378e8d2872bd0dcae1fdb00ab44c590f85883d6925d1033cc792c",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 5,
+        "begin_offset": 343850,
+        "end_offset": 2108724,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0006.eml",
+      "file": "data/mail-public/derived-eml/jwz/0006.eml",
+      "bytes": 2141,
+      "sha256": "47a943013b54d03f0f5e97eb52ba424295ebf8f302cce5c7df9985c535c9a212",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 6,
+        "begin_offset": 2108733,
+        "end_offset": 2110874,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0007.eml",
+      "file": "data/mail-public/derived-eml/jwz/0007.eml",
+      "bytes": 164845,
+      "sha256": "7a75a116d2e16c68bb73c20d0ead05f238c438a9f1146c8cf99c1d806b7c7eba",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 7,
+        "begin_offset": 2110883,
+        "end_offset": 2275728,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0008.eml",
+      "file": "data/mail-public/derived-eml/jwz/0008.eml",
+      "bytes": 344012,
+      "sha256": "6ca39b3faae4104812f3ca0eff25e73f7a948c7c7b5f114a76c80c4326010fc5",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 8,
+        "begin_offset": 2275737,
+        "end_offset": 2619749,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0009.eml",
+      "file": "data/mail-public/derived-eml/jwz/0009.eml",
+      "bytes": 32190,
+      "sha256": "b19fb6728cfa6e4552de789337d18a6255bd7173c3f7b8e16223fdc792862995",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 9,
+        "begin_offset": 2619758,
+        "end_offset": 2651948,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0010.eml",
+      "file": "data/mail-public/derived-eml/jwz/0010.eml",
+      "bytes": 57336,
+      "sha256": "6e9ca6639d5aa29cd5f1eea898973dbb2c2f564efd220645a468479e09da24cc",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 10,
+        "begin_offset": 2651957,
+        "end_offset": 2709293,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0011.eml",
+      "file": "data/mail-public/derived-eml/jwz/0011.eml",
+      "bytes": 32260,
+      "sha256": "c79a07132fe31c2ae0b5fddbd855c5f0abb10c85dca135eaf3dc81416b059ef3",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 11,
+        "begin_offset": 2709302,
+        "end_offset": 2741562,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0012.eml",
+      "file": "data/mail-public/derived-eml/jwz/0012.eml",
+      "bytes": 5536,
+      "sha256": "38f49d26573b43010a58c5c5da5ff0a6e8df005fb3dc08b66e00717a384be1c8",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 12,
+        "begin_offset": 2741571,
+        "end_offset": 2747107,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0013.eml",
+      "file": "data/mail-public/derived-eml/jwz/0013.eml",
+      "bytes": 2358,
+      "sha256": "ab57e035d3d7c9e94f76b4188f873b005da1a9b1724e7471af24fb2d440457bb",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 13,
+        "begin_offset": 2747116,
+        "end_offset": 2749474,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0014.eml",
+      "file": "data/mail-public/derived-eml/jwz/0014.eml",
+      "bytes": 512,
+      "sha256": "c8953e854d3443b5084e6b3eb0b31f8c8ecf6e42fdf3604f85c8100b237b6d8b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 14,
+        "begin_offset": 2749483,
+        "end_offset": 2749995,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0015.eml",
+      "file": "data/mail-public/derived-eml/jwz/0015.eml",
+      "bytes": 1381,
+      "sha256": "e0728d659fc4cdcf91b083bcd30e3076aebe5a80379f858649e8289c6383779a",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 15,
+        "begin_offset": 2750004,
+        "end_offset": 2751385,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0016.eml",
+      "file": "data/mail-public/derived-eml/jwz/0016.eml",
+      "bytes": 432001,
+      "sha256": "aa220a89463b1d80f523f400b43504ea4adac1e3a72c87156107ff465656174b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 16,
+        "begin_offset": 2751394,
+        "end_offset": 3183395,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0017.eml",
+      "file": "data/mail-public/derived-eml/jwz/0017.eml",
+      "bytes": 432000,
+      "sha256": "cc69a2bce9a1ddb478f40134ce2007acb8dab809d90e79261dd2749cfacc5ecb",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 17,
+        "begin_offset": 3183404,
+        "end_offset": 3615404,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0018.eml",
+      "file": "data/mail-public/derived-eml/jwz/0018.eml",
+      "bytes": 1144,
+      "sha256": "a9d46245ae98b39c5538da4aca935c77d92b8047ba025cedab3a0b2ecc9b2f33",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 18,
+        "begin_offset": 3615413,
+        "end_offset": 3616557,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0019.eml",
+      "file": "data/mail-public/derived-eml/jwz/0019.eml",
+      "bytes": 2124,
+      "sha256": "5cdb2800bb95153a0615640b147dde4ddba4ffef4102a2b3b5697bb5be3f09f1",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 19,
+        "begin_offset": 3616566,
+        "end_offset": 3618690,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0020.eml",
+      "file": "data/mail-public/derived-eml/jwz/0020.eml",
+      "bytes": 5260,
+      "sha256": "2352e43fa6b870383c6f0dbedbba849a37f1327af15804c8ba5a5c08cdaee3bf",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 20,
+        "begin_offset": 3618699,
+        "end_offset": 3623959,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0021.eml",
+      "file": "data/mail-public/derived-eml/content-length/0000.eml",
+      "bytes": 1880,
+      "sha256": "e07417c661b1dc25ff8a396e0f23300a0f94308e39e3ddf289db38218f738eff",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 21,
+        "begin_offset": 3623968,
+        "end_offset": 3625848,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0022.eml",
+      "file": "data/mail-public/derived-eml/jwz/0022.eml",
+      "bytes": 1929,
+      "sha256": "939a245ec2373faf68a466b5e2e3fe16728a0228f0e9e0360a97ebc628fe14eb",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 22,
+        "begin_offset": 3625857,
+        "end_offset": 3627786,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0023.eml",
+      "file": "data/mail-public/derived-eml/jwz/0023.eml",
+      "bytes": 60273,
+      "sha256": "0b0327e3dd61e75aaef02926972be58bf6fd24389758eab2db91fdf407ba77c9",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 23,
+        "begin_offset": 3627838,
+        "end_offset": 3688111,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0024.eml",
+      "file": "data/mail-public/derived-eml/jwz/0024.eml",
+      "bytes": 60376,
+      "sha256": "72251f60408cd6dae66fc4eba3b6e767a5954d9a6e575b7389f2f56a6e56b203",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 24,
+        "begin_offset": 3688163,
+        "end_offset": 3748539,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0025.eml",
+      "file": "data/mail-public/derived-eml/jwz/0025.eml",
+      "bytes": 1419,
+      "sha256": "d254aafa81a883e951ecfc1047d5281e02ae7e4b5cccd9e6cf72e75697c0997e",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 25,
+        "begin_offset": 3748548,
+        "end_offset": 3749967,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0026.eml",
+      "file": "data/mail-public/derived-eml/jwz/0026.eml",
+      "bytes": 42277,
+      "sha256": "480b9a8ae6e11fde69fd3490d98db96e40dc2e65833867c6f57ca8c1f3da9ebd",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 26,
+        "begin_offset": 3749976,
+        "end_offset": 3792253,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0027.eml",
+      "file": "data/mail-public/derived-eml/jwz/0027.eml",
+      "bytes": 9423,
+      "sha256": "9e57ee257aed9d7bb3fb9b6dec94c5fc5eb83080609ee37b274a1884a72c2208",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 27,
+        "begin_offset": 3792262,
+        "end_offset": 3801685,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0028.eml",
+      "file": "data/mail-public/derived-eml/jwz/0028.eml",
+      "bytes": 108261,
+      "sha256": "5f76a4b430cc90d95429a9ed2e9b2e7cef928c1925a809aed4c0a57ba44edfa3",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 28,
+        "begin_offset": 3801694,
+        "end_offset": 3909955,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0029.eml",
+      "file": "data/mail-public/derived-eml/jwz/0029.eml",
+      "bytes": 3916,
+      "sha256": "ea6b18dc9dbf4789ccd967e7e48c5900904eb33423df13d2b4ba51b80e3039e5",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 29,
+        "begin_offset": 3909964,
+        "end_offset": 3913880,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0030.eml",
+      "file": "data/mail-public/derived-eml/jwz/0030.eml",
+      "bytes": 262173,
+      "sha256": "37cf111f55de212bbfa2f8e08f942bca91b16fc3144c2fde6a20864acd3b11be",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 30,
+        "begin_offset": 3913889,
+        "end_offset": 4176062,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0031.eml",
+      "file": "data/mail-public/derived-eml/jwz/0031.eml",
+      "bytes": 1657,
+      "sha256": "b916556c2635932105a24ab34a3eb3715393532eb24b72a3b63f0028cd38a278",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 31,
+        "begin_offset": 4176071,
+        "end_offset": 4177728,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0032.eml",
+      "file": "data/mail-public/derived-eml/jwz/0032.eml",
+      "bytes": 4099,
+      "sha256": "1fa271843ea767d268d7f57a98d186212ba57515e1666cefeda408e732b0d25b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 32,
+        "begin_offset": 4177737,
+        "end_offset": 4181836,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0033.eml",
+      "file": "data/mail-public/derived-eml/jwz/0033.eml",
+      "bytes": 6051,
+      "sha256": "25b897cdcb12e0a41e4753ec985b48a0049c014498cb8851585fe14c0079a3aa",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 33,
+        "begin_offset": 4181845,
+        "end_offset": 4187896,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0034.eml",
+      "file": "data/mail-public/derived-eml/jwz/0034.eml",
+      "bytes": 11866,
+      "sha256": "6e8a704bebc107690bdce9ebce105cb31ab6bedc5359332bccd157c340f14f09",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 34,
+        "begin_offset": 4187905,
+        "end_offset": 4199771,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0035.eml",
+      "file": "data/mail-public/derived-eml/jwz/0035.eml",
+      "bytes": 1866,
+      "sha256": "c90e41c5bab75605a97c1cddef0b4d766d0cc11b5c282ce3e1659aa3f02841bd",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 35,
+        "begin_offset": 4199780,
+        "end_offset": 4201646,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0036.eml",
+      "file": "data/mail-public/derived-eml/jwz/0036.eml",
+      "bytes": 4437,
+      "sha256": "81da3c8264ceecca1da9f72fd209a412f91d19264a46a67e5ac4b2ea691dc94c",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 36,
+        "begin_offset": 4201655,
+        "end_offset": 4206092,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0037.eml",
+      "file": "data/mail-public/derived-eml/content-length/0001.eml",
+      "bytes": 6225,
+      "sha256": "87d30e887c6d57f65347fbaa04c9e499b33904b2597eb79dc37539ff709dd384",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 37,
+        "begin_offset": 4206101,
+        "end_offset": 4212326,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0038.eml",
+      "file": "data/mail-public/derived-eml/content-length/0002.eml",
+      "bytes": 6263,
+      "sha256": "7cecea1f86532216b647f08414cf631573b4441a5f4b2101e5a2ed02c37c507e",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 38,
+        "begin_offset": 4212335,
+        "end_offset": 4218598,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0039.eml",
+      "file": "data/mail-public/derived-eml/jwz/0039.eml",
+      "bytes": 20705,
+      "sha256": "c27bbaacf764621240ede93963b0949b0988a33980e5bee80095710bc6b7cca1",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 39,
+        "begin_offset": 4218607,
+        "end_offset": 4239312,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0040.eml",
+      "file": "data/mail-public/derived-eml/jwz/0040.eml",
+      "bytes": 73454,
+      "sha256": "908ad4d3c26e88f19f09e29335abab7f0b1eb7e695a4dede14a30e54235e8de6",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 40,
+        "begin_offset": 4239321,
+        "end_offset": 4312775,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0041.eml",
+      "file": "data/mail-public/derived-eml/jwz/0041.eml",
+      "bytes": 249974,
+      "sha256": "886a1619978e00fef0b84e640682b87f64e150ace859b7beb9bc6f9663b689a8",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 41,
+        "begin_offset": 4312784,
+        "end_offset": 4562758,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0042.eml",
+      "file": "data/mail-public/derived-eml/jwz/0042.eml",
+      "bytes": 55737,
+      "sha256": "831495acf7926dc7cd9a5577cac96c7c059dbfec7f2981e3a1a04f4fd43a9524",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 42,
+        "begin_offset": 4562767,
+        "end_offset": 4618504,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0043.eml",
+      "file": "data/mail-public/derived-eml/jwz/0043.eml",
+      "bytes": 48074,
+      "sha256": "35e5adc72c51a802bde68a74f042c109ffd4da2dfc58c4ca16ca5dd90907af2b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 43,
+        "begin_offset": 4618513,
+        "end_offset": 4666587,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0044.eml",
+      "file": "data/mail-public/derived-eml/jwz/0044.eml",
+      "bytes": 35762,
+      "sha256": "5731478f101fac785b972c8d02c97553c9b7f3946961843d36cf6db54c057107",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 44,
+        "begin_offset": 4666596,
+        "end_offset": 4702358,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0045.eml",
+      "file": "data/mail-public/derived-eml/jwz/0045.eml",
+      "bytes": 76644,
+      "sha256": "c64e713e931587f99e7948df9b11df546dd1b670f86a0d9f9061b1fd8fd32912",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 45,
+        "begin_offset": 4702367,
+        "end_offset": 4779011,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0046.eml",
+      "file": "data/mail-public/derived-eml/jwz/0046.eml",
+      "bytes": 129665,
+      "sha256": "eeacde08fecabd05403bbece38e7224c4a13d9aa29e05263e0828fa792187e3b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 46,
+        "begin_offset": 4779020,
+        "end_offset": 4908685,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0047.eml",
+      "file": "data/mail-public/derived-eml/jwz/0047.eml",
+      "bytes": 174617,
+      "sha256": "16dd3a52b16d90b4be5b93d3ae52b04e67590dfe1af14f4f5d23187106c517c0",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 47,
+        "begin_offset": 4908694,
+        "end_offset": 5083311,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0048.eml",
+      "file": "data/mail-public/derived-eml/jwz/0048.eml",
+      "bytes": 215768,
+      "sha256": "fa9239d1df14c88386d100e19981b087c2a025f646f50e37433a77b57ceb893c",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 48,
+        "begin_offset": 5083320,
+        "end_offset": 5299088,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0049.eml",
+      "file": "data/mail-public/derived-eml/jwz/0049.eml",
+      "bytes": 89801,
+      "sha256": "a7f4922e39f963456b7d47713bcc6d85fc1cf6367af66c7462ac15737135b549",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 49,
+        "begin_offset": 5299097,
+        "end_offset": 5388898,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0050.eml",
+      "file": "data/mail-public/derived-eml/jwz/0050.eml",
+      "bytes": 51645,
+      "sha256": "fd9d376c54505a536843a235237e63122f4be3ce14ef0aedec20bec6fc707d04",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 50,
+        "begin_offset": 5388907,
+        "end_offset": 5440552,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0051.eml",
+      "file": "data/mail-public/derived-eml/jwz/0051.eml",
+      "bytes": 69393,
+      "sha256": "3aeab67e0ba8b9f74c80afec56622e6f38f9816bbb2550063d97902a24230ea2",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 51,
+        "begin_offset": 5440561,
+        "end_offset": 5509954,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0052.eml",
+      "file": "data/mail-public/derived-eml/jwz/0052.eml",
+      "bytes": 2679,
+      "sha256": "f619eaaf0ae4f5e13a6814cf6c8d6b21d51806053af1c2d0ed8fb7fd83fa6a32",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 52,
+        "begin_offset": 5509963,
+        "end_offset": 5512642,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0053.eml",
+      "file": "data/mail-public/derived-eml/jwz/0053.eml",
+      "bytes": 155356,
+      "sha256": "74a4fef0a694914b5ebb245697c2d332726a7c60fbf3aaef10b98369ea6eccd6",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 53,
+        "begin_offset": 5512651,
+        "end_offset": 5668007,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0054.eml",
+      "file": "data/mail-public/derived-eml/jwz/0054.eml",
+      "bytes": 1091,
+      "sha256": "8d8cacb42c7f378a92b1887250004ecd8ca1dbb772cf66da810d9eef31ec1761",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 54,
+        "begin_offset": 5668016,
+        "end_offset": 5669107,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0055.eml",
+      "file": "data/mail-public/derived-eml/jwz/0055.eml",
+      "bytes": 61450,
+      "sha256": "cf61da10dbc32eae2d89bb7d39e628878946b42ec7001f74eece3c6210fe1208",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 55,
+        "begin_offset": 5669116,
+        "end_offset": 5730566,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0056.eml",
+      "file": "data/mail-public/derived-eml/jwz/0056.eml",
+      "bytes": 56463,
+      "sha256": "ca811c1795c723f7f5d14ef5cd297a448e28b001a5c1524efd0293f1a0dad5ec",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 56,
+        "begin_offset": 5730575,
+        "end_offset": 5787038,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0057.eml",
+      "file": "data/mail-public/derived-eml/jwz/0057.eml",
+      "bytes": 2807,
+      "sha256": "a3531340da7e5081c8ca25a6abae1cb49d729adbc52cf18c845fc0e6de462fb6",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 57,
+        "begin_offset": 5787071,
+        "end_offset": 5789878,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0058.eml",
+      "file": "data/mail-public/derived-eml/jwz/0058.eml",
+      "bytes": 26918,
+      "sha256": "bf9196535298111825977ccd0893714e9224c1d033c52d46fa0704212fb16f3e",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 58,
+        "begin_offset": 5789887,
+        "end_offset": 5816805,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0059.eml",
+      "file": "data/mail-public/derived-eml/jwz/0059.eml",
+      "bytes": 23183,
+      "sha256": "ef2be4af7ef5ad36e8fb183b3fb1b7e005987f3d11af130291aacdb2b01968bb",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 59,
+        "begin_offset": 5816814,
+        "end_offset": 5839997,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0060.eml",
+      "file": "data/mail-public/derived-eml/jwz/0060.eml",
+      "bytes": 2358,
+      "sha256": "ca0087b3201f5b663e6510420482a67177afff8f81e63761385c2e1b48a66c20",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 60,
+        "begin_offset": 5840030,
+        "end_offset": 5842388,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0061.eml",
+      "file": "data/mail-public/derived-eml/jwz/0061.eml",
+      "bytes": 257572,
+      "sha256": "838a42aed080437980ee9e90f44c712952c6ff275f7fbee3f463c0063ce54613",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 61,
+        "begin_offset": 5842397,
+        "end_offset": 6099969,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0062.eml",
+      "file": "data/mail-public/derived-eml/jwz/0062.eml",
+      "bytes": 99517,
+      "sha256": "b97abd2704faef90fcd59672bf1c867573b0c69c13b1cd1976c7aafee0366377",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 62,
+        "begin_offset": 6099978,
+        "end_offset": 6199495,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0063.eml",
+      "file": "data/mail-public/derived-eml/jwz/0063.eml",
+      "bytes": 83321,
+      "sha256": "71fd4bd7186f195a0e65ff2004ae3167cdd6c1f076cc631f8a13bccad7a65170",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 63,
+        "begin_offset": 6199504,
+        "end_offset": 6282825,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0064.eml",
+      "file": "data/mail-public/derived-eml/jwz/0064.eml",
+      "bytes": 10001,
+      "sha256": "88e3bc6a26df937f1a3ac30146393ba9056303cb95d328cf506a3e8d1da92574",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 64,
+        "begin_offset": 6282834,
+        "end_offset": 6292835,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0065.eml",
+      "file": "data/mail-public/derived-eml/jwz/0065.eml",
+      "bytes": 93003,
+      "sha256": "722ddc5e20f50ebcb89ec27564528d942e87831f008ca050ca299dfd31a5e418",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 65,
+        "begin_offset": 6292844,
+        "end_offset": 6385847,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0066.eml",
+      "file": "data/mail-public/derived-eml/jwz/0066.eml",
+      "bytes": 35419,
+      "sha256": "b6b691b850daa35b5c53d0ff6629c6fcff6a1a77b815ec4b35f77aae94f4f525",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 66,
+        "begin_offset": 6385856,
+        "end_offset": 6421275,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0067.eml",
+      "file": "data/mail-public/derived-eml/jwz/0067.eml",
+      "bytes": 43177,
+      "sha256": "84173b5adeaa1d7da0a11a76ae7c5f408667349446b9c380f320a376192fc35a",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 67,
+        "begin_offset": 6421318,
+        "end_offset": 6464495,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0068.eml",
+      "file": "data/mail-public/derived-eml/jwz/0068.eml",
+      "bytes": 25839,
+      "sha256": "43f069a74265364834226667dbbdc150aae5b285ad97ed2af5bec71ba74fd748",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 68,
+        "begin_offset": 6464528,
+        "end_offset": 6490367,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0069.eml",
+      "file": "data/mail-public/derived-eml/jwz/0069.eml",
+      "bytes": 3172,
+      "sha256": "9b098a02102d79a47a429dc9de919064dd745ce3e62b47db8ed42a774d535823",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 69,
+        "begin_offset": 6490400,
+        "end_offset": 6493572,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0070.eml",
+      "file": "data/mail-public/derived-eml/jwz/0070.eml",
+      "bytes": 350902,
+      "sha256": "18ed8b03c6c41ee0de49e1c99a44a9322703daa9ab6554f81ba8691b3f9d3a25",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 70,
+        "begin_offset": 6493605,
+        "end_offset": 6844507,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0071.eml",
+      "file": "data/mail-public/derived-eml/jwz/0071.eml",
+      "bytes": 2040,
+      "sha256": "4a0c797f97b547ecc4f50861a2193fa1f9629f6fbf8115be2ca0db3e8cb5da2e",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 71,
+        "begin_offset": 6844516,
+        "end_offset": 6846556,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0072.eml",
+      "file": "data/mail-public/derived-eml/jwz/0072.eml",
+      "bytes": 12424,
+      "sha256": "cc1687a00d266e587a0db7340bd9c528b1f07cfacebeaebccdbd935a2c152d31",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 72,
+        "begin_offset": 6846565,
+        "end_offset": 6858989,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0073.eml",
+      "file": "data/mail-public/derived-eml/jwz/0073.eml",
+      "bytes": 12392,
+      "sha256": "10845f3233be09520aad0909526c31a79717f4801134f499df85e4e414fbcce5",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 73,
+        "begin_offset": 6858998,
+        "end_offset": 6871390,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0074.eml",
+      "file": "data/mail-public/derived-eml/content-length/0003.eml",
+      "bytes": 8058,
+      "sha256": "600119e6a45356a31d232b7af33c1979e3613bc45c0ae01a94e01ce0fcc128d9",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 74,
+        "begin_offset": 6871423,
+        "end_offset": 6879481,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0075.eml",
+      "file": "data/mail-public/derived-eml/jwz/0075.eml",
+      "bytes": 215023,
+      "sha256": "24ccd0dea9ffdcfd24b6ae3561d03cd890e822d4b99d44e4e09e9cade461551f",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 75,
+        "begin_offset": 6879514,
+        "end_offset": 7094537,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0076.eml",
+      "file": "data/mail-public/derived-eml/jwz/0076.eml",
+      "bytes": 11958,
+      "sha256": "90c3a3e7bd9911bb970eaf6d8e63a4d3f44b25ecfa896a770958ab0ca99213c8",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 76,
+        "begin_offset": 7094546,
+        "end_offset": 7106504,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0077.eml",
+      "file": "data/mail-public/derived-eml/jwz/0077.eml",
+      "bytes": 12221,
+      "sha256": "8d13b4ac77a00473f779d875a8ae3d0906bb6a7d6e4d8f297db07e12128cf108",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 77,
+        "begin_offset": 7106513,
+        "end_offset": 7118734,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0078.eml",
+      "file": "data/mail-public/derived-eml/jwz/0078.eml",
+      "bytes": 12130,
+      "sha256": "2a06a80e9756a0d2c3d156cf6318de122ec05e078237dc3c676d6b91c32536b6",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 78,
+        "begin_offset": 7118743,
+        "end_offset": 7130873,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0079.eml",
+      "file": "data/mail-public/derived-eml/jwz/0079.eml",
+      "bytes": 12319,
+      "sha256": "8db6fdd4bfb1f6f7a614d544052dde1ebe7298c2d3bbcce90cdfdf1deaf2a023",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 79,
+        "begin_offset": 7130882,
+        "end_offset": 7143201,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0080.eml",
+      "file": "data/mail-public/derived-eml/jwz/0080.eml",
+      "bytes": 12174,
+      "sha256": "e69127b371760dac22e1bf972164a54129534104e6f93a0403a8c67c52479d4d",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 80,
+        "begin_offset": 7143210,
+        "end_offset": 7155384,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0081.eml",
+      "file": "data/mail-public/derived-eml/jwz/0081.eml",
+      "bytes": 12389,
+      "sha256": "abbcc42600d7c8c442baf509dd083edd14c9773646db618abad6d6692a276d4a",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 81,
+        "begin_offset": 7155393,
+        "end_offset": 7167782,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0082.eml",
+      "file": "data/mail-public/derived-eml/content-length/0004.eml",
+      "bytes": 748519,
+      "sha256": "8f957c99b2df521c218087c0abac6e6fd0bf3573083cb8354d6c1f68fa74a059",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 82,
+        "begin_offset": 7167815,
+        "end_offset": 7916334,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0084.eml",
+      "file": "data/mail-public/derived-eml/jwz/0084.eml",
+      "bytes": 545357,
+      "sha256": "2d565738ea73eda1057116a62d956f5977041072c457976900d7d14cb97ea5f5",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 84,
+        "begin_offset": 7964268,
+        "end_offset": 8509625,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0085.eml",
+      "file": "data/mail-public/derived-eml/content-length/0006.eml",
+      "bytes": 3490,
+      "sha256": "408fc5f1dfd284db8ea6f7f4e471dac8cc99d830ea7c3f9102982d8c677855bb",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 85,
+        "begin_offset": 8509634,
+        "end_offset": 8513124,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0086.eml",
+      "file": "data/mail-public/derived-eml/jwz/0086.eml",
+      "bytes": 2380,
+      "sha256": "32595d069a292836b8dbfc13bfac7501c61c143bfff9bec0698c6dbaf7000027",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 86,
+        "begin_offset": 8513157,
+        "end_offset": 8515537,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0087.eml",
+      "file": "data/mail-public/derived-eml/jwz/0087.eml",
+      "bytes": 2545,
+      "sha256": "7624bcc1f75793babe94c30e2fb9aa58ff19caa88fccd49b63280b9bf9510a91",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 87,
+        "begin_offset": 8515546,
+        "end_offset": 8518091,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0088.eml",
+      "file": "data/mail-public/derived-eml/jwz/0088.eml",
+      "bytes": 1607,
+      "sha256": "307d6b7c30d03191aece07e7eb7517a657224eb85559a4c52dbd5f5c40db7e2b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 88,
+        "begin_offset": 8518100,
+        "end_offset": 8519707,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0089.eml",
+      "file": "data/mail-public/derived-eml/jwz/0089.eml",
+      "bytes": 3675,
+      "sha256": "7153e53e00b5542e66e1762d97f768bd94483c784cada3106eebd34019fc8efa",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 89,
+        "begin_offset": 8519716,
+        "end_offset": 8523391,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0090.eml",
+      "file": "data/mail-public/derived-eml/jwz/0090.eml",
+      "bytes": 2200,
+      "sha256": "a67fbd0ccd51ac70051aa02cc9d5c6414f33a15f91591ae079106e6734c5d44d",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 90,
+        "begin_offset": 8523400,
+        "end_offset": 8525600,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0091.eml",
+      "file": "data/mail-public/derived-eml/jwz/0091.eml",
+      "bytes": 4823,
+      "sha256": "af933069fc68447a0900bb43949c13a5099aed6a8c901750883264c23131e4b2",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 91,
+        "begin_offset": 8525609,
+        "end_offset": 8530432,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0092.eml",
+      "file": "data/mail-public/derived-eml/jwz/0092.eml",
+      "bytes": 13114,
+      "sha256": "d239000002b54ab2d421fd2d8703c14710ddf0c5fce3db392d563170070a95e0",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 92,
+        "begin_offset": 8530441,
+        "end_offset": 8543555,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0093.eml",
+      "file": "data/mail-public/derived-eml/jwz/0093.eml",
+      "bytes": 11388,
+      "sha256": "e3881d0f34f3b79b736c81c6629f9be77565d5f9bacd3f7cf85c5e75b00b4bff",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 93,
+        "begin_offset": 8543564,
+        "end_offset": 8554952,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0094.eml",
+      "file": "data/mail-public/derived-eml/jwz/0094.eml",
+      "bytes": 79554,
+      "sha256": "1b599cfcbe257ada1995026486cae4de1ad74cfb3a6a623b6f05d82f5011c5d4",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 94,
+        "begin_offset": 8554961,
+        "end_offset": 8634515,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0095.eml",
+      "file": "data/mail-public/derived-eml/jwz/0095.eml",
+      "bytes": 186025,
+      "sha256": "0c33d94b9fdf23facab55de84d7bb178c1008c67aa5c2287b4527a8f89625436",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 95,
+        "begin_offset": 8634524,
+        "end_offset": 8820549,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0096.eml",
+      "file": "data/mail-public/derived-eml/jwz/0096.eml",
+      "bytes": 2570,
+      "sha256": "d5298b50dbe9904ea3a7a1eeca4a2ed3634997b07d6e01f5c2b2b99092a0e3fd",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 96,
+        "begin_offset": 8820558,
+        "end_offset": 8823128,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0097.eml",
+      "file": "data/mail-public/derived-eml/jwz/0097.eml",
+      "bytes": 1988,
+      "sha256": "00fe187559facc5b3d1c5a41dbc667eb2fcaa7268268bdfa8480c10d57797f81",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 97,
+        "begin_offset": 8823137,
+        "end_offset": 8825125,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0098.eml",
+      "file": "data/mail-public/derived-eml/jwz/0098.eml",
+      "bytes": 91829,
+      "sha256": "8ca9f017816a2b0f3279a89e78b71f1bbfd0a7626156bfd40e5160322f8272ff",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 98,
+        "begin_offset": 8825134,
+        "end_offset": 8916963,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0099.eml",
+      "file": "data/mail-public/derived-eml/jwz/0099.eml",
+      "bytes": 1632,
+      "sha256": "c12f86635c48cb57f15162de2a54860055982140be7baf8d1fa95b27bf398936",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 99,
+        "begin_offset": 8916972,
+        "end_offset": 8918604,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0100.eml",
+      "file": "data/mail-public/derived-eml/jwz/0100.eml",
+      "bytes": 95257,
+      "sha256": "7c920b67c5d5aab8076a95019309df06fa2db3b28289abfa629ac139c2e90577",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 100,
+        "begin_offset": 8918613,
+        "end_offset": 9013870,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0101.eml",
+      "file": "data/mail-public/derived-eml/content-length/0007.eml",
+      "bytes": 2937,
+      "sha256": "a86b010bf12412609e10c57b70bf33d7cba499602c0a352c8695aecc6dfa2ea9",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 101,
+        "begin_offset": 9013903,
+        "end_offset": 9016840,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0102.eml",
+      "file": "data/mail-public/derived-eml/content-length/0008.eml",
+      "bytes": 4551,
+      "sha256": "e1bb5df1b88799975f8d55bb1695eef2297a698343103d6b736cd7c943a0539a",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 102,
+        "begin_offset": 9016873,
+        "end_offset": 9021424,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0103.eml",
+      "file": "data/mail-public/derived-eml/content-length/0009.eml",
+      "bytes": 6991,
+      "sha256": "433db474d8bdd463f4fa0853b291259c69d70f999e73f9df2fc5e9b55845e192",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 103,
+        "begin_offset": 9021457,
+        "end_offset": 9028448,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0104.eml",
+      "file": "data/mail-public/derived-eml/jwz/0104.eml",
+      "bytes": 4401,
+      "sha256": "61a0d110a693ad661d6f37551fe438bb4f623d91feab3496fc67e0ea77339493",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 104,
+        "begin_offset": 9028457,
+        "end_offset": 9032858,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0105.eml",
+      "file": "data/mail-public/derived-eml/content-length/0010.eml",
+      "bytes": 16649,
+      "sha256": "0b733e22b2c638f1937ed87996503987becdd81d8dc72e5442aac0fc87503a64",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 105,
+        "begin_offset": 9032891,
+        "end_offset": 9049540,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0106.eml",
+      "file": "data/mail-public/derived-eml/jwz/0106.eml",
+      "bytes": 17568,
+      "sha256": "a4877c1c563976d4124ef8cd6e9a6a73ccd0c5e7c102f1b358788701efe9f2d6",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 106,
+        "begin_offset": 9049573,
+        "end_offset": 9067141,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0107.eml",
+      "file": "data/mail-public/derived-eml/jwz/0107.eml",
+      "bytes": 25776,
+      "sha256": "238bdb8102c4565f41844eba0360943abf68d28f49f42a53242629b469c3131f",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 107,
+        "begin_offset": 9067174,
+        "end_offset": 9092950,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0108.eml",
+      "file": "data/mail-public/derived-eml/jwz/0108.eml",
+      "bytes": 36943,
+      "sha256": "a36b07bb4d5a7af668ff36d74571c8e036e8a8451c9f0e20cddeef7a3fa065da",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 108,
+        "begin_offset": 9092983,
+        "end_offset": 9129926,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0109.eml",
+      "file": "data/mail-public/derived-eml/jwz/0109.eml",
+      "bytes": 52116,
+      "sha256": "214e15c7fc556c39724de6165e9fb0358a10aeef140396cb34a866d43b652f4b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 109,
+        "begin_offset": 9129959,
+        "end_offset": 9182075,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0110.eml",
+      "file": "data/mail-public/derived-eml/content-length/0011.eml",
+      "bytes": 2822,
+      "sha256": "41ef5ff7cedf7eb6a14142a6be2ab1743dc21236bfba0e11178f809dcf7b2e0b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 110,
+        "begin_offset": 9182108,
+        "end_offset": 9184930,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0111.eml",
+      "file": "data/mail-public/derived-eml/content-length/0012.eml",
+      "bytes": 5745,
+      "sha256": "2c93784fccf1ccf15d21799b7d359a47ba80e308af4ad4213f6a34188dff35b6",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 111,
+        "begin_offset": 9184963,
+        "end_offset": 9190708,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0112.eml",
+      "file": "data/mail-public/derived-eml/content-length/0013.eml",
+      "bytes": 4705,
+      "sha256": "81de04a52c79a6814c2f62428c555ebb4c9deceec5fa56abefd522e704939725",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 112,
+        "begin_offset": 9190741,
+        "end_offset": 9195446,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0113.eml",
+      "file": "data/mail-public/derived-eml/content-length/0014.eml",
+      "bytes": 1738,
+      "sha256": "37a7223a369d1d4d0a3e0abe54ae6b4e8bfcad4b98cd3a33e69eaf0da71007f7",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 113,
+        "begin_offset": 9195479,
+        "end_offset": 9197217,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0114.eml",
+      "file": "data/mail-public/derived-eml/jwz/0114.eml",
+      "bytes": 8012,
+      "sha256": "51fca2e5b1bbdd0af8aa24b2fc88a3dd8e0981072b2b796535f0e7f23fe25b53",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 114,
+        "begin_offset": 9197226,
+        "end_offset": 9205238,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0115.eml",
+      "file": "data/mail-public/derived-eml/content-length/0015.eml",
+      "bytes": 3595,
+      "sha256": "b50fbeaa49ed7cb0ea96fc7b9f1ff81dad2da5fcbb1309b4db643d07809d4861",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 115,
+        "begin_offset": 9205271,
+        "end_offset": 9208866,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0116.eml",
+      "file": "data/mail-public/derived-eml/content-length/0016.eml",
+      "bytes": 3898,
+      "sha256": "d0ce141016d4eafa14c5333a7978b31435059ed82dc204523f5356dc6a5e2ad7",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 116,
+        "begin_offset": 9208899,
+        "end_offset": 9212797,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0117.eml",
+      "file": "data/mail-public/derived-eml/content-length/0017.eml",
+      "bytes": 6676,
+      "sha256": "b1ab00def615bc5ec2ac7f7814e01956a39a6ffea31b70eb78dbebc28dc980f1",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 117,
+        "begin_offset": 9212830,
+        "end_offset": 9219506,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0118.eml",
+      "file": "data/mail-public/derived-eml/content-length/0018.eml",
+      "bytes": 11298,
+      "sha256": "2554cfd55527edec0aa18d795d13fa6a88490c995903638e4b59ef7bbf02e771",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 118,
+        "begin_offset": 9219539,
+        "end_offset": 9230837,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0119.eml",
+      "file": "data/mail-public/derived-eml/content-length/0019.eml",
+      "bytes": 4189,
+      "sha256": "459c8da8e57e18b99dbb7531947aca90fc036f704775d55a13714d75d2c03218",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 119,
+        "begin_offset": 9230870,
+        "end_offset": 9235059,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0120.eml",
+      "file": "data/mail-public/derived-eml/content-length/0020.eml",
+      "bytes": 1071,
+      "sha256": "6fdfacd74d2483d5ad0a7a73276bf9eb13389fd3f35a0c8530c67bf1501c14d9",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 120,
+        "begin_offset": 9235092,
+        "end_offset": 9236163,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0121.eml",
+      "file": "data/mail-public/derived-eml/jwz/0121.eml",
+      "bytes": 2248,
+      "sha256": "e277149a3b22ce3dff73d987e6fa4195ff5e1b37f7fd308936bc860a6572fc1a",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 121,
+        "begin_offset": 9236172,
+        "end_offset": 9238420,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0122.eml",
+      "file": "data/mail-public/derived-eml/jwz/0122.eml",
+      "bytes": 10160,
+      "sha256": "d5d2bc65a417f4309f5bb8eaa4b6d3911e836bafcad7752146fa9d2eb4edbd49",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 122,
+        "begin_offset": 9238429,
+        "end_offset": 9248589,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0123.eml",
+      "file": "data/mail-public/derived-eml/content-length/0021.eml",
+      "bytes": 4097,
+      "sha256": "52baebbd8fe8d5d4b43c4ff54d1db4836edef63a0e508ce27f14a82cc812f635",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 123,
+        "begin_offset": 9248622,
+        "end_offset": 9252719,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0124.eml",
+      "file": "data/mail-public/derived-eml/content-length/0022.eml",
+      "bytes": 3280,
+      "sha256": "6e36c65ff474f08667b12e8ca52212b1345844457bd3016e88678f5ad370b6c8",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 124,
+        "begin_offset": 9252752,
+        "end_offset": 9256032,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0125.eml",
+      "file": "data/mail-public/derived-eml/content-length/0023.eml",
+      "bytes": 4035,
+      "sha256": "1c49f83eb5c93b30c113353bf7a1bcd408b24aeb01c25f51e1a19b5678a67aec",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 125,
+        "begin_offset": 9256065,
+        "end_offset": 9260100,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0126.eml",
+      "file": "data/mail-public/derived-eml/content-length/0024.eml",
+      "bytes": 3917,
+      "sha256": "f40e94df53a15a49333b408110587951846aaff2f63689fe96b3858b17f85a98",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 126,
+        "begin_offset": 9260133,
+        "end_offset": 9264050,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0127.eml",
+      "file": "data/mail-public/derived-eml/content-length/0025.eml",
+      "bytes": 5603,
+      "sha256": "1b18da4922007e3adfc8eb849ea76bfe90129c4c60059a4c272a65c5ce2fa8fa",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 127,
+        "begin_offset": 9264083,
+        "end_offset": 9269686,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0128.eml",
+      "file": "data/mail-public/derived-eml/jwz/0128.eml",
+      "bytes": 4971,
+      "sha256": "455ae115dbf7219067680cc31d63e6e5c86b7edd01894ed5ab85256563f2fc51",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 128,
+        "begin_offset": 9269695,
+        "end_offset": 9274666,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0129.eml",
+      "file": "data/mail-public/derived-eml/jwz/0129.eml",
+      "bytes": 5229,
+      "sha256": "a8b3c53358f0ee201763cd4125dc80f1807bb8504ae8fb354e1ec571ab1ddff8",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 129,
+        "begin_offset": 9274699,
+        "end_offset": 9279928,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0130.eml",
+      "file": "data/mail-public/derived-eml/content-length/0026.eml",
+      "bytes": 5153,
+      "sha256": "bdfc53c345e36a409c6ea40d907fcdd7d28f98b7a0c4fbdd4c5c72aca0349d7f",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 130,
+        "begin_offset": 9279961,
+        "end_offset": 9285114,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0131.eml",
+      "file": "data/mail-public/derived-eml/content-length/0027.eml",
+      "bytes": 2391,
+      "sha256": "ce71d8281464826c8f307381e58eb89be58cd3c9c9a237ee6fa9e409cf3cb455",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 131,
+        "begin_offset": 9285147,
+        "end_offset": 9287538,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0132.eml",
+      "file": "data/mail-public/derived-eml/jwz/0132.eml",
+      "bytes": 34659,
+      "sha256": "2a45506d70d16c60a46913ad996a60b1fc92481ecd6f31e199bd2a266ea4ed7f",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 132,
+        "begin_offset": 9287585,
+        "end_offset": 9322244,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0133.eml",
+      "file": "data/mail-public/derived-eml/jwz/0133.eml",
+      "bytes": 34652,
+      "sha256": "cd0484024afb5c8af5c0ed40284e739aa043edd17deb8ad5e74c76a816c136dd",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 133,
+        "begin_offset": 9322291,
+        "end_offset": 9356943,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0134.eml",
+      "file": "data/mail-public/derived-eml/jwz/0134.eml",
+      "bytes": 1997,
+      "sha256": "0ec91b454d1899290b4e47faa7f5e9df38f63e9fa78c52bab9832994461258b8",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 134,
+        "begin_offset": 9356952,
+        "end_offset": 9358949,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0135.eml",
+      "file": "data/mail-public/derived-eml/jwz/0135.eml",
+      "bytes": 243054,
+      "sha256": "17b0cb778ab8a1f6d6dea88513cef8e02e68b74b26a4d11f31d73c37cdc7b9ac",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 135,
+        "begin_offset": 9358958,
+        "end_offset": 9602012,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0136.eml",
+      "file": "data/mail-public/derived-eml/jwz/0136.eml",
+      "bytes": 79134,
+      "sha256": "cc59590160d8ea346e117046bcef913123f07b83b1bb8ad63ce8992c8ca57e5c",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 136,
+        "begin_offset": 9602021,
+        "end_offset": 9681155,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0137.eml",
+      "file": "data/mail-public/derived-eml/jwz/0137.eml",
+      "bytes": 3712,
+      "sha256": "f61b2c818b9711b9b6c43b01d82d7de10978f3eac80bb6e40e790c238007f08b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 137,
+        "begin_offset": 9681164,
+        "end_offset": 9684876,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0138.eml",
+      "file": "data/mail-public/derived-eml/jwz/0138.eml",
+      "bytes": 31040,
+      "sha256": "4d015dd595e6052b421b4dc8a83ef5e7d988365f988e7943aded89159943a044",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 138,
+        "begin_offset": 9684885,
+        "end_offset": 9715925,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0139.eml",
+      "file": "data/mail-public/derived-eml/jwz/0139.eml",
+      "bytes": 1264,
+      "sha256": "96e48e46687d5ab0cb387c6b7a1e3eb3c4c0ca612835b29411ad11b87a694e02",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 139,
+        "begin_offset": 9715934,
+        "end_offset": 9717198,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0140.eml",
+      "file": "data/mail-public/derived-eml/jwz/0140.eml",
+      "bytes": 3259,
+      "sha256": "d04ba1d379f3c9102164fc54884ed8e7fadecc177e81105f5ff15e19f0926f2b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 140,
+        "begin_offset": 9717231,
+        "end_offset": 9720490,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0141.eml",
+      "file": "data/mail-public/derived-eml/content-length/0028.eml",
+      "bytes": 6744,
+      "sha256": "e7fa78962b2258c052f8381025f32284d46558bc57b3c3b7966ac31fc4c43489",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 141,
+        "begin_offset": 9720523,
+        "end_offset": 9727267,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0142.eml",
+      "file": "data/mail-public/derived-eml/jwz/0142.eml",
+      "bytes": 117384,
+      "sha256": "e4f191cdfe5780d9d0e918778758de363b820991f609a90d13a6a1c724999d34",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 142,
+        "begin_offset": 9727276,
+        "end_offset": 9844660,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0143.eml",
+      "file": "data/mail-public/derived-eml/jwz/0143.eml",
+      "bytes": 25416,
+      "sha256": "e0d1e66217a9cfb6169f8dc22200affab1dc008582a9bde3f8226bfc4251759c",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 143,
+        "begin_offset": 9844669,
+        "end_offset": 9870085,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0144.eml",
+      "file": "data/mail-public/derived-eml/jwz/0144.eml",
+      "bytes": 31702,
+      "sha256": "772e694db68205e7d22061c785e3aa6f2ced488472d34f447283adb96d14e1af",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 144,
+        "begin_offset": 9870094,
+        "end_offset": 9901796,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0145.eml",
+      "file": "data/mail-public/derived-eml/jwz/0145.eml",
+      "bytes": 184508,
+      "sha256": "c21311f441c83705163647b7325178a45f60812a406ee643ccc7c01205e99d41",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 145,
+        "begin_offset": 9901805,
+        "end_offset": 10086313,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0146.eml",
+      "file": "data/mail-public/derived-eml/jwz/0146.eml",
+      "bytes": 84995,
+      "sha256": "9dba7416f57a8bac7654c86b714c6b9da85bdef9b010673adedc83126f14f216",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 146,
+        "begin_offset": 10086322,
+        "end_offset": 10171317,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0147.eml",
+      "file": "data/mail-public/derived-eml/jwz/0147.eml",
+      "bytes": 220693,
+      "sha256": "4156306e7e226904de569e597ff339608a517c6c68ebb1b1643518c65c8d4112",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 147,
+        "begin_offset": 10171326,
+        "end_offset": 10392019,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0148.eml",
+      "file": "data/mail-public/derived-eml/jwz/0148.eml",
+      "bytes": 74922,
+      "sha256": "2a3aa1f7beb9ab130299ef8f999ce682b4e4d3ec78639d28bcdcf5624250d31c",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 148,
+        "begin_offset": 10392028,
+        "end_offset": 10466950,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0149.eml",
+      "file": "data/mail-public/derived-eml/jwz/0149.eml",
+      "bytes": 56339,
+      "sha256": "fa07181c63df70b715cda9ebfd2026d9b54573c3d1f21b1c62c1a642458c297a",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 149,
+        "begin_offset": 10466959,
+        "end_offset": 10523298,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0150.eml",
+      "file": "data/mail-public/derived-eml/jwz/0150.eml",
+      "bytes": 4955,
+      "sha256": "855732503564fe6d2f4ee5f5cae22c7e161719389a6b866553b186f1c8bd4d16",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 150,
+        "begin_offset": 10523307,
+        "end_offset": 10528262,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0151.eml",
+      "file": "data/mail-public/derived-eml/jwz/0151.eml",
+      "bytes": 8044,
+      "sha256": "277c51dc3057ee7799f3ee60830630154166e9e2ada14e60746d2b5118a0d33f",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 151,
+        "begin_offset": 10528271,
+        "end_offset": 10536315,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    }
+  ]
+}

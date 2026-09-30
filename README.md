@@ -7,6 +7,9 @@ Test data for [Hoover-Snoop](https://github.com/liquidinvestigations/hoover-snoo
 * Archives (zip, 7z, rar, tgz)
 * PGP-encrypted emails
 
+The [public mail test inputs](mail-public/README.md) include pinned upstream
+fixtures, per-source notices, and a manifest with hashes and source paths.
+
 ## Sources
 
 Some files were downloaded from https://www.learningcontainer.com/ with
