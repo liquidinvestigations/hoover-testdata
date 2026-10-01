@@ -4128,6 +4128,65 @@
         "end_offset": 10536315,
         "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
       }
+    },
+    {
+      "source": "mimekit",
+      "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+      "file": "data/mail-public/sources/mimekit/UnitTests/TestData/mbox/content-length.mbox.txt",
+      "bytes": 935272,
+      "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d"
+    },
+    {
+      "source": "mimekit",
+      "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+      "file": "data/mail-public/sources/mimekit/UnitTests/TestData/mbox/jwz.mbox.txt",
+      "bytes": 10536315,
+      "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd"
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/content-length/0005.eml",
+      "file": "data/mail-public/derived-eml/content-length/0005.eml",
+      "bytes": 47892,
+      "sha256": "b680ca9fad97bab7f97ea40df544adb4904d9d24bd108bb0bad81717b6067e7b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/content-length.mbox.txt",
+        "sha256": "541340c8c17def55b08c6953d3497e427ab97f488013357e35728cd1ef6f252d",
+        "message_index": 5,
+        "begin_offset": 771070,
+        "end_offset": 818962,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "mimekit",
+      "path": "derived-eml/jwz/0083.eml",
+      "file": "data/mail-public/derived-eml/content-length/0005.eml",
+      "bytes": 47892,
+      "sha256": "b680ca9fad97bab7f97ea40df544adb4904d9d24bd108bb0bad81717b6067e7b",
+      "derived_from": {
+        "path": "UnitTests/TestData/mbox/jwz.mbox.txt",
+        "sha256": "e154b9ae81694acdf150bbfe8b067b2761525094167fa0b824ae8ce741aadfcd",
+        "message_index": 83,
+        "begin_offset": 7916367,
+        "end_offset": 7964259,
+        "transform": "Normalize CRLF to LF. Slice the retained upstream Unix offsets."
+      }
+    },
+    {
+      "source": "pst-extractor",
+      "path": "src/__tests__/testdata/mtnman1965@outlook.com.ost",
+      "file": "data/mail-public/sources/pst-extractor/src/__tests__/testdata/mtnman1965@outlook.com.ost",
+      "bytes": 16818176,
+      "sha256": "b884f6313e3507aaa38c1a70fecf2d9e4689923065a3324b61d4ae12887c862d"
+    },
+    {
+      "source": "pst-extractor",
+      "path": "src/__tests__/testdata/rickroll.jpg",
+      "file": "data/mail-public/sources/pst-extractor/src/__tests__/testdata/rickroll.jpg",
+      "bytes": 4796,
+      "sha256": "acef4761a1252a2a7ed2a8aae4ba19f770c4397cb87ef9bea0e6a5c6dae92ebd",
+      "role": "attachment input"
     }
   ]
 }

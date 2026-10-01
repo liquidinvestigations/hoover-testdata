@@ -8,3 +8,26 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
+Provenance of third-party mail inputs
+
+The files under data/mail-public/ come from public upstream test suites.
+mail-public/manifest.json records the upstream repository, revision, path,
+size, and SHA-256 of each file. Their own terms are under mail-public/notices/.
+
+These inputs come from well-known public email datasets and are reproduced
+with their original bytes:
+
+- data/mail-public/sources/mimekit/UnitTests/TestData/mbox/content-length.mbox.txt
+  and jwz.mbox.txt, from jstedfast/MimeKit at revision
+  0dec05e233a8f018189741d2b682c7b84e5eb4a1. They contain historical public
+  mailing-list and newsletter messages from the 1990s.
+- data/mail-public/derived-eml/content-length/0005.eml, the fifth message of
+  content-length.mbox.txt, also stored for message 83 of jwz.mbox.txt. One
+  message contains an old notice that its site content may not be copied
+  without permission. The message is reproduced as part of the public test
+  mailbox that distributes it.
+- data/mail-public/sources/pst-extractor/src/__tests__/testdata/rickroll.jpg
+  and mtnman1965@outlook.com.ost, from epfromer/pst-extractor at revision
+  7d08ef9bc7112c23275fa948306c76bba6e24fba. The image is a widely published
+  music-video frame. The OST contains that image in three attachments.
