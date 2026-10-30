@@ -1,0 +1,9 @@
+<table border=1>
+<tr><th colspan=5>Monthly case list</th></tr>
+<TR><TD>Case</TD><TD>Date</TD><TD>Officer</TD><TD>Amount</TD><TD>Closed</TD></TR>
+<TR><TD>NPF-001</TD><TD>2016-03-01</TD><TD>A. Abel</TD><TD>120.50</TD><TD>TRUE</TD></TR>
+<TR><TD>NPF-002</TD><TD>2016-03-04</TD><TD>B. Brook</TD><TD>75</TD><TD>FALSE</TD></TR>
+<TR><TD>NPF-003</TD><TD>2016-03-09</TD><TD>C. Cole</TD><TD>1,200.00</TD><TD>TRUE</TD></TR>
+<TR><TD>NPF-004</TD><TD></TD><TD>D. Dale &amp; E. Eden</TD><TD>0</TD><TD>FALSE</TD></TR>
+<tr><td>Note</td><td colspan=4>first line<br>second line</td></tr>
+</table>

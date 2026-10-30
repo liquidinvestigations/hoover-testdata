@@ -88,6 +88,22 @@
       "root": "qa/diskfiles",
       "purpose": "Rescan control capture. A dataset that exists and has detail rows.",
       "shape": "6 files; not the full data/disk-files tree"
+    },
+    {
+      "name": "testdata_jsontables",
+      "collection": "testdata",
+      "dataset": "jsontables",
+      "root": "data/tables-public",
+      "purpose": "JSON and JSONL inputs for the JSON table reader.",
+      "shape": "40 files: 20 JSON and 20 JSONL, each under 1 MB; see tables-public/manifest.json"
+    },
+    {
+      "name": "testdata_splitarchives",
+      "collection": "testdata",
+      "dataset": "splitarchives",
+      "root": "data/disk-files/archives",
+      "purpose": "Multi-volume 7z, zip, RAR5 and old-style RAR archives, and one incomplete set.",
+      "shape": "see archives-public/README.md; complete sets extract 27, 6 and 2 member files"
     }
   ]
 }

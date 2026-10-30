@@ -1,0 +1,36 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Cases</x:Name>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+<style>td {mso-number-format:\@;}</style>
+</head>
+<body>
+<table border=0 cellpadding=0 cellspacing=0 x:str>
+ <tr><td>Case</td><td>Date</td><td>Officer</td><td>Amount</td><td>Closed</td></tr>
+ <tr><td>NPF-001</td><td>2016-03-01</td><td>A. Abel</td><td x:num>120.50</td><td>TRUE</td></tr>
+ <tr><td>NPF-002</td><td>2016-03-04</td><td>B. Brook</td><td x:num>75</td><td>FALSE</td></tr>
+ <tr><td>NPF-003</td><td>2016-03-09</td><td>C. Cole</td><td>1,200.00</td><td>TRUE</td></tr>
+ <tr><td>NPF-004</td><td></td><td>D. Dale &amp; E. Eden</td><td x:num>0</td><td>FALSE</td></tr>
+ <tr><td>Résumé</td><td>Ünïcode — test</td></tr>
+</table>
+<table border=0 cellpadding=0 cellspacing=0 x:str>
+ <tr><td>Case</td><td>Date</td><td>Officer</td><td>Amount</td><td>Closed</td></tr>
+ <tr><td>NPF-001</td><td>2016-03-01</td><td>A. Abel</td><td x:num>120.50</td><td>TRUE</td></tr>
+ <tr><td>NPF-002</td><td>2016-03-04</td><td>B. Brook</td><td x:num>75</td><td>FALSE</td></tr>
+ <tr><td>NPF-003</td><td>2016-03-09</td><td>C. Cole</td><td>1,200.00</td><td>TRUE</td></tr>
+ <tr><td>NPF-004</td><td></td><td>D. Dale &amp; E. Eden</td><td x:num>0</td><td>FALSE</td></tr>
+ <tr><td>Résumé</td><td>Ünïcode — test</td></tr>
+</table>
+</body>
+</html>

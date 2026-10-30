@@ -1,0 +1,66 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Dale;Dan;;;
+FN:Dan Dale
+ORG:Example Office
+TEL;TYPE=WORK,VOICE:+1 555 0201
+EMAIL;TYPE=INTERNET:dan@example.org
+item1.URL:https\://example.org/staff
+item1.X-ABLabel:profile
+NOTE:Met at the 2016 workshop\, see file 12.
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Eden;Eli;;;
+FN:Eli Eden
+ORG:Example Office
+TEL;TYPE=WORK,VOICE:+1 555 0201
+EMAIL;TYPE=INTERNET:eli@example.org
+item1.URL:https\://example.org/staff
+item1.X-ABLabel:profile
+NOTE:Met at the 2016 workshop\, see file 12.
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Frost;Fay;;;
+FN:Fay Frost
+ORG:Example Office
+TEL;TYPE=WORK,VOICE:+1 555 0201
+EMAIL;TYPE=INTERNET:fay@example.org
+item1.URL:https\://example.org/staff
+item1.X-ABLabel:profile
+NOTE:Met at the 2016 workshop\, see file 12.
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Gale;Gus;;;
+FN:Gus Gale
+ORG:Example Office
+TEL;TYPE=WORK,VOICE:+1 555 0201
+EMAIL;TYPE=INTERNET:gus@example.org
+item1.URL:https\://example.org/staff
+item1.X-ABLabel:profile
+NOTE:Met at the 2016 workshop\, see file 12.
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Hale;Hana;;;
+FN:Hana Hale
+ORG:Example Office
+TEL;TYPE=WORK,VOICE:+1 555 0201
+EMAIL;TYPE=INTERNET:hana@example.org
+item1.URL:https\://example.org/staff
+item1.X-ABLabel:profile
+NOTE:Met at the 2016 workshop\, see file 12.
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Isle;Ivo;;;
+FN:Ivo Isle
+ORG:Example Office
+TEL;TYPE=WORK,VOICE:+1 555 0201
+EMAIL;TYPE=INTERNET:ivo@example.org
+item1.URL:https\://example.org/staff
+item1.X-ABLabel:profile
+NOTE:Met at the 2016 workshop\, see file 12.
+END:VCARD

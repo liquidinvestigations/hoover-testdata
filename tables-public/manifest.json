@@ -1,0 +1,451 @@
+{
+  "schema": 1,
+  "sources": {
+    "vega-datasets": {
+      "repository": "vega/vega-datasets",
+      "revision": "5448e25297c8f705be78e879d5423d55d04dc6f1",
+      "license": "BSD-3-Clause for the repository; flare.json has no own license entry; londonBoroughs.json is OGL-UK-3.0 (datapackage.json)",
+      "notices": [
+        "tables-public/notices/vega-datasets/README.md",
+        "tables-public/notices/vega-datasets/datapackage.json"
+      ]
+    },
+    "simdjson": {
+      "repository": "simdjson/simdjson",
+      "revision": "64c388425753c28676b176b1585216afe9ebd1d1",
+      "license": "Apache-2.0",
+      "notices": [
+        "tables-public/notices/simdjson/LICENSE"
+      ]
+    },
+    "corpora": {
+      "repository": "dariusk/corpora",
+      "revision": "2e7adec11a0561696c236ae1fca82e88be173d42",
+      "license": "CC0-1.0 (README.md)",
+      "notices": [
+        "tables-public/notices/corpora/README.md"
+      ]
+    },
+    "cti-stix2-json-schemas": {
+      "repository": "oasis-open/cti-stix2-json-schemas",
+      "revision": "9af1db41b7b86c06324f899649ae83480134f66e",
+      "license": "BSD-3-Clause",
+      "notices": [
+        "tables-public/notices/cti-stix2-json-schemas/LICENSE"
+      ]
+    },
+    "resume-schema": {
+      "repository": "jsonresume/resume-schema",
+      "revision": "b25e3f4bbafd349c2c5bbaa62602c03c228762db",
+      "license": "MIT",
+      "notices": [
+        "tables-public/notices/resume-schema/LICENSE.md"
+      ]
+    },
+    "big-list-of-naughty-strings": {
+      "repository": "minimaxir/big-list-of-naughty-strings",
+      "revision": "db33ec7b1d5d9616a88c76394b7d0897bd0b97eb",
+      "license": "MIT",
+      "notices": [
+        "tables-public/notices/big-list-of-naughty-strings/LICENSE"
+      ]
+    },
+    "csvkit": {
+      "repository": "wireservice/csvkit",
+      "revision": "eefcd0ef72747ebf7e9086987ff267291ad877fa",
+      "license": "MIT",
+      "notices": [
+        "tables-public/notices/csvkit/COPYING"
+      ]
+    },
+    "jsontestsuite": {
+      "repository": "nst/JSONTestSuite",
+      "revision": "1ef36fa01286573e846ac449e8683f8833c5b26a",
+      "license": "MIT",
+      "notices": [
+        "tables-public/notices/jsontestsuite/LICENSE"
+      ]
+    },
+    "grade-school-math": {
+      "repository": "openai/grade-school-math",
+      "revision": "3101c7d5072418e28b9008a6636bde82a006892c",
+      "license": "MIT",
+      "notices": [
+        "tables-public/notices/grade-school-math/LICENSE"
+      ]
+    },
+    "human-eval": {
+      "repository": "openai/human-eval",
+      "revision": "b9453e8f1865df0a0057a1383767caa400acfbcf",
+      "license": "MIT",
+      "notices": [
+        "tables-public/notices/human-eval/LICENSE"
+      ]
+    },
+    "prodigy-recipes": {
+      "repository": "explosion/prodigy-recipes",
+      "revision": "428bccb5a04ecfe6211049824aaf735a5907861c",
+      "license": "MIT",
+      "notices": [
+        "tables-public/notices/prodigy-recipes/LICENSE"
+      ]
+    },
+    "zed-sample-data": {
+      "repository": "brimdata/zed-sample-data",
+      "revision": "8da0758e1ee1a8f94895d640a7646fd2c27ca803",
+      "license": "CC-BY-SA-4.0",
+      "notices": [
+        "tables-public/notices/zed-sample-data/LICENSE"
+      ]
+    }
+  },
+  "files": [
+    {
+      "source": "corpora",
+      "kind": "json",
+      "path": "data/humans/2016_us_presidential_candidates.json",
+      "file": "data/tables-public/sources/corpora/data/humans/2016_us_presidential_candidates.json",
+      "bytes": 167677,
+      "sha256": "0ab1bfa737e151e1cb38a90a09bebe36e6f63953bb4dcc680218de3e2141306d"
+    },
+    {
+      "source": "corpora",
+      "kind": "json",
+      "path": "data/medicine/hospitals.json",
+      "file": "data/tables-public/sources/corpora/data/medicine/hospitals.json",
+      "bytes": 34522,
+      "sha256": "7e9ea61cd4b705c41c5d665e30b71068aca6689f3cc71f22731bcf9dc5e7f0fb"
+    },
+    {
+      "source": "vega-datasets",
+      "kind": "json",
+      "path": "data/flare.json",
+      "file": "data/tables-public/sources/vega-datasets/data/flare.json",
+      "bytes": 20638,
+      "sha256": "fa08f99648d443e576c407701943b3f1c6e0c15d3891754005b98eff136b5c99"
+    },
+    {
+      "source": "vega-datasets",
+      "kind": "json",
+      "path": "data/londonBoroughs.json",
+      "file": "data/tables-public/sources/vega-datasets/data/londonBoroughs.json",
+      "bytes": 14732,
+      "sha256": "2dfeae7dd8123c57cf652938717ca27470c3684a1671d7f39d8afe518187a80a"
+    },
+    {
+      "source": "simdjson",
+      "kind": "json",
+      "path": "jsonexamples/twitter.json",
+      "file": "data/tables-public/sources/simdjson/jsonexamples/twitter.json",
+      "bytes": 631515,
+      "sha256": "30721e496a8d73cfc50658923c34eb2c0fbe15ee6835005e43ee624d8dedf200"
+    },
+    {
+      "source": "simdjson",
+      "kind": "json",
+      "path": "jsonexamples/recipe_book.json",
+      "file": "data/tables-public/sources/simdjson/jsonexamples/recipe_book.json",
+      "bytes": 30021,
+      "sha256": "9f8a7781ba9c61f3760fbb12d69f994bbe89e48413041aba0e476edee5f5c9df"
+    },
+    {
+      "source": "simdjson",
+      "kind": "json",
+      "path": "jsonexamples/example_config.json",
+      "file": "data/tables-public/sources/simdjson/jsonexamples/example_config.json",
+      "bytes": 181,
+      "sha256": "0bb1e5559bbaab23a5b6205f2e644c2664ce55c64beaa6f087c5cf8b4b137585"
+    },
+    {
+      "source": "corpora",
+      "kind": "json",
+      "path": "data/geography/us_cities.json",
+      "file": "data/tables-public/sources/corpora/data/geography/us_cities.json",
+      "bytes": 94062,
+      "sha256": "31fdee0cc919fcec261f1ccd6589d05b0c75bdd4cb5ad856c523093b1d626b29"
+    },
+    {
+      "source": "corpora",
+      "kind": "json",
+      "path": "data/games/pokemon.json",
+      "file": "data/tables-public/sources/corpora/data/games/pokemon.json",
+      "bytes": 666677,
+      "sha256": "506b6f025039e1fc2599dfbbd8c8dd8dfb756fea7c77a41544766aed0e3febf9"
+    },
+    {
+      "source": "corpora",
+      "kind": "json",
+      "path": "data/words/emoji/emoji.json",
+      "file": "data/tables-public/sources/corpora/data/words/emoji/emoji.json",
+      "bytes": 10278,
+      "sha256": "61c946f5c9cddf7eb20f28273757f5598d23f3ef9fb05790ac7122215c2ab2b3"
+    },
+    {
+      "source": "corpora",
+      "kind": "json",
+      "path": "data/humans/us_presidents.json",
+      "file": "data/tables-public/sources/corpora/data/humans/us_presidents.json",
+      "bytes": 87396,
+      "sha256": "345f4046c01f7e25822feaeff6e9a3ba8fb915febb2de007d07abdcffa233561"
+    },
+    {
+      "source": "cti-stix2-json-schemas",
+      "kind": "json",
+      "path": "examples/threat-reports/apt1.json",
+      "file": "data/tables-public/sources/cti-stix2-json-schemas/examples/threat-reports/apt1.json",
+      "bytes": 52903,
+      "sha256": "2f22536e419a06c44198b5b4854e33124e76b604929a3da8bd013e0ab8676c30"
+    },
+    {
+      "source": "cti-stix2-json-schemas",
+      "kind": "json",
+      "path": "examples/indicators-for-C2-with-COA.json",
+      "file": "data/tables-public/sources/cti-stix2-json-schemas/examples/indicators-for-C2-with-COA.json",
+      "bytes": 4640,
+      "sha256": "cd28630f73c909a1e7b3e0f0ad37a08203a850bdd5cd0a019d823975cedb05a5"
+    },
+    {
+      "source": "resume-schema",
+      "kind": "json",
+      "path": "sample.resume.json",
+      "file": "data/tables-public/sources/resume-schema/sample.resume.json",
+      "bytes": 5003,
+      "sha256": "ebd36b62ef9f8db5f21ef18d174fce43bd4b8d387450513b729e9605dc71783f"
+    },
+    {
+      "source": "big-list-of-naughty-strings",
+      "kind": "json",
+      "path": "blns.json",
+      "file": "data/tables-public/sources/big-list-of-naughty-strings/blns.json",
+      "bytes": 27191,
+      "sha256": "b5edb4dffb234fa8b37c6353ec2cbd414ce721a03968d26343a7c276ab360f63"
+    },
+    {
+      "source": "csvkit",
+      "kind": "json",
+      "path": "examples/testjson_nested.json",
+      "file": "data/tables-public/sources/csvkit/examples/testjson_nested.json",
+      "bytes": 595,
+      "sha256": "d663f357353f897b194ae97dda738d22a20b3208ed900f68c7846a3f4e7f024a"
+    },
+    {
+      "source": "csvkit",
+      "kind": "json",
+      "path": "examples/test_geojson.json",
+      "file": "data/tables-public/sources/csvkit/examples/test_geojson.json",
+      "bytes": 703,
+      "sha256": "0b9f181f3aaa4a2f70da43aa757af4ee6c4af6c94ac23b9c23dbbb0db93c0e54"
+    },
+    {
+      "source": "jsontestsuite",
+      "kind": "json",
+      "path": "test_parsing/n_structure_100000_opening_arrays.json",
+      "file": "data/tables-public/sources/jsontestsuite/test_parsing/n_structure_100000_opening_arrays.json",
+      "bytes": 100000,
+      "sha256": "13f86ea1e7edd116d18d4ba6c6fa114cd3c927516182d24259623874955d21d1"
+    },
+    {
+      "source": "jsontestsuite",
+      "kind": "json",
+      "path": "test_parsing/n_structure_open_array_object.json",
+      "file": "data/tables-public/sources/jsontestsuite/test_parsing/n_structure_open_array_object.json",
+      "bytes": 250001,
+      "sha256": "48b232fcd18ce2f714a16651ea9f27c04498dcd31ea1329a288c7aa981e1b531"
+    },
+    {
+      "source": "jsontestsuite",
+      "kind": "json",
+      "path": "test_parsing/i_string_UTF-16LE_with_BOM.json",
+      "file": "data/tables-public/sources/jsontestsuite/test_parsing/i_string_UTF-16LE_with_BOM.json",
+      "bytes": 12,
+      "sha256": "6a9c15ecc8fc3da72b0ba5e3539e07f2aad3c704b496fe3496579dc723ce49c5"
+    },
+    {
+      "source": "grade-school-math",
+      "kind": "jsonl",
+      "path": "grade_school_math/data/test.jsonl",
+      "file": "data/tables-public/sources/grade-school-math/grade_school_math/data/test.jsonl",
+      "bytes": 749738,
+      "sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+    },
+    {
+      "source": "human-eval",
+      "kind": "jsonl",
+      "path": "data/HumanEval.jsonl.gz",
+      "file": "data/tables-public/sources/human-eval/data/HumanEval.jsonl",
+      "bytes": 214438,
+      "sha256": "1d49078ba3e2b196b9344535bef34a43021f038fad9561d6ee7c53450609a6a2",
+      "derived": "gunzip of the upstream file",
+      "upstream_bytes": 44877,
+      "upstream_sha256": "b796127e635a67f93fb35c04f4cb03cf06f38c8072ee7cee8833d7bee06979ef"
+    },
+    {
+      "source": "human-eval",
+      "kind": "jsonl",
+      "path": "data/example_samples.jsonl",
+      "file": "data/tables-public/sources/human-eval/data/example_samples.jsonl",
+      "bytes": 419,
+      "sha256": "1dcf9fc120e380b8669fe69cf45da2e510e71cae507555db9634e7893c807627"
+    },
+    {
+      "source": "simdjson",
+      "kind": "jsonl",
+      "path": "jsonexamples/amazon_cellphones.ndjson",
+      "file": "data/tables-public/sources/simdjson/jsonexamples/amazon_cellphones.ndjson",
+      "bytes": 277673,
+      "sha256": "c1518fdaaed45e590c480ed707aa1adaaba8b84b10747f956bd431c708bd590e"
+    },
+    {
+      "source": "csvkit",
+      "kind": "jsonl",
+      "path": "examples/testjson_multiline.json",
+      "file": "data/tables-public/sources/csvkit/examples/testjson_multiline.json",
+      "bytes": 34,
+      "sha256": "e2c47b834a258904d7b7b25d050a75f302d3e2f19396a2709be83e66de1a6dc0"
+    },
+    {
+      "source": "prodigy-recipes",
+      "kind": "jsonl",
+      "path": "example-datasets/annotated_news_headlines-ORG-PERSON-LOCATION-ner.jsonl",
+      "file": "data/tables-public/sources/prodigy-recipes/example-datasets/annotated_news_headlines-ORG-PERSON-LOCATION-ner.jsonl",
+      "bytes": 258927,
+      "sha256": "199d29dcc5e6c4679316623338917730e8fb698c26834e5c83e8a60d581cac74"
+    },
+    {
+      "source": "prodigy-recipes",
+      "kind": "jsonl",
+      "path": "example-datasets/annotated_reddit-INSULT-textcat.jsonl",
+      "file": "data/tables-public/sources/prodigy-recipes/example-datasets/annotated_reddit-INSULT-textcat.jsonl",
+      "bytes": 234560,
+      "sha256": "b425e4d1302070b4c60b1c51809700d73990963572c85f803e66a2019be62549"
+    },
+    {
+      "source": "prodigy-recipes",
+      "kind": "jsonl",
+      "path": "example-datasets/bio_events.jsonl",
+      "file": "data/tables-public/sources/prodigy-recipes/example-datasets/bio_events.jsonl",
+      "bytes": 54003,
+      "sha256": "e46450426512578b1492de5631b756d1213104b7789daf3413fe23e8734311b7"
+    },
+    {
+      "source": "prodigy-recipes",
+      "kind": "jsonl",
+      "path": "example-datasets/raw_shares-newsapi.jsonl",
+      "file": "data/tables-public/sources/prodigy-recipes/example-datasets/raw_shares-newsapi.jsonl",
+      "bytes": 278574,
+      "sha256": "61d5525b3fdfd68c36eee80c5bac76e1fffb787fd9f0a260bca854d9e922d4a2"
+    },
+    {
+      "source": "prodigy-recipes",
+      "kind": "jsonl",
+      "path": "example-datasets/plot_summaries.jsonl",
+      "file": "data/tables-public/sources/prodigy-recipes/example-datasets/plot_summaries.jsonl",
+      "bytes": 100286,
+      "sha256": "9ae60fce441af5d4a79ac0691bcced101472d68688c84441d6645a0d71fc9d78"
+    },
+    {
+      "source": "prodigy-recipes",
+      "kind": "jsonl",
+      "path": "example-patterns/patterns_countries-GPE.jsonl",
+      "file": "data/tables-public/sources/prodigy-recipes/example-patterns/patterns_countries-GPE.jsonl",
+      "bytes": 74478,
+      "sha256": "ba2d87bb85b69995652a7f47f29d8ea3266d9ce9443877c75f33747b6282e013"
+    },
+    {
+      "source": "prodigy-recipes",
+      "kind": "jsonl",
+      "path": "tutorials/data-deduplication/data/recordlinkage_items.jsonl",
+      "file": "data/tables-public/sources/prodigy-recipes/tutorials/data-deduplication/data/recordlinkage_items.jsonl",
+      "bytes": 412192,
+      "sha256": "3a7f1925ad553e10838a9c99c616131f628f31eb4ee6df3ee2b392ec4f03e72f"
+    },
+    {
+      "source": "zed-sample-data",
+      "kind": "jsonl",
+      "path": "zeek-json/dce_rpc.json.gz",
+      "file": "data/tables-public/sources/zed-sample-data/zeek-json/dce_rpc.json",
+      "bytes": 24818,
+      "sha256": "7e18761eda639c6762ef37061286b6ecdad77f1fbf47972a3f8d164b853afc52",
+      "derived": "gunzip of the upstream file",
+      "upstream_bytes": 3481,
+      "upstream_sha256": "1deaa349c69f113bafaddd3df0ae117bfb0ccd7360dde9471c40d52dd69156bf"
+    },
+    {
+      "source": "zed-sample-data",
+      "kind": "jsonl",
+      "path": "zeek-json/dpd.json.gz",
+      "file": "data/tables-public/sources/zed-sample-data/zeek-json/dpd.json",
+      "bytes": 22852,
+      "sha256": "720ce8fc342c6d928e4dc5270b040235ff8127756f7cbf5679b60fed1adf3517",
+      "derived": "gunzip of the upstream file",
+      "upstream_bytes": 3105,
+      "upstream_sha256": "eb7b1d4b680a722249582609a51315167733be46911bb3b144f20b4c87e4bc2c"
+    },
+    {
+      "source": "zed-sample-data",
+      "kind": "jsonl",
+      "path": "zeek-json/ftp.json.gz",
+      "file": "data/tables-public/sources/zed-sample-data/zeek-json/ftp.json",
+      "bytes": 41882,
+      "sha256": "5ff48d976ce890ea2ae5e9b153a2cd5d0d8ce06bb49dcc37e0817e084a5411f5",
+      "derived": "gunzip of the upstream file",
+      "upstream_bytes": 3270,
+      "upstream_sha256": "e052d8b5e8269a566e65960d5c7eb2f146393108713a5b4f742c946c6241195b"
+    },
+    {
+      "source": "zed-sample-data",
+      "kind": "jsonl",
+      "path": "zeek-json/notice.json.gz",
+      "file": "data/tables-public/sources/zed-sample-data/zeek-json/notice.json",
+      "bytes": 117384,
+      "sha256": "846bbb9fd03f536ac4e09fe26ca51d70c3b9aec6462d47e71bb79a8ebda9394e",
+      "derived": "gunzip of the upstream file",
+      "upstream_bytes": 17283,
+      "upstream_sha256": "631f297ea94c6c24abcc479f81f5ee171b97ed44769041fe2c4d2089b2633004"
+    },
+    {
+      "source": "zed-sample-data",
+      "kind": "jsonl",
+      "path": "zeek-json/ntlm.json.gz",
+      "file": "data/tables-public/sources/zed-sample-data/zeek-json/ntlm.json",
+      "bytes": 165221,
+      "sha256": "7901dede8966cb06b358249267ed34e8743e541fcf4448afdc7289c999e03444",
+      "derived": "gunzip of the upstream file",
+      "upstream_bytes": 18494,
+      "upstream_sha256": "1018895c8621ab8651d04c89944ca94e6d64c8b9281c2123cdbc4f166c67b593"
+    },
+    {
+      "source": "zed-sample-data",
+      "kind": "jsonl",
+      "path": "zeek-json/smtp.json.gz",
+      "file": "data/tables-public/sources/zed-sample-data/zeek-json/smtp.json",
+      "bytes": 441063,
+      "sha256": "92fc2dda090dc7925ec6e703ba5b52e209b3ac012ac769011c96d1cbd9f82889",
+      "derived": "gunzip of the upstream file",
+      "upstream_bytes": 39374,
+      "upstream_sha256": "228b556006b1273b32475285200397be5dfc3f918b20c81ffd390aa4af9367b7"
+    },
+    {
+      "source": "zed-sample-data",
+      "kind": "jsonl",
+      "path": "zeek-json/ssh.json.gz",
+      "file": "data/tables-public/sources/zed-sample-data/zeek-json/ssh.json",
+      "bytes": 9475,
+      "sha256": "b23cda31264e32ab30a14b41f9c4d64cbdab4bcc6df1e58f586470876906b10a",
+      "derived": "gunzip of the upstream file",
+      "upstream_bytes": 1586,
+      "upstream_sha256": "d01a10870b803e1f554c307e014a4782fb85019dad4374f47049e2f372fdd818"
+    },
+    {
+      "source": "zed-sample-data",
+      "kind": "jsonl",
+      "path": "zeek-json/x509.json.gz",
+      "file": "data/tables-public/sources/zed-sample-data/zeek-json/x509.json",
+      "bytes": 359329,
+      "sha256": "34ee3bf9003516be3482609dd2c058bac2647042a391c5d164073872e3f7c03b",
+      "derived": "gunzip of the upstream file",
+      "upstream_bytes": 65334,
+      "upstream_sha256": "281c607e2b57911ba3794a062f55cc97943bc0854977eb6e77ec2880b5960375"
+    }
+  ]
+}

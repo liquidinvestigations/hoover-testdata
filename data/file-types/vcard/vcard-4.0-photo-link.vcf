@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:4.0
+FN:Cora Cole
+N:Cole;Cora;;;
+KIND:individual
+TEL;VALUE=uri;TYPE=work:tel:+1-555-0301
+EMAIL;TYPE=work:cora.cole@example.org
+LANG;PREF=1:en
+PHOTO;MEDIATYPE=image/png:https://example.org/photos/cora.png
+END:VCARD

@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Brook;Ben;;;
+FN:Ben Brook
+ORG:Example Office
+TEL;TYPE=WORK,VOICE:+1 555 0201
+EMAIL;TYPE=INTERNET:ben@example.org
+item1.URL:https\://example.org/staff
+item1.X-ABLabel:profile
+NOTE:Met at the 2016 workshop\, see file 12.
+END:VCARD

@@ -98,6 +98,12 @@
       "notices": [
         "mail-public/notices/thunderbird/LICENSE.txt"
       ]
+    },
+    "nauru-police-force": {
+      "repository": "https://data.ddosecrets.org/Nauru%20Police%20Force/npf.gov.nr/",
+      "revision": "",
+      "license": "none stated by the publisher",
+      "notices": []
     }
   },
   "files": [
@@ -4187,6 +4193,120 @@
       "bytes": 4796,
       "sha256": "acef4761a1252a2a7ed2a8aae4ba19f770c4397cb87ef9bea0e6a5c6dae92ebd",
       "role": "attachment input"
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "czarist-daniel.zip/czarist-daniel/recoverableitemsdeletions/2023.eml",
+      "file": "data/mail-public/sources/nauru-police-force/czarist-daniel/czarist-daniel/recoverableitemsdeletions/2023.eml",
+      "bytes": 89018,
+      "sha256": "74f98124459ee48359525326a8c9926f56252a7038f4d6d048bdbb440d102b24",
+      "role": "Tika input: XLSX chart part fails extractous 0.3.0"
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "rosella-dageago.zip/rosella-dageago/sentitems/86.eml",
+      "file": "data/mail-public/sources/nauru-police-force/rosella-dageago/rosella-dageago/sentitems/86.eml",
+      "bytes": 32064,
+      "sha256": "8d944f4ae0ab975753a93c526f2b90b21c5272547265edd892b2ba9594523bb0",
+      "role": "Tika input: XLSX comments part fails extractous 0.3.0"
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "brown-capelle.zip/brown-capelle/sentitems/742.eml",
+      "file": "data/mail-public/sources/nauru-police-force/brown-capelle/brown-capelle/sentitems/742.eml",
+      "bytes": 185247,
+      "sha256": "a29d515f9673c5045b6d754635c25a58920e3715c0f355b8866079e1ff79576b",
+      "role": "Tika input: Office drawing part fails extractous 0.3.0"
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "peter-leaupepe.zip/peter-leaupepe/sentitems/1283.eml",
+      "file": "data/mail-public/sources/nauru-police-force/peter-leaupepe/peter-leaupepe/sentitems/1283.eml",
+      "bytes": 607757,
+      "sha256": "e8f9c22e7210ef8aa1c2a5cfd32b0da44e5b959953bb58bac6058c2c7b830c35",
+      "role": "Tika input: Visio part fails extractous 0.3.0"
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "peter-leaupepe.zip/peter-leaupepe/inbox/1385.eml",
+      "file": "data/mail-public/sources/nauru-police-force/peter-leaupepe/peter-leaupepe/inbox/1385.eml",
+      "bytes": 2549409,
+      "sha256": "5abcce0ffe76f1fcc0a7d3f332485caa01a4a6003e6fc0ed1f469a3166375389",
+      "role": "Tika input: Office attachments give TIKA-237 SAXException"
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "patience-hiram.zip/patience-hiram/deleteditems/137.eml",
+      "file": "data/mail-public/sources/nauru-police-force/patience-hiram/patience-hiram/deleteditems/137.eml",
+      "bytes": 42534,
+      "sha256": "2a276899ebf55264de8b8eb48b65756f6ddb99997acab57538c0faf3d7bce285",
+      "role": "vCard 3.0 saved with an .eml name, PHOTO JPEG in base64",
+      "modified": "The PHOTO value is replaced with a synthetic JPEG of the same dimensions. The original photo shows a real person."
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "ladyjane-hilo.zip/ladyjane-hilo/contacts/27.eml",
+      "file": "data/mail-public/sources/nauru-police-force/ladyjane-hilo/ladyjane-hilo/contacts/27.eml",
+      "bytes": 3925,
+      "sha256": "19828e71b0fbc52268c98507240c2373ddbe3c2116ea896b94a5d197b32bba98",
+      "role": "vCard 3.0 contact item with an .eml name, small PHOTO",
+      "modified": "The PHOTO value is replaced with a synthetic JPEG of the same dimensions. The original photo shows a real person."
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "patience-hiram.zip/patience-hiram/contacts/1.eml",
+      "file": "data/mail-public/sources/nauru-police-force/patience-hiram/patience-hiram/contacts/1.eml",
+      "bytes": 371,
+      "sha256": "76922e73d2c0fa4a5eaf9aa4e46018cce344a544e572713f2698fb768628a870",
+      "role": "vCard 3.0 contact item with an .eml name, no PHOTO, and Magika calls it text/csv"
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "kalinda-blake.zip/kalinda-blake/sentitems/54.eml",
+      "file": "data/mail-public/sources/nauru-police-force/kalinda-blake/kalinda-blake/sentitems/54.eml",
+      "bytes": 3547,
+      "sha256": "d1703ec782e3a0a941a557bfb4b9d6de3322db2c94cbceb57dd30f0e239f9447",
+      "role": "email with a vCard 3.0 attachment sent as application/octet-stream"
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "alice-fritz.zip/alice-fritz/inbox/2326.eml",
+      "file": "data/mail-public/sources/nauru-police-force/alice-fritz/alice-fritz/inbox/2326.eml",
+      "bytes": 52531,
+      "sha256": "20ed05284d25a037ce78a97a72e19876f1516afd0f060d303a0379738220406e",
+      "role": "email with a vCard 2.1 attachment, text/x-vcard"
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "sareima-aremwa.zip/sareima-aremwa/deleteditems/5383.eml",
+      "file": "data/mail-public/sources/nauru-police-force/sareima-aremwa/sareima-aremwa/deleteditems/5383.eml",
+      "bytes": 97639,
+      "sha256": "c1f2d621aeebf892f324c954da62547c66998a26ea13ffefa0e17e6fd4717ea9",
+      "role": "email with a vCard 2.1 attachment that holds a PHOTO"
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "ashnil-kumar2.zip/ashnil-kumar2/sentitems/351.eml",
+      "file": "data/mail-public/sources/nauru-police-force/ashnil-kumar2/ashnil-kumar2/sentitems/351.eml",
+      "bytes": 4887,
+      "sha256": "d8da77c721bc9879f555a8d0e56668a4289632a97f908e30d9ab8c75ea373c75",
+      "role": "email with a one-column .csv attachment that stays text"
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "matthew-degia.zip/matthew-degia/inbox/40.eml",
+      "file": "data/mail-public/sources/nauru-police-force/matthew-degia/matthew-degia/inbox/40.eml",
+      "bytes": 88615,
+      "sha256": "a52d3044336c50befb3c11f01da2aa37558e4cebd45362ac62f1f6ae7f384aef",
+      "role": "email with a .csv attachment sent as application/vnd.ms-excel"
+    },
+    {
+      "source": "nauru-police-force",
+      "path": "rory-detageouwa2.zip/rory-detageouwa2/sentitems/951.eml",
+      "file": "data/mail-public/sources/nauru-police-force/rory-detageouwa2/rory-detageouwa2/sentitems/951.eml",
+      "bytes": 2927,
+      "sha256": "17aa6536565a3e693cc4b7f05e2124670711c6bb19049a0d6cee204ac2a77963",
+      "role": "email with an iCalendar meeting.ics attachment"
     }
   ]
 }

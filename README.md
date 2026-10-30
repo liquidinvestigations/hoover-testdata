@@ -10,6 +10,9 @@ Test data for [Hoover-Snoop](https://github.com/liquidinvestigations/hoover-snoo
 The [public mail test inputs](mail-public/README.md) include pinned upstream
 fixtures, per-source notices, and a manifest with hashes and source paths.
 
+The [public JSON and JSONL table inputs](tables-public/README.md) use the same
+layout: pinned upstream files, per-source notices, and a manifest.
+
 ## Sources
 
 Some files were downloaded from https://www.learningcontainer.com/ with
